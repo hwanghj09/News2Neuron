@@ -1,0 +1,164 @@
+{
+  "before_audit_prediction_opening": true,
+  "no_posthoc_exclusions": true,
+  "links": [
+    {
+      "cases": [
+        "v6_a_015",
+        "v6_a_034"
+      ],
+      "relationship": "same mandatory tender-offer legislative campaign across different publication dates",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_036",
+        "v6_a_040"
+      ],
+      "relationship": "related special-prosecutor legislative debate; different triggers",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_040",
+        "v6_a_048"
+      ],
+      "relationship": "same special-prosecutor legislative debate and subsequent criticism",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_063"
+      ],
+      "development_cases": [
+        "v6_d_064",
+        "v6_d_101",
+        "v6_d_102"
+      ],
+      "relationship": "same Jensen Huang scandal; indirect headline and line-separated body mentions escaped frozen named-campaign matcher",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_101",
+        "v6_a_040",
+        "v6_a_048"
+      ],
+      "relationship": "related special-prosecutor bill and minister nominee debate",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_007",
+        "v6_a_115"
+      ],
+      "relationship": "same Supreme Court nominee controversy",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_132"
+      ],
+      "development_cases": [
+        "v6_d_023"
+      ],
+      "relationship": "French education-budget protest/riot campaign, conservatively related despite different dates",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_155"
+      ],
+      "development_cases": [
+        "v6_d_107"
+      ],
+      "relationship": "same Army remote-medical-service audit",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_154",
+        "v6_a_049"
+      ],
+      "relationship": "related multicultural-support discourse with distinct statements",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_158",
+        "v6_a_040",
+        "v6_a_048",
+        "v6_a_101"
+      ],
+      "relationship": "same special-prosecutor legislative campaign",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_183",
+        "v6_a_158",
+        "v6_a_040",
+        "v6_a_048",
+        "v6_a_101"
+      ],
+      "relationship": "same special-prosecutor legislative controversy",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_178"
+      ],
+      "development_cases": [
+        "v6_d_063"
+      ],
+      "relationship": "Suwon promotion covered in prior Samsung sports overview",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_105"
+      ],
+      "development_cases": [
+        "v6_d_063"
+      ],
+      "relationship": "same Samsung baseball championship, new specific player interview and injury details",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_186",
+        "v6_a_191"
+      ],
+      "development_cases": [
+        "v6_d_113",
+        "v6_d_114",
+        "v6_d_120",
+        "v6_d_126"
+      ],
+      "relationship": "conservatively related broader Russia-Ukraine war campaign; distinct specific triggers",
+      "primary_retained": true
+    },
+    {
+      "cases": [
+        "v6_a_137",
+        "v6_a_192"
+      ],
+      "development_cases": [
+        "v6_d_033",
+        "v6_d_034",
+        "v6_d_119"
+      ],
+      "relationship": "conservatively related broader Iran-war campaign; distinct specific triggers",
+      "primary_retained": true
+    }
+  ],
+  "note": "All fixed cases remain in primary; report extra family-cluster sensitivity without changing the preregistered primary.",
+  "incomplete_source_cases": [
+    {
+      "case_id": "v6_a_108",
+      "reason": "broadcast draft retains numeric placeholders and production markers",
+      "primary_retained": true,
+      "no_missing_values_invented": true
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "before_predictions_opened": true,
+  "reads": [
+    {
+      "case_id": "v6_a_078",
+      "characters": [
+        0,
+        4500
+      ],
+      "reason": "Re-open middle section truncated in combined tool display; remainder was already visible"
+    },
+    {
+      "case_id": "v6_a_183",
+      "characters": [
+        3000,
+        4100
+      ],
+      "reason": "Fill short display truncation in complete interview"
+    },
+    {
+      "case_id": "v6_a_183",
+      "characters": [
+        2418,
+        3138
+      ],
+      "reason": "Re-open actual short truncation near Texas reference"
+    }
+  ]
+}

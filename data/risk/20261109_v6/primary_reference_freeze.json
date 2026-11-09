@@ -1,0 +1,6 @@
+{
+  "first_128_reference_sha256": "41b971dfca627e22303081f0c332352018b0e95ea656ede7145ff3ecb78a40ea",
+  "primary_complete": true,
+  "audit_predictions_not_opened": true,
+  "before_challenge_reference_reads": true
+}
