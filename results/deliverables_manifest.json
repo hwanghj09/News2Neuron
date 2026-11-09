@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-09T14:49:49.038147+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "/workspace/news-flywire-research/results/v783/condition_summary.csv": "a9004a0bb4fb0eaf645d3287ffaa834dff503a1abd56ecfcf761149f29f368eb",
+    "/workspace/news-flywire-research/results/v783/paired_contrasts.csv": "81201769d92b176d9ec69a4a1363b2392c5cdc7ac95b7d6aa181f777720a3845",
+    "/workspace/news-flywire-research/results/sensitivity/summary.csv": "3938f8c7651128e14c0216628663e6103f33740d454af291bec959b45a912d74",
+    "/workspace/news-flywire-research/docs/manuscript.md": "f24dc2888c736938da948b846cb1b0532dbf265337283cb113a019afca144847",
+    "/workspace/news-flywire-research/results/research_poster.pdf": "620c5c3c7e5e25f6955b69faee6f5f68478bc7e668fd82274a9122a5d15e7210"
+  }
+}

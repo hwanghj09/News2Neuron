@@ -1,0 +1,34 @@
+condition_id,description,seed,connectome_version,data_source,score_variable,N,T,A,rate_hz,degree_matching_mean_log_distance,random_input_population,baseline_rate_hz,stimulus_rate_hz,delta_rate_hz,latency_ms,auc_spikes_per_neuron,recovery_ms,recruited_neurons,recruitment_fraction,external_input_events,effective_delay_ms
+E0,No input,20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261109,FAFB_v783,simulated_activity,T,0.9,0.1,0.85,37.5,,target_inputs,0.0,66.66666666666667,66.66666666666667,0.0,20.0,20.0,113,0.10731244064577398,3541,2.0
+E2,Medium T,20261109,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,105.83333333333333,105.83333333333333,0.0,31.75,20.0,165,0.15669515669515668,9377,2.0
+E3,High T,20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,140.83333333333331,140.83333333333331,0.0,42.25,20.0,209,0.19848053181386516,17849,2.0
+E4,"High T, identical events on random cells",20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,126.66666666666667,126.66666666666667,0.0,38.0,10.0,454,0.4311490978157645,17849,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,65.0,65.0,0.0,19.5,0.0,113,0.10731244064577398,17849,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,117.5,117.5,0.0,35.25,30.0,159,0.150997150997151,17849,2.0
+E7,"High T, degree-matched random silencing",20261109,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,0.4355746606876191,target_inputs,0.0,140.83333333333334,140.83333333333334,0.0,42.25,20.0,206,0.1956315289648623,17849,2.0
+E8,"High N / low T, N-only mapping",20261109,FAFB_v783,simulated_activity,N,0.9,0.1,0.85,187.5,,target_inputs,0.0,140.83333333333331,140.83333333333331,0.0,42.25,20.0,209,0.19848053181386516,17849,2.0
+E9a,"T=0.5, N=0.1",20261109,FAFB_v783,simulated_activity,T,0.1,0.5,0.85,100.0,,target_inputs,0.0,105.83333333333333,105.83333333333333,0.0,31.75,20.0,165,0.15669515669515668,9377,2.0
+E9b,"T=0.5, N=0.9",20261109,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,105.83333333333333,105.83333333333333,0.0,31.75,20.0,165,0.15669515669515668,9377,2.0
+E0,No input,20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261110,FAFB_v783,simulated_activity,T,0.9,0.1,0.85,37.5,,target_inputs,0.0,59.16666666666667,59.16666666666667,10.0,17.75,20.0,116,0.11016144349477683,3585,2.0
+E2,Medium T,20261110,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,108.33333333333334,108.33333333333334,0.0,32.5,30.0,166,0.157644824311491,9366,2.0
+E3,High T,20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,141.66666666666666,141.66666666666666,0.0,42.5,20.0,213,0.2022792022792023,17612,2.0
+E4,"High T, identical events on random cells",20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,90.83333333333333,90.83333333333333,0.0,27.25,10.0,440,0.4178537511870845,17612,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,65.83333333333333,65.83333333333333,0.0,19.75,20.0,112,0.1063627730294397,17612,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,120.0,120.0,0.0,36.0,30.0,158,0.15004748338081672,17612,2.0
+E7,"High T, degree-matched random silencing",20261110,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,0.4355746960641436,target_inputs,0.0,137.5,137.5,0.0,41.25,10.0,208,0.19753086419753085,17612,2.0
+E8,"High N / low T, N-only mapping",20261110,FAFB_v783,simulated_activity,N,0.9,0.1,0.85,187.5,,target_inputs,0.0,141.66666666666666,141.66666666666666,0.0,42.5,20.0,213,0.2022792022792023,17612,2.0
+E9a,"T=0.5, N=0.1",20261110,FAFB_v783,simulated_activity,T,0.1,0.5,0.85,100.0,,target_inputs,0.0,108.33333333333334,108.33333333333334,0.0,32.5,30.0,166,0.157644824311491,9366,2.0
+E9b,"T=0.5, N=0.9",20261110,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,108.33333333333334,108.33333333333334,0.0,32.5,30.0,166,0.157644824311491,9366,2.0
+E0,No input,20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261111,FAFB_v783,simulated_activity,T,0.9,0.1,0.85,37.5,,target_inputs,0.0,69.16666666666666,69.16666666666666,0.0,20.75,10.0,117,0.1111111111111111,3528,2.0
+E2,Medium T,20261111,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,110.83333333333334,110.83333333333334,0.0,33.25,20.0,159,0.150997150997151,9542,2.0
+E3,High T,20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,138.33333333333331,138.33333333333331,0.0,41.5,30.0,213,0.2022792022792023,17823,2.0
+E4,"High T, identical events on random cells",20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,91.66666666666667,91.66666666666667,0.0,27.5,10.0,456,0.43304843304843305,17823,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,62.5,62.5,0.0,18.75,10.0,108,0.10256410256410256,17823,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,,target_inputs,0.0,113.33333333333333,113.33333333333333,0.0,34.0,30.0,161,0.15289648622981955,17823,2.0
+E7,"High T, degree-matched random silencing",20261111,FAFB_v783,simulated_activity,T,0.9,0.9,0.85,187.5,0.4355747008830405,target_inputs,0.0,138.33333333333331,138.33333333333331,0.0,41.5,30.0,213,0.2022792022792023,17823,2.0
+E8,"High N / low T, N-only mapping",20261111,FAFB_v783,simulated_activity,N,0.9,0.1,0.85,187.5,,target_inputs,0.0,138.33333333333331,138.33333333333331,0.0,41.5,30.0,213,0.2022792022792023,17823,2.0
+E9a,"T=0.5, N=0.1",20261111,FAFB_v783,simulated_activity,T,0.1,0.5,0.85,100.0,,target_inputs,0.0,110.83333333333334,110.83333333333334,0.0,33.25,20.0,159,0.150997150997151,9542,2.0
+E9b,"T=0.5, N=0.9",20261111,FAFB_v783,simulated_activity,T,0.9,0.5,0.85,100.0,,target_inputs,0.0,110.83333333333334,110.83333333333334,0.0,33.25,20.0,159,0.150997150997151,9542,2.0

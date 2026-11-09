@@ -1,0 +1,239 @@
+{
+  "id": "DANDI:001869/0.260727.1644",
+  "doi": "10.48324/dandi.001869/0.260727.1644",
+  "url": "https://dandiarchive.org/dandiset/001869/0.260727.1644",
+  "name": "Unique neural activity states predict action selection in response to visual threat",
+  "about": [],
+  "access": [
+    {
+      "status": "dandi:OpenAccess",
+      "schemaKey": "AccessRequirements"
+    }
+  ],
+  "license": [
+    "spdx:CC-BY-4.0"
+  ],
+  "version": "0.260727.1644",
+  "@context": "https://raw.githubusercontent.com/dandi/schema/master/releases/0.7.0/context.json",
+  "citation": "Zucker-Scharff, Ilana; Brezovec, Bella; Hao, Alex; Choi, Minseung; Wang, Yandan; Su, Sharon; Clandinin, Thomas (2026) Unique neural activity states predict action selection in response to visual threat (Version 0.260727.1644) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001869/0.260727.1644",
+  "keywords": [
+    "brain",
+    "locomotion",
+    "whole brain",
+    "loom"
+  ],
+  "schemaKey": "Dandiset",
+  "identifier": "DANDI:001869",
+  "repository": "https://dandiarchive.org",
+  "contributor": [
+    {
+      "name": "Zucker-Scharff, Ilana",
+      "email": "iazuckerscharff@gmail.com",
+      "roleName": [
+        "dcite:ContactPerson"
+      ],
+      "schemaKey": "Person",
+      "affiliation": [],
+      "includeInCitation": true
+    },
+    {
+      "name": "Brezovec, Bella",
+      "roleName": [
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-9341-3565",
+      "includeInCitation": true
+    },
+    {
+      "name": "Hao, Alex",
+      "roleName": [
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0009-0005-0080-1785",
+      "includeInCitation": true
+    },
+    {
+      "name": "Choi, Minseung",
+      "roleName": [
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-5398-219X",
+      "includeInCitation": true
+    },
+    {
+      "name": "Wang, Yandan",
+      "roleName": [
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0003-1528-351X",
+      "includeInCitation": true
+    },
+    {
+      "name": "Su, Sharon",
+      "roleName": [
+        "dcite:Author"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-8398-3345",
+      "includeInCitation": true
+    },
+    {
+      "name": "Clandinin, Thomas",
+      "email": "trc@stanford.edu",
+      "roleName": [
+        "dcite:Author",
+        "dcite:ContactPerson"
+      ],
+      "schemaKey": "Person",
+      "identifier": "0000-0001-6277-6849",
+      "includeInCitation": true
+    },
+    {
+      "name": "NIH",
+      "roleName": [
+        "dcite:Funder"
+      ],
+      "schemaKey": "Organization",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "R01EY022638",
+      "includeInCitation": false
+    },
+    {
+      "name": "NIH",
+      "roleName": [
+        "dcite:Funder"
+      ],
+      "schemaKey": "Organization",
+      "identifier": "https://ror.org/01cwqze88",
+      "awardNumber": "P30EY026877",
+      "includeInCitation": false
+    },
+    {
+      "name": "Simons Foundation",
+      "roleName": [
+        "dcite:Funder"
+      ],
+      "schemaKey": "Organization",
+      "identifier": "https://ror.org/01cmst727",
+      "awardNumber": ""
+    },
+    {
+      "name": "Stanford School of Medicine",
+      "roleName": [
+        "dcite:Funder"
+      ],
+      "schemaKey": "Organization",
+      "identifier": "https://ror.org/03mtd9a03",
+      "awardNumber": ""
+    },
+    {
+      "name": "Department of Defense",
+      "roleName": [
+        "dcite:Funder"
+      ],
+      "schemaKey": "Organization",
+      "identifier": "https://ror.org/0447fe631",
+      "awardNumber": ""
+    }
+  ],
+  "dateCreated": "2026-06-13T06:01:20.335296+00:00",
+  "description": "To survive, animals must select contextually appropriate behavioral responses to threatening sensory stimuli that are shaped by both internal and locomotor state. However, how the circuits that process specific sensory stimuli might disseminate information to, and be affected by, other brain regions whose activities reflect these states is incompletely understood. To address this gap, we examined the response of fruit flies to a looming visual object, a well-studied model of visual threat. Prior work has characterized how such stimuli can activate specific neural circuits to evoke distinct behavioral responses. However, how looming stimuli might alter neural activity in other parts of the brain is incompletely understood. We examined loom-evoked changes in brain-wide neural activity using volumetric two-photon imaging in behaving flies. These studies revealed that the looming stimulus evokes a broad increase in neural activity spanning many brain regions, spanning both visual and motor areas, as well as sensory areas that process non-visual cues. Across many stimulus presentations, we identified distinct behavioral responses that could be separated by movement speed. By comparing neural signals across these behavioral categories, we discovered temporally unique patterns of neural activity in distinct anatomical regions. Moreover, we observed a quiescent state in which the animal displays a significant stimulus-evoked neural response that fails to elicit a change in behavior, thereby decoupling perception from action. Finally, we show that the neural state before the stimulus can accurately predict subsequent behavioral responses and that this accuracy depends on signals from a small set of central brain regions. Taken together, these data argue that action selection is telegraphed by differences in initial neural state expressed in specific brain regions.",
+  "publishedBy": {
+    "id": "urn:uuid:bb4077c6-97dc-4145-aff7-4d7475c1b477",
+    "name": "DANDI publish",
+    "endDate": "2026-07-27T16:44:43.608572+00:00",
+    "schemaKey": "PublishActivity",
+    "startDate": "2026-07-27T16:44:43.608572+00:00",
+    "wasAssociatedWith": [
+      {
+        "id": "urn:uuid:cc983742-5569-4d73-a4a5-ac744facee1d",
+        "name": "DANDI API",
+        "version": "0.1.0",
+        "schemaKey": "Software",
+        "identifier": "RRID:SCR_017571"
+      }
+    ]
+  },
+  "assetsSummary": {
+    "species": [
+      {
+        "name": "Drosophila melanogaster - Fruit fly",
+        "schemaKey": "SpeciesType",
+        "identifier": "http://purl.obolibrary.org/obo/NCBITaxon_7227"
+      }
+    ],
+    "approach": [
+      {
+        "name": "microscopy approach; cell population imaging",
+        "schemaKey": "ApproachType"
+      },
+      {
+        "name": "behavioral approach",
+        "schemaKey": "ApproachType"
+      }
+    ],
+    "schemaKey": "AssetsSummary",
+    "dataStandard": [
+      {
+        "name": "Neurodata Without Borders (NWB)",
+        "schemaKey": "StandardsType",
+        "identifier": "RRID:SCR_015242"
+      }
+    ],
+    "numberOfBytes": 1450708927464,
+    "numberOfFiles": 10,
+    "numberOfSubjects": 13,
+    "variableMeasured": [
+      "ImagingPlane",
+      "OpticalChannel",
+      "TwoPhotonSeries",
+      "SpatialSeries",
+      "Position",
+      "CompassDirection",
+      "ProcessingModule"
+    ],
+    "measurementTechnique": [
+      {
+        "name": "surgical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "two-photon microscopy technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "behavioral technique",
+        "schemaKey": "MeasurementTechniqueType"
+      },
+      {
+        "name": "analytical technique",
+        "schemaKey": "MeasurementTechniqueType"
+      }
+    ]
+  },
+  "datePublished": "2026-07-27T16:44:43.608572+00:00",
+  "schemaVersion": "0.7.0",
+  "ethicsApproval": [],
+  "wasGeneratedBy": [],
+  "relatedResource": [
+    {
+      "url": "https://zenodo.org/records/20635805",
+      "relation": "dcite:IsContinuedBy",
+      "schemaKey": "Resource",
+      "identifier": "ZENDO repository"
+    },
+    {
+      "url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates",
+      "relation": "dcite:IsContinuedBy",
+      "schemaKey": "Resource",
+      "identifier": "GitHub repository"
+    }
+  ],
+  "manifestLocation": [
+    "https://dandiarchive.s3.amazonaws.com/dandisets/001869/0.260727.1644/assets.yaml"
+  ]
+}

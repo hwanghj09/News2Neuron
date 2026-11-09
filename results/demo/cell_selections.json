@@ -1,0 +1,905 @@
+[
+  {
+    "condition_id": "E0",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E1",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.1,
+      "variable": "T",
+      "level": "L",
+      "rate_hz": 30.0,
+      "l_over_v_ms": 80.0
+    }
+  },
+  {
+    "condition_id": "E2",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E3",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E4",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_024",
+      "demo_038",
+      "demo_020",
+      "demo_019",
+      "demo_027",
+      "demo_015",
+      "demo_035",
+      "demo_034"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E5",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E6",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E7",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_034",
+      "demo_032",
+      "demo_035",
+      "demo_033"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E8",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "N",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E9a",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E9b",
+    "seed": 20261109,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E0",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E1",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.1,
+      "variable": "T",
+      "level": "L",
+      "rate_hz": 30.0,
+      "l_over_v_ms": 80.0
+    }
+  },
+  {
+    "condition_id": "E2",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E3",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E4",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_025",
+      "demo_009",
+      "demo_028",
+      "demo_023",
+      "demo_011",
+      "demo_035",
+      "demo_039",
+      "demo_014"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E5",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E6",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E7",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_035",
+      "demo_032",
+      "demo_034",
+      "demo_033"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E8",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "N",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E9a",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E9b",
+    "seed": 20261110,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E0",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E1",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.1,
+      "variable": "T",
+      "level": "L",
+      "rate_hz": 30.0,
+      "l_over_v_ms": 80.0
+    }
+  },
+  {
+    "condition_id": "E2",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E3",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E4",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_010",
+      "demo_033",
+      "demo_019",
+      "demo_013",
+      "demo_035",
+      "demo_031",
+      "demo_028",
+      "demo_030"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E5",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E6",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E7",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [
+      "demo_033",
+      "demo_032",
+      "demo_034",
+      "demo_035"
+    ],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "T",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E8",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.9,
+      "variable": "N",
+      "level": "H",
+      "rate_hz": 150.0,
+      "l_over_v_ms": 20.0
+    }
+  },
+  {
+    "condition_id": "E9a",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  },
+  {
+    "condition_id": "E9b",
+    "seed": 20261111,
+    "input_cell_ids": [
+      "demo_000",
+      "demo_001",
+      "demo_002",
+      "demo_003",
+      "demo_004",
+      "demo_005",
+      "demo_006",
+      "demo_007"
+    ],
+    "output_cell_ids": [
+      "demo_036",
+      "demo_037"
+    ],
+    "silenced_cell_ids": [],
+    "stimulation_params": {
+      "score": 0.5,
+      "variable": "T",
+      "level": "M",
+      "rate_hz": 80.0,
+      "l_over_v_ms": 40.0
+    }
+  }
+]

@@ -1,0 +1,25 @@
+news_id,event_group,title,summary,category,data_source,source,url,published_date,N,T,A,confidence,rationale,scorer,score_source
+synthetic_001,storm,태풍 접근에 해안 지역 대피 명령,강한 태풍이 접근하고 있다. 지방 당국은 해안 주민에게 즉시 대피하도록 안내했다.,disaster,author_created_synthetic,synthetic_example,,,0.75,1.0,1.0,,"N: 대피, 태풍; T: 즉시 대피, 대피 명령, 접근, 태풍; A: 즉시, 대피, 태풍",rule_baseline_v1,rule_prediction
+synthetic_002,storm,태풍 경보와 임시 대피소 안내,태풍 경보가 발령됐다. 같은 태풍의 영향권에 있는 지역은 임시 대피소를 열었다.,disaster,author_created_synthetic,synthetic_example,,,0.75,1.0,1.0,,"N: 대피, 경보, 태풍; T: 경보, 태풍; A: 경보, 대피, 태풍",rule_baseline_v1,rule_prediction
+synthetic_003,flood,홍수 위험으로 하천 출입 통제,집중호우로 홍수 위험이 커져 하천 출입이 통제됐다.,disaster,author_created_synthetic,synthetic_example,,,0.75,0.75,0.75,,"N: 위험, 홍수; T: 홍수, 위험; A: 위험",rule_baseline_v1,rule_prediction
+synthetic_004,bridge,교량 붕괴 위험으로 차량 우회,점검 결과 교량의 붕괴 위험이 확인됐다. 차량은 우회해야 한다.,disaster,author_created_synthetic,synthetic_example,,,1.0,1.0,0.75,,"N: 붕괴, 위험; T: 붕괴 위험, 위험; A: 위험",rule_baseline_v1,rule_prediction
+synthetic_005,jobs,지역 공장 해고 계획 발표,지역 공장이 해고 계획을 발표했다. 근로자들의 실직 우려가 커졌다.,economy,author_created_synthetic,synthetic_example,,,0.75,0.5,0.5,,"N: 실직, 해고, 우려; T: 해고, 실직, 우려; A: 해고",rule_baseline_v1,rule_prediction
+synthetic_006,recession,경기 침체 우려에 투자 감소,경기 침체 우려로 기업 투자가 감소했다. 장기 전망에 대한 논의가 이어진다.,economy,author_created_synthetic,synthetic_example,,,0.75,0.25,0.5,,"N: 침체, 우려, 감소; T: 침체, 우려; A: 침체",rule_baseline_v1,rule_prediction
+synthetic_007,shop,오랜 동네 서점 폐업,오랫동안 운영된 동네 서점이 적자로 폐업한다. 주민들은 아쉬움을 전했다.,economy,author_created_synthetic,synthetic_example,,,0.75,0.0,0.0,,"N: 폐업, 적자; T: 일치 어휘 없음; A: 일치 어휘 없음",rule_baseline_v1,rule_prediction
+synthetic_008,trade,이번 분기 수출 감소,이번 분기 수출이 감소했다. 통계는 잠정 집계이며 추가 분석이 예정돼 있다.,economy,author_created_synthetic,synthetic_example,,,0.5,0.0,0.0,,N: 감소; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_009,bereavement,가족의 사별 경험을 담은 기록,한 가족이 사별 이후 서로를 돌본 경험을 기록했다. 현재의 긴급한 위해 상황은 언급하지 않았다.,society,author_created_synthetic,synthetic_example,,,1.0,0.0,0.75,,N: 사별; T: 일치 어휘 없음; A: 사별,rule_baseline_v1,rule_prediction
+synthetic_010,memorial,옛 스승을 기억하는 추모 모임,졸업생들이 별세한 스승을 기억하는 추모 모임을 열었다.,society,author_created_synthetic,synthetic_example,,,1.0,0.0,0.75,,"N: 추모, 별세; T: 일치 어휘 없음; A: 별세, 추모",rule_baseline_v1,rule_prediction
+synthetic_011,archive,오래전 사고 기록 전시,오래전 사고와 그 이후의 변화를 돌아보는 기록 전시가 열렸다.,society,author_created_synthetic,synthetic_example,,,0.75,0.0,0.0,,N: 사고; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_012,library,노후 도서관 휴관,시설 보수를 위해 도서관이 잠시 휴관한다. 주민들은 이용 불편을 이야기했다.,society,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_013,infection,감염 확산 주의 안내,지역 감염 확산으로 보건 당국이 주의를 안내했다. 증상이 있으면 상담을 권고했다.,health,author_created_synthetic,synthetic_example,,,0.75,0.75,0.0,,"N: 감염; T: 확산, 감염; A: 일치 어휘 없음",rule_baseline_v1,rule_prediction
+synthetic_014,prevention,건강 검진 안내,보건소가 주민 대상 건강 검진 일정과 신청 절차를 안내했다.,health,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_015,exercise,걷기 프로그램 시작,지역 보건소에서 가벼운 걷기 프로그램을 시작했다.,health,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_016,research,새 건강 연구 소개,연구진이 수면 습관 관련 관찰 결과를 소개했다. 추가 검증이 필요하다고 밝혔다.,health,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_017,bus,시내버스 시간표 변경,다음 달부터 시내버스 운행 시간표가 변경된다. 새 시간표는 안내문에서 확인할 수 있다.,neutral,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_018,weather,맑은 날씨 예보,내일은 대체로 맑은 날씨가 예상된다.,neutral,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_019,museum,박물관 운영 시간 안내,박물관이 주말 운영 시간과 이용 방법을 안내했다.,neutral,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_020,meeting,주민 회의 일정 공지,주민 회의가 다음 주에 열린다. 안건은 공원 이용과 시설 정비다.,neutral,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction
+synthetic_021,festival,지역 축제 성공적으로 마무리,주민들이 함께 준비한 지역 축제가 성공적으로 마무리됐다.,positive,author_created_synthetic,synthetic_example,,,0.0,0.0,0.5,,"N: 일치 어휘 없음; T: 일치 어휘 없음; A: 축제, 성공",rule_baseline_v1,rule_prediction
+synthetic_022,donation,이웃을 위한 기부 행사,주민들이 이웃을 위한 기부 행사에 참여했다.,positive,author_created_synthetic,synthetic_example,,,0.0,0.0,0.5,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 기부,rule_baseline_v1,rule_prediction
+synthetic_023,sports,지역 선수의 우승 소식,지역 선수가 대회에서 우승했다. 동료들이 축하했다.,positive,author_created_synthetic,synthetic_example,,,0.0,0.0,0.75,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 우승,rule_baseline_v1,rule_prediction
+synthetic_024,garden,공동 정원 개장,주민들이 만든 공동 정원이 개장했다. 누구나 산책하며 이용할 수 있다.,positive,author_created_synthetic,synthetic_example,,,0.0,0.0,0.0,,N: 일치 어휘 없음; T: 일치 어휘 없음; A: 일치 어휘 없음,rule_baseline_v1,rule_prediction

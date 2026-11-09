@@ -1,0 +1,98 @@
+[
+  {
+    "name": ".DS_Store",
+    "path": ".DS_Store",
+    "sha": "16f82e47715cf1b0a3206110d96395447721078e",
+    "size": 6148,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/.DS_Store?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/.DS_Store",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/16f82e47715cf1b0a3206110d96395447721078e",
+    "download_url": "https://raw.githubusercontent.com/ilanazs/zuckerscharff_2026_brainstates/main/.DS_Store",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/.DS_Store?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/16f82e47715cf1b0a3206110d96395447721078e",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/.DS_Store"
+    }
+  },
+  {
+    "name": ".gitignore",
+    "path": ".gitignore",
+    "sha": "381b024e4eb9799182ed7e3ed447e19d14319e50",
+    "size": 305,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/.gitignore?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/.gitignore",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/381b024e4eb9799182ed7e3ed447e19d14319e50",
+    "download_url": "https://raw.githubusercontent.com/ilanazs/zuckerscharff_2026_brainstates/main/.gitignore",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/.gitignore?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/381b024e4eb9799182ed7e3ed447e19d14319e50",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/.gitignore"
+    }
+  },
+  {
+    "name": "README.md",
+    "path": "README.md",
+    "sha": "75c12702fb01840cbe83dfc59aa70827330aedf6",
+    "size": 1058,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/README.md?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/README.md",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/75c12702fb01840cbe83dfc59aa70827330aedf6",
+    "download_url": "https://raw.githubusercontent.com/ilanazs/zuckerscharff_2026_brainstates/main/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/README.md?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/75c12702fb01840cbe83dfc59aa70827330aedf6",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/README.md"
+    }
+  },
+  {
+    "name": "notebooks",
+    "path": "notebooks",
+    "sha": "67365c760416c4c4e720319d75c4a6d90b4b3a97",
+    "size": 0,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/notebooks?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/tree/main/notebooks",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/trees/67365c760416c4c4e720319d75c4a6d90b4b3a97",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/notebooks?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/trees/67365c760416c4c4e720319d75c4a6d90b4b3a97",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/tree/main/notebooks"
+    }
+  },
+  {
+    "name": "scripts",
+    "path": "scripts",
+    "sha": "6675b06760a0f1d64ab1535275a5b9f8eba2f725",
+    "size": 0,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/scripts?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/tree/main/scripts",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/trees/6675b06760a0f1d64ab1535275a5b9f8eba2f725",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/scripts?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/trees/6675b06760a0f1d64ab1535275a5b9f8eba2f725",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/tree/main/scripts"
+    }
+  },
+  {
+    "name": "setup.py",
+    "path": "setup.py",
+    "sha": "6a343dffb007e5cecd37c3111ab2d1335311eb96",
+    "size": 2851,
+    "url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/setup.py?ref=main",
+    "html_url": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/setup.py",
+    "git_url": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/6a343dffb007e5cecd37c3111ab2d1335311eb96",
+    "download_url": "https://raw.githubusercontent.com/ilanazs/zuckerscharff_2026_brainstates/main/setup.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/contents/setup.py?ref=main",
+      "git": "https://api.github.com/repos/ilanazs/zuckerscharff_2026_brainstates/git/blobs/6a343dffb007e5cecd37c3111ab2d1335311eb96",
+      "html": "https://github.com/ilanazs/zuckerscharff_2026_brainstates/blob/main/setup.py"
+    }
+  }
+]

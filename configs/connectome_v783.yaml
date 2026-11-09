@@ -1,0 +1,14 @@
+version: FAFB_v783
+upstream_commit: 91bdd1e7dcf193f3e7ca5a8933497fcef63b7960
+upstream_repository: https://github.com/philshiu/Drosophila_brain_model
+annotations_repository: https://github.com/flyconnectome/flywire_annotations
+annotations_commit: a83b2776d60d5764cef36b927f5f9679c16c47a2
+completeness: external/Drosophila_brain_model/Completeness_783.csv
+connectivity: external/Drosophila_brain_model/Connectivity_783.parquet
+annotations: data/raw/flywire_annotations.tsv
+root_id_column: root_id
+input_types: [LPLC2, LC4]
+output_types: [DNp06, GF]
+hops: 3
+min_synapses: 5
+max_neurons: 2500

@@ -1,0 +1,97 @@
+{
+  "count": 10,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "asset_id": "9a58bf7a-65ee-43e0-9ad7-2cc17a22f48e",
+      "blob": "ea49a76e-9912-4367-8043-46e33bd4a851",
+      "zarr": null,
+      "path": "sub-fly-226/sub-fly-226_ses-20240403-0.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T01:04:56.901393Z",
+      "modified": "2026-07-27T16:44:43.670855Z"
+    },
+    {
+      "asset_id": "805ca036-5366-4c9e-b269-e7c2ad98dace",
+      "blob": "2fb5418c-bc99-4278-a7cb-f2b9c1f00a34",
+      "zarr": null,
+      "path": "sub-fly-234/sub-fly-234_ses-20240508-1.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T01:05:00.445247Z",
+      "modified": "2026-07-27T16:44:43.692338Z"
+    },
+    {
+      "asset_id": "5332eccc-9ea0-42c1-adb1-52baceba69e4",
+      "blob": "41274f56-84d8-4507-bb7f-a06bcfb6c401",
+      "zarr": null,
+      "path": "sub-fly-228/sub-fly-228_ses-20240403-2.nwb",
+      "size": 144569344584,
+      "created": "2026-07-26T01:11:48.956685Z",
+      "modified": "2026-07-27T16:44:43.718624Z"
+    },
+    {
+      "asset_id": "6cbd30ae-5388-44c0-9b88-c6a1d173be0f",
+      "blob": "83204f00-a48e-4ab8-8135-151f50cd7616",
+      "zarr": null,
+      "path": "sub-fly-227/sub-fly-227_ses-20240403-1.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T01:19:29.709224Z",
+      "modified": "2026-07-27T16:44:43.734176Z"
+    },
+    {
+      "asset_id": "b172f060-4abf-465e-bb31-2c4f7feab174",
+      "blob": "3d7c4f35-c33f-4ce2-98a4-681592bdb41e",
+      "zarr": null,
+      "path": "sub-fly-239/sub-fly-239_ses-20240515-2.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T01:19:35.134931Z",
+      "modified": "2026-07-27T16:44:43.745417Z"
+    },
+    {
+      "asset_id": "2b16a1bb-b4d4-4ea2-af8e-12494147548b",
+      "blob": "9597e578-10ba-4d56-8351-2a26a3d8547b",
+      "zarr": null,
+      "path": "sub-fly-242/sub-fly-242_ses-20240529-2.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T06:53:37.255192Z",
+      "modified": "2026-07-27T16:44:43.758332Z"
+    },
+    {
+      "asset_id": "d4ac422e-314b-4857-8f4c-8187b3c34e3b",
+      "blob": "610f8226-8a39-42f3-9ba2-629aab6bb055",
+      "zarr": null,
+      "path": "sub-fly-241/sub-fly-241_ses-20240529-1.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T07:05:05.665343Z",
+      "modified": "2026-07-27T16:44:43.771266Z"
+    },
+    {
+      "asset_id": "b313cf51-ecfd-4654-b1a4-5e2dfedda8a3",
+      "blob": "cb278712-a1fb-4ffe-9173-5604ea4ca9c1",
+      "zarr": null,
+      "path": "sub-fly-240/sub-fly-240_ses-20240529-0.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T07:05:18.512263Z",
+      "modified": "2026-07-27T16:44:43.792445Z"
+    },
+    {
+      "asset_id": "6a4e0125-0a47-42bb-b5be-dd3576f3c4d8",
+      "blob": "36e0b73e-057b-4b21-997f-a6f19ebdf3c7",
+      "zarr": null,
+      "path": "sub-fly-250/sub-fly-250_ses-20240710-1.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T07:07:03.629956Z",
+      "modified": "2026-07-27T16:44:43.810897Z"
+    },
+    {
+      "asset_id": "606b6737-68fd-4d1e-916b-26b7e91b8727",
+      "blob": "e669b653-6422-4122-9335-86ac5e7876cd",
+      "zarr": null,
+      "path": "sub-fly-249/sub-fly-249_ses-20240710-0.nwb",
+      "size": 145126620320,
+      "created": "2026-07-26T07:07:12.182412Z",
+      "modified": "2026-07-27T16:44:43.827294Z"
+    }
+  ]
+}

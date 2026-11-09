@@ -1,0 +1,30 @@
+{
+  "created_utc": "2026-11-09T14:30:12.164555+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "/workspace/news-flywire-research/external/Drosophila_brain_model/model.py": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "/workspace/news-flywire-research/external/Drosophila_brain_model/example.ipynb": "1737c3043af700504c4791c4bfc02d1856bbeb0d36c469832e4b9399dfddda3a"
+  },
+  "upstream_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "connectome_version": "FAFB_v630",
+  "seed": 20261109,
+  "duration_ms": 1000,
+  "trials": 1,
+  "elapsed_seconds": 19.586440086364746,
+  "n_spikes": 13546,
+  "active_neurons": 382,
+  "reference_spikes": 511566,
+  "reference_trials": 30,
+  "reference_active_neurons": 448,
+  "status": "upstream_first_example_executed",
+  "limitation": "Single-seed smoke reproduction unless --trials 30; no claim of paper-wide or threat-circuit validation"
+}

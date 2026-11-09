@@ -1,0 +1,59 @@
+{
+  "version": "stimulation_v1",
+  "mapping": "T_only",
+  "thresholds": [
+    0.3333333333333333,
+    0.6666666666666666
+  ],
+  "rates_hz": [
+    22.5,
+    60.0,
+    112.5
+  ],
+  "composite_weights": [
+    0.2,
+    0.6,
+    0.2
+  ],
+  "looming": {
+    "radius_m": 0.01,
+    "initial_angle_deg": 2,
+    "final_angle_deg": 80,
+    "l_over_v_ms": [
+      80,
+      40,
+      20
+    ],
+    "presentation_ms": 300
+  },
+  "simulation": {
+    "dt_ms": 0.5,
+    "baseline_ms": 100,
+    "stimulus_ms": 300,
+    "recovery_ms": 100,
+    "tau_m_ms": 20,
+    "tau_syn_ms": 5,
+    "v_rest_mv": -52,
+    "v_reset_mv": -52,
+    "v_threshold_mv": -45,
+    "refractory_ms": 2.2,
+    "delay_ms": 1.8,
+    "weight_mv": 0.275,
+    "input_jump_mv": 68.75,
+    "recruitment_delta_hz": 5,
+    "latency_bin_ms": 10,
+    "latency_threshold_hz": 5,
+    "recovery_threshold_hz": 5
+  },
+  "experiment": {
+    "seeds": 30,
+    "first_seed": 20261109,
+    "high_scores": {
+      "N": 0.9,
+      "T": 0.9,
+      "A": 0.85
+    },
+    "e9_low_N": 0.1,
+    "e9_high_N": 0.9
+  }
+}

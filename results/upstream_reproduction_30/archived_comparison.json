@@ -1,0 +1,9 @@
+{
+  "current_configured_input_hz": 150,
+  "current_observed_input_hz": 147.82063492063492,
+  "archived_observed_input_hz": 196.75396825396825,
+  "current_spikes": 409817,
+  "archived_spikes": 511566,
+  "interpretation": "Original code execution confirmed. Archived output has higher observed input rate; parameter-equivalent numerical replication of that archive is not established.",
+  "environment_difference": "Current Python 3.12 / Brian2 2.10.1, original environment Python 3.10 / Brian2 2.5.1"
+}

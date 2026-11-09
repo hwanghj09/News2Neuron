@@ -1,0 +1,11 @@
+version: scoring_v1
+scale: [0, 4]
+primary_variable: T
+model: rule_baseline_v1
+llm:
+  temperature: 0
+  prompt_version: nta_v1
+  required_scores: [N, T, A]
+split:
+  test_fraction: 0.25
+  seed: 20261109

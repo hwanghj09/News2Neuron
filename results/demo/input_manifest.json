@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-11-09T14:47:52.909379+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "configs/stimulation_v1.yaml": "11865b5ac4170720eeb5cb80244a412b51110f9ebd8efcbcafe5a238005623c0",
+    "data/derived/news_scores.csv": "4c6b175ce27f2773953207195fcc5945328d262b31112214f24432d9422f9734"
+  }
+}

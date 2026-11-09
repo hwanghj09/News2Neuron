@@ -1,0 +1,8 @@
+contrast,mean_delta_hz,paired_seed_sd_hz,computational_ci95_low,computational_ci95_high,unit
+E3 minus E0,125.3888888888889,3.3025397556733984,124.25,126.6111111111111,paired computational seed; not biological subjects
+E3 minus E4,41.83333333333334,28.466051569440094,31.637500000000003,51.361805555555556,paired computational seed; not biological subjects
+E3 minus E5,71.83333333333334,3.3576697812848204,70.72152777777777,73.02777777777777,paired computational seed; not biological subjects
+E3 minus E6,18.0,3.606613762970611,16.66597222222222,19.249999999999996,paired computational seed; not biological subjects
+E3 minus E7,-0.25000000000000094,1.3866840737192145,-0.750000000000001,0.22222222222222096,paired computational seed; not biological subjects
+E7 minus E5,72.08333333333333,3.2881273711940344,70.94444444444444,73.22291666666666,paired computational seed; not biological subjects
+E9a minus E9b,0.0,0.0,0.0,0.0,paired computational seed; not biological subjects

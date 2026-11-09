@@ -1,0 +1,72 @@
+{
+  "created_utc": "2026-11-09T14:45:09.521208+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "/workspace/news-flywire-research/src/news_flywire/__init__.py": "4539312e8e679d258957ea9dd03815d4099e7850aeeb1df1e007940f9218b683",
+    "/workspace/news-flywire-research/src/news_flywire/__main__.py": "cf7390a2508a0fcad4777a4a629fc5212ab655cb45845975995f835676a834e3",
+    "/workspace/news-flywire-research/src/news_flywire/brain_simulation.py": "a4005073ba1ad21b21c2533e39909116b5256d4ea9a6dc63aa6e8f8190aca9d8",
+    "/workspace/news-flywire-research/src/news_flywire/cli.py": "66251113e13afcc8dff09cddca42c6a7489f6c1439decf12e65bc01e279a3c29",
+    "/workspace/news-flywire-research/src/news_flywire/evaluation.py": "5235dd308d25c61726a91ecc35698678b9e171435d1cce193c3dea67714aa47d",
+    "/workspace/news-flywire-research/src/news_flywire/experiments.py": "cb2c0bc7ddf53290b83016088f96e579050c2535645689a37c59f1cd2ec7491a",
+    "/workspace/news-flywire-research/src/news_flywire/flywire_graph.py": "dbb165b0ab95f9720ba640565a683097dfe0be8c29eea82f1a477ea14a9c4597",
+    "/workspace/news-flywire-research/src/news_flywire/news_scoring.py": "4b8ad8bb5d2a920e2064dcbd6dd60521e0064f30fe0451631822885fc6516521",
+    "/workspace/news-flywire-research/src/news_flywire/provenance.py": "561650d9f83b0ee795eba3e13f3cead817d54abc73aa3a0893e794a7a63fa669",
+    "/workspace/news-flywire-research/src/news_flywire/reporting.py": "ec6c3b39258f6f8e206a580599187a2b267e518b1878ac98f4ad08537b671290",
+    "/workspace/news-flywire-research/src/news_flywire/stimulus_encoder.py": "1f268a05abd779cfdc7adb2031b7ab38a436c2b96bedc01fd274e75a027a1a92"
+  },
+  "circuit": {
+    "created_utc": "2026-11-09T14:31:58.034779+00:00",
+    "python": "3.12.14",
+    "packages": {
+      "numpy": "2.3.5",
+      "pandas": "2.2.3",
+      "scipy": "1.17.0",
+      "networkx": "3.7",
+      "matplotlib": "3.10.8",
+      "pyarrow": "23.0.1",
+      "brian2": "2.10.1"
+    },
+    "files": {
+      "external/Drosophila_brain_model/Completeness_783.csv": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311",
+      "external/Drosophila_brain_model/Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+      "data/raw/flywire_annotations.tsv": "b214970b55d2fbe0853bba536fdcb9e28730f4eb7ab06f600491df795da683cd"
+    },
+    "connectome_version": "FAFB_v783",
+    "data_source": "measured_connectivity_model_activity",
+    "extraction": "induced circuit on input-output paths; isolated specified targets retained",
+    "hops": 3,
+    "min_synapses": 5,
+    "upstream_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+    "gf_alias": "cell_type DNp01 / hemibrain_type Giant Fiber -> GF",
+    "missing_types": [],
+    "n_neurons": 1367,
+    "n_edges": 29377,
+    "limitations": [
+      "Subcircuit omits external inputs and feedback",
+      "Transmitter signs inherited from Shiu model, receptor effects unknown"
+    ]
+  },
+  "computational_repeats": 3,
+  "engine": "reduced_lif_analytic_v1",
+  "raw_spikes_saved": "all conditions and seeds in spikes/{condition}/seed{seed}.parquet; first seed also saved at run root",
+  "inference_scope": "Computational seed variability; not biological independent samples",
+  "controls": {
+    "E4": "exact external event-count matching; random cells not sensory-matched",
+    "E7": "same-size closest log in/out degree set; report residual mismatch"
+  },
+  "limitations": [
+    "Not a calibrated visual-neuron encoder",
+    "Not the full-brain Shiu implementation",
+    "No human physiological validation",
+    "L/M/H rate mapping is a preregistered hypothesis, not a measured tuning curve"
+  ]
+}

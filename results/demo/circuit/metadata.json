@@ -1,0 +1,6 @@
+{
+  "connectome_version": "SYNTHETIC_DEMO",
+  "data_source": "synthetic_fixture",
+  "n_neurons": 40,
+  "n_edges": 110
+}

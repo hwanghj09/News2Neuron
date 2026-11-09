@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-09T14:40:12.400871+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "/workspace/news-flywire-research/data/raw/flywire_annotations.tsv": "b214970b55d2fbe0853bba536fdcb9e28730f4eb7ab06f600491df795da683cd",
+    "/workspace/news-flywire-research/external/Drosophila_brain_model/model.py": "fc45837d7122c6ce2a7f3f2f23c515992e4b232aadb919efabb72337fac88e4e",
+    "/workspace/news-flywire-research/external/Drosophila_brain_model/Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347"
+  },
+  "annotation_url": "https://raw.githubusercontent.com/flyconnectome/flywire_annotations/a83b2776d60d5764cef36b927f5f9679c16c47a2/supplemental_files/Supplemental_file1_neuron_annotations.tsv",
+  "annotation_commit": "a83b2776d60d5764cef36b927f5f9679c16c47a2",
+  "upstream_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960"
+}

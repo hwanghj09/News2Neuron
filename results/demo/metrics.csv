@@ -1,0 +1,34 @@
+condition_id,description,seed,connectome_version,data_source,score_variable,N,T,A,rate_hz,degree_matching_mean_log_distance,random_input_population,baseline_rate_hz,stimulus_rate_hz,delta_rate_hz,latency_ms,auc_spikes_per_neuron,recovery_ms,recruited_neurons,recruitment_fraction,external_input_events,effective_delay_ms
+E0,No input,20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.1,0.85,30.0,,target_inputs,0.0,3.3333333333333335,3.3333333333333335,210.0,1.0,0.0,8,0.25,80,2.0
+E2,Medium T,20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,40.0,8.0,0.0,10,0.3125,195,2.0
+E3,High T,20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,358,2.0
+E4,"High T, identical events on random cells",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,48.33333333333333,48.33333333333333,10.0,14.5,10.0,10,0.3125,358,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,23.333333333333332,23.333333333333332,30.0,7.0,0.0,10,0.3125,358,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,20.0,20.0,50.0,6.0,10.0,10,0.3125,358,2.0
+E7,"High T, degree-matched random silencing",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,1.2990006465427402,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,358,2.0
+E8,"High N / low T, N-only mapping",20261109,SYNTHETIC_DEMO,simulated_activity,N,0.9,0.1,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,358,2.0
+E9a,"T=0.5, N=0.1",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.1,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,40.0,8.0,0.0,10,0.3125,195,2.0
+E9b,"T=0.5, N=0.9",20261109,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,40.0,8.0,0.0,10,0.3125,195,2.0
+E0,No input,20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.1,0.85,30.0,,target_inputs,0.0,0.0,0.0,,0.0,,8,0.25,65,2.0
+E2,Medium T,20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,30.0,8.0,0.0,10,0.3125,188,2.0
+E3,High T,20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,347,2.0
+E4,"High T, identical events on random cells",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,36.66666666666667,36.66666666666667,20.0,11.0,0.0,10,0.3125,347,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,20.0,20.0,40.0,6.0,0.0,10,0.3125,347,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,20.0,20.0,30.0,6.0,10.0,10,0.3125,347,2.0
+E7,"High T, degree-matched random silencing",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,1.299000652055555,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,347,2.0
+E8,"High N / low T, N-only mapping",20261110,SYNTHETIC_DEMO,simulated_activity,N,0.9,0.1,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,0.0,10,0.3125,347,2.0
+E9a,"T=0.5, N=0.1",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.1,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,30.0,8.0,0.0,10,0.3125,188,2.0
+E9b,"T=0.5, N=0.9",20261110,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,26.666666666666668,26.666666666666668,30.0,8.0,0.0,10,0.3125,188,2.0
+E0,No input,20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,0.0,,target_inputs,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+E1,Low T,20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.1,0.85,30.0,,target_inputs,0.0,3.3333333333333335,3.3333333333333335,220.0,1.0,0.0,8,0.25,69,2.0
+E2,Medium T,20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,23.333333333333332,23.333333333333332,50.0,7.0,0.0,10,0.3125,179,2.0
+E3,High T,20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,10.0,10,0.3125,366,2.0
+E4,"High T, identical events on random cells",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,"non-input, non-output subcircuit neurons; not sensory-matched",0.0,56.666666666666664,56.666666666666664,10.0,17.0,10.0,10,0.3125,366,2.0
+E5,"High T, LPLC2 outgoing and incoming connections removed",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,23.333333333333332,23.333333333333332,30.0,7.0,10.0,10,0.3125,366,2.0
+E6,"High T, LC4 outgoing and incoming connections removed",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,,target_inputs,0.0,20.0,20.0,50.0,6.0,10.0,10,0.3125,366,2.0
+E7,"High T, degree-matched random silencing",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.9,0.85,150.0,1.2990006484700398,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,10.0,10,0.3125,366,2.0
+E8,"High N / low T, N-only mapping",20261111,SYNTHETIC_DEMO,simulated_activity,N,0.9,0.1,0.85,150.0,,target_inputs,0.0,43.333333333333336,43.333333333333336,20.0,13.0,10.0,10,0.3125,366,2.0
+E9a,"T=0.5, N=0.1",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.1,0.5,0.85,80.0,,target_inputs,0.0,23.333333333333332,23.333333333333332,50.0,7.0,0.0,10,0.3125,179,2.0
+E9b,"T=0.5, N=0.9",20261111,SYNTHETIC_DEMO,simulated_activity,T,0.9,0.5,0.85,80.0,,target_inputs,0.0,23.333333333333332,23.333333333333332,50.0,7.0,0.0,10,0.3125,179,2.0

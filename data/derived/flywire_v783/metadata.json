@@ -1,0 +1,32 @@
+{
+  "created_utc": "2026-11-09T14:31:58.034779+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "external/Drosophila_brain_model/Completeness_783.csv": "bbb847a4cc2caaa7a16349722d220c087317b946d148d4d592d94d250617a311",
+    "external/Drosophila_brain_model/Connectivity_783.parquet": "efeb23fb99098e9c390f6869969b2a121a2ee92c833cfc45ecb2c1d8e1af0347",
+    "data/raw/flywire_annotations.tsv": "b214970b55d2fbe0853bba536fdcb9e28730f4eb7ab06f600491df795da683cd"
+  },
+  "connectome_version": "FAFB_v783",
+  "data_source": "measured_connectivity_model_activity",
+  "extraction": "induced circuit on input-output paths; isolated specified targets retained",
+  "hops": 3,
+  "min_synapses": 5,
+  "upstream_commit": "91bdd1e7dcf193f3e7ca5a8933497fcef63b7960",
+  "gf_alias": "cell_type DNp01 / hemibrain_type Giant Fiber -> GF",
+  "missing_types": [],
+  "n_neurons": 1367,
+  "n_edges": 29377,
+  "limitations": [
+    "Subcircuit omits external inputs and feedback",
+    "Transmitter signs inherited from Shiu model, receptor effects unknown"
+  ]
+}
