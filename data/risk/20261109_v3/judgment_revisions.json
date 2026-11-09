@@ -1,0 +1,30 @@
+{
+  "revisions": [
+    {
+      "case_id": "c1_c_016",
+      "before": {
+        "case_id": "c1_c_016",
+        "N": 1,
+        "T": 1,
+        "A": 2,
+        "S": 2,
+        "L": 1,
+        "I": 1,
+        "X": 3,
+        "state": "hypothetical",
+        "rationale": "공공갈등 비용을 줄이기 위한 입법 세미나다. 공동체 붕괴라는 일반적 발제를 현재 국가 붕괴의 확정 사실로 채택하지 않는다."
+      },
+      "changed_fields": {
+        "N": 2,
+        "T": 2,
+        "S": 2,
+        "L": 2,
+        "I": 1,
+        "X": 3,
+        "state": "ongoing",
+        "rationale": "홍보문을 제거한 전체 본문에서 실제 국책사업 지연과 지역 갈등의 지속을 확인했다. 장기적인 사회·경제 비용을 반영하되 현재 공동체 붕괴로 과장하지 않는다."
+      },
+      "reason": "Read complete promotion-free prose, before opening model audit metrics; no model parameter update"
+    }
+  ]
+}

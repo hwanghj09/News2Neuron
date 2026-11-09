@@ -1,0 +1,7 @@
+{
+  "cases": 16,
+  "selection_sha256": "5260accd7ccdf3516aae61bdded1076135e7d1928cb90e49dcaba2217cb83946",
+  "selection": "two_per_source: maximum_severe_headline_terms_and_random_resolved_or_prevention_headline",
+  "purpose": "targeted_AI_hazard_and_false_positive_audit_not_population_estimate",
+  "frozen_before_any_training": true
+}

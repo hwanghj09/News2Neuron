@@ -1,0 +1,17 @@
+{
+  "httpStatus": 200,
+  "initialCount": "8,128건",
+  "visibleRows": 40,
+  "secondPage": "2 / 204",
+  "directCount": "198건",
+  "eligibleCount": "8,051건",
+  "excludedCount": "77건",
+  "seoulCount": "1,318건",
+  "criticalCount": "7건",
+  "searchCount": "137건",
+  "auditRows": 6,
+  "brokenImages": 0,
+  "brokenDownloads": [],
+  "mobileOverflow": false,
+  "errors": []
+}

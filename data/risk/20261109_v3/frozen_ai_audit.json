@@ -1,0 +1,148 @@
+{
+  "independent_human_labels": 0,
+  "model_selection_used_audit_metrics": false,
+  "rounds": [
+    {
+      "round": 1,
+      "audit_articles": 48,
+      "ordinal_mae_0_to_4": {
+        "N": 0.7124292254447937,
+        "T": 0.7579477429389954,
+        "A": 0.592194139957428,
+        "S": 0.9499683380126953,
+        "L": 0.8352138996124268,
+        "I": 0.7515782713890076,
+        "X": 0.9152410626411438
+      },
+      "danger_index_mae_0_to_100": 10.517838240363533,
+      "reference": "held_out_same_session_AI_judgments_not_independent_humans"
+    },
+    {
+      "round": 2,
+      "audit_articles": 48,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6834346652030945,
+        "T": 0.7303633093833923,
+        "A": 0.5809134840965271,
+        "S": 0.9340996146202087,
+        "L": 0.8242813944816589,
+        "I": 0.7235270142555237,
+        "X": 0.8887686729431152
+      },
+      "danger_index_mae_0_to_100": 9.911869457702542,
+      "reference": "held_out_same_session_AI_judgments_not_independent_humans"
+    },
+    {
+      "round": 3,
+      "audit_articles": 48,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6157822608947754,
+        "T": 0.6861900687217712,
+        "A": 0.5551065802574158,
+        "S": 0.8681347966194153,
+        "L": 0.769858181476593,
+        "I": 0.683951199054718,
+        "X": 0.8485901355743408
+      },
+      "danger_index_mae_0_to_100": 9.234799953915674,
+      "reference": "held_out_same_session_AI_judgments_not_independent_humans"
+    }
+  ],
+  "targeted_challenge_rounds": [
+    {
+      "round": 1,
+      "articles": 16,
+      "danger_index_mae_0_to_100": 18.72856615321046,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6992686986923218,
+        "T": 1.321933388710022,
+        "A": 0.4635922908782959,
+        "S": 0.7382391691207886,
+        "L": 1.2654998302459717,
+        "I": 1.120849847793579,
+        "X": 0.8788657784461975
+      }
+    },
+    {
+      "round": 2,
+      "articles": 16,
+      "danger_index_mae_0_to_100": 17.65424313366029,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6666383147239685,
+        "T": 1.1585923433303833,
+        "A": 0.5444496870040894,
+        "S": 0.7729568481445312,
+        "L": 1.1507763862609863,
+        "I": 1.1753871440887451,
+        "X": 0.8036295175552368
+      }
+    },
+    {
+      "round": 3,
+      "articles": 16,
+      "danger_index_mae_0_to_100": 17.125589280342083,
+      "ordinal_mae_0_to_4": {
+        "N": 0.7088589668273926,
+        "T": 1.1015689373016357,
+        "A": 0.5598213076591492,
+        "S": 0.6311442852020264,
+        "L": 1.0836832523345947,
+        "I": 1.0643612146377563,
+        "X": 0.8425753712654114
+      }
+    }
+  ],
+  "original_pre_input_repair_rounds": [
+    {
+      "round": 1,
+      "danger_index_mae_0_to_100": 10.478309226600086,
+      "ordinal_mae_0_to_4": {
+        "N": 0.7026229500770569,
+        "T": 0.754913866519928,
+        "A": 0.5881559252738953,
+        "S": 0.9432024359703064,
+        "L": 0.8313308358192444,
+        "I": 0.7532660365104675,
+        "X": 0.9054079055786133
+      }
+    },
+    {
+      "round": 2,
+      "danger_index_mae_0_to_100": 9.877666665227862,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6736343502998352,
+        "T": 0.7256510257720947,
+        "A": 0.5740458965301514,
+        "S": 0.927861750125885,
+        "L": 0.8196742534637451,
+        "I": 0.7239000797271729,
+        "X": 0.8808794021606445
+      }
+    },
+    {
+      "round": 3,
+      "danger_index_mae_0_to_100": 9.220700402837654,
+      "ordinal_mae_0_to_4": {
+        "N": 0.6088917255401611,
+        "T": 0.6816127896308899,
+        "A": 0.5493432283401489,
+        "S": 0.8660104274749756,
+        "L": 0.7635608315467834,
+        "I": 0.6828348636627197,
+        "X": 0.8433758616447449
+      }
+    }
+  ],
+  "input_repair_caveat": "Native promotion discovered during audit; identical DOM repair applied to 180 rows, zero training rows affected, model parameters unchanged. Original sealed predictions retained; preprocessing was not entirely untouched by audit.",
+  "legacy_rule_baseline_ordinal_mae_0_to_4": {
+    "N": 1.1666666666666667,
+    "T": 0.9166666666666666,
+    "A": 1.2916666666666667
+  },
+  "input_matched_rule_baseline_ordinal_mae_0_to_4": {
+    "N": 1.1666666666666667,
+    "T": 0.9375,
+    "A": 1.2916666666666667
+  },
+  "scope": "Small stratified temporal holdout; measures agreement with this session's decisions, not correctness or real-world danger probability."
+}

@@ -1,0 +1,20 @@
+{
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "onnxruntime": "1.31.1",
+    "tokenizers": "0.23.3",
+    "joblib": "1.5.3",
+    "lxml": "6.1.1",
+    "pyarrow": "23.0.1"
+  },
+  "encoder_threads": 3,
+  "inference_batch_windows": 16,
+  "fixed_model": "intfloat/multilingual-e5-small@614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "AI_judge": "current Codex conversation",
+  "exact_AI_model_snapshot": "not exposed",
+  "decoding_parameters": "not exposed; no external LLM API invocation claimed",
+  "human_raters": 0
+}

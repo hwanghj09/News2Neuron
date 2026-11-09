@@ -1,0 +1,10 @@
+{
+  "links": [
+    {
+      "audit_case": "r1_a_003",
+      "development_case": "r2_d_004",
+      "relation": "Follow-up coverage of recurring Houthi attacks on Riyadh airport; distinct article and candidate group, not a wholly novel semantic event"
+    }
+  ],
+  "scope": "Known overlap found while reading; automated event groups do not prove semantic event independence."
+}

@@ -1,0 +1,15 @@
+{
+  "articles_corrected": 180,
+  "training_articles_changed": 0,
+  "assessment_body_windows": 670,
+  "corrections_sha256": "81f0dcab5cd68b8e873935d4df10ea82da4c7f5d4d3da5a567bdfc6bdf50204d",
+  "corrected_features_sha256": "f66b39a8484aadce40488820fec770fdb27d25fb92d37796071a71ed67066823",
+  "corrected_narrative_sha256": "77e21e34298a281cb1f00974c3d16908379f76fb2934fca10c20c9110db22642",
+  "frozen_model_hashes_unchanged": {
+    "1": "cfa357a12c7f8f27c69ce3d5d349815b351305093b1bd148e24968a7a7f1cc29",
+    "2": "e5facd088f343e3742c7d21552254f1521a0f532109f483a3d71c778d3f71c30",
+    "3": "021af9244d1aee85beaa3a96f319f6bc19275bf96d639c7bceaa01a87827d76d"
+  },
+  "reason": "Native Seoul promotion widget inserted unrelated prose within an otherwise valid article",
+  "evaluation_caveat": "Structural input repair discovered during AI audit, applied by identical DOM rule to every Seoul article. No labels, model parameters or hyperparameters were changed; this is not a wholly untouched preprocessing holdout."
+}

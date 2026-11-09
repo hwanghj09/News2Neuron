@@ -1,0 +1,28 @@
+{
+  "news_sha256": "0aef39cf91a6327990432847ce7c266fc510a4c14592486c11eef115a8861376",
+  "patterns": {
+    "judicial_control": "검거|구속|체포|재판|구형|징역",
+    "emergency_resolved": "완진|진화 완료|모두 구조|상황 종료|해제|복구 완료|안전.{0,8}확인|재가동 승인",
+    "past_or_memorial": "추모|별세|회고|당시|지난해|수년 전|회복|기념",
+    "continuing": "확산|이어지고|계속.{0,10}(발생|피해)|진행 중|증가하고|추가.{0,6}(피해|사망|감염)",
+    "immediate_action": "즉시.{0,6}대피|대피.{0,6}명령|대피령|호우경보|태풍경보|긴급.{0,8}구조|실종자",
+    "conditional": "경우|가능성|우려|가정|전망|시나리오|만약",
+    "uncertain_claim": "주장|의혹|추정|부인|확인되지|미확인|반박",
+    "explicit_no_casualty": "인명피해.{0,12}없|인명 피해.{0,12}없|다친 사람.{0,12}없|사망자.{0,8}없|위험.{0,8}없",
+    "prevention_or_benefit": "예방|안전.{0,4}교육|부담.{0,6}줄|치료.{0,6}개선|안전대책|재발방지|지원.{0,4}확대",
+    "realized_harm": "사망|숨졌|살해|부상|피해액|실직|파산|폭발|폭행",
+    "celebration": "우승|축제|수상|관람|공연|박람회|신제품|채용|출시"
+  },
+  "zones": [
+    "title",
+    "first_500_body_chars",
+    "complete_body"
+  ],
+  "version": "context_cues_v1",
+  "fingerprint": "4d10f56664cb96ceb293e0c92629a28ec449d40399d2495f2a1dca231239f2c1",
+  "sha256": "07abc0ba7929adcf7318a9df970abbb63e5aa6ff385a40129192dd341ae73143",
+  "shape": [
+    8128,
+    33
+  ]
+}

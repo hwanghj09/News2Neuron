@@ -1,0 +1,23 @@
+{
+  "articles": 8128,
+  "full_body_model_features": 8128,
+  "direct_session_judgments": 198,
+  "development_judgments": 129,
+  "held_out_ai_audit_judgments": 48,
+  "scoring_rounds": 3,
+  "targeted_challenge_judgments": 16,
+  "additional_quality_judgments": 5,
+  "assessment_research_eligible_articles": 8051,
+  "native_promotion_corrections": 180,
+  "danger_band_counts": {
+    "minimal": 6351,
+    "low": 1540,
+    "moderate": 208,
+    "high": 22,
+    "critical": 7
+  },
+  "further_ai_review_candidates": 169,
+  "independent_human_labels": 0,
+  "perfect_accuracy_claim": false,
+  "danger_score_meaning": "rubric index 0..100, not probability, actual stress or a real-time alert"
+}

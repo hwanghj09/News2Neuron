@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-11-09T21:37:41.085365+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/risk/20261109_v3/round_1/ridge_model.joblib": "cfa357a12c7f8f27c69ce3d5d349815b351305093b1bd148e24968a7a7f1cc29",
+    "data/risk/20261109_v3/round_2/ridge_model.joblib": "e5facd088f343e3742c7d21552254f1521a0f532109f483a3d71c778d3f71c30",
+    "data/risk/20261109_v3/round_3/ridge_model.joblib": "021af9244d1aee85beaa3a96f319f6bc19275bf96d639c7bceaa01a87827d76d",
+    "data/risk/20261109_v3/round_1/predictions.parquet": "1b3caa935376404fc96e0fb4cf8a11f3b0733c70514642f34b75d49aae99c8f7",
+    "data/risk/20261109_v3/round_2/predictions.parquet": "a5d96afc26904252a0d6ba6a8983ff512de5add4a4d259bb59daa1af31d8b2a6",
+    "data/risk/20261109_v3/round_3/predictions.parquet": "0d99d49fb645e1c6c7b7afa2a0d102ffab6e98bb233163af107fa00891178d3e"
+  },
+  "stage": "final_model_frozen_before_opening_held_out_AI_audit",
+  "direct_development_judgments": 129,
+  "audit_decisions_recorded_at_freeze": 0,
+  "selection_used_audit_metrics": false
+}

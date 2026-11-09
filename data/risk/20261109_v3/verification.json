@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "articles_checked": 8128,
+  "full_body_hashes_checked": 8128,
+  "complete_overflow_token_windows_checked": 28749,
+  "token_offset_trailing_gaps": [],
+  "direct_AI_judgments": 198,
+  "human_judgments": 0,
+  "rounds_audited": 3,
+  "audit_used_for_training": false,
+  "csv_parquet_scores_identical": true,
+  "native_promotion_repairs_verified": 180,
+  "affected_training_articles": 0,
+  "effective_promotion_free_scoring_windows_checked": 28513,
+  "pre_audit_model_hashes_unchanged": true,
+  "assessment_research_eligible_articles": 8051,
+  "meaning": "Provenance, numerical and partition checks only; not proof of semantic accuracy or real-world probabilities.",
+  "test_suite": {
+    "passed": 69,
+    "failed": 0
+  },
+  "frozen_review_packets_verified": 5,
+  "browser_report": {
+    "httpStatus": 200,
+    "initialCount": "8,128건",
+    "visibleRows": 40,
+    "secondPage": "2 / 204",
+    "directCount": "198건",
+    "eligibleCount": "8,051건",
+    "excludedCount": "77건",
+    "seoulCount": "1,318건",
+    "criticalCount": "7건",
+    "searchCount": "137건",
+    "auditRows": 6,
+    "brokenImages": 0,
+    "brokenDownloads": [],
+    "mobileOverflow": false,
+    "errors": []
+  },
+  "public_title_excerpt_max_words": 25
+}

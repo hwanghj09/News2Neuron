@@ -1,0 +1,29 @@
+{
+  "news_parquet_sha256": "0aef39cf91a6327990432847ce7c266fc510a4c14592486c11eef115a8861376",
+  "model_id": "intfloat/multilingual-e5-small",
+  "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "weights_sha256": "dd476dd0c2514e9b9be83aeb3853fac0763e0bdf4a71645407587d77c48a2d88",
+  "tokenizer_sha256": "0b44a9d7b51c3c62626640cda0e2c2f70fdacdc25bbbd68038369d14ebdf4c39",
+  "max_tokens": 256,
+  "overlap_tokens": 32,
+  "probes": [
+    "현재 화재와 붕괴, 홍수와 태풍이 발생 중이고 사람들이 죽거나 다칠 위험으로 즉시 대피해야 한다.",
+    "전쟁과 무력 충돌, 테러와 핵무기, 군사적 공격이 계속되어 민간인의 생명과 안전이 위협받는다.",
+    "전염병과 유해 물질, 감염과 질병이 확산되어 사람들의 건강에 중대한 위해가 발생할 수 있다.",
+    "실직과 해고, 경기 침체와 파산, 금융 사기와 경제적 손실로 생계가 위협받고 있다.",
+    "성폭력과 살인, 아동 학대와 가정 폭력, 교통사고와 산업 재해로 심각한 피해가 발생했다.",
+    "오래전 사건을 회고하거나 고인을 추모한다. 이미 불이 꺼지고 구조가 끝나 추가 위험은 없다.",
+    "위험 예방과 안전 교육, 질병 치료와 기술 개발, 지원 정책으로 피해를 막으려 한다.",
+    "축제와 우승, 문화와 예술, 여행과 신제품, 기업의 성과와 기부를 소개하는 좋은 소식이다."
+  ],
+  "feature_version": "all_body_windows_v1",
+  "fingerprint": "b453a3da90f327c0631968f8fa4efa7855cc5e8859bfb9dd44942b66526f0302",
+  "features_sha256": "b81a4c594f9b808c8a023bc3dfc64a5c3c9d247d5ab0736f49378bf6cd656e71",
+  "shape": [
+    8128,
+    1168
+  ],
+  "articles": 8128,
+  "windows": 28749,
+  "complete_body_coverage": true
+}
