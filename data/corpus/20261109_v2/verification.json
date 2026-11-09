@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "unique_articles_checked": 8128,
+  "publisher_responses_hash_verified": 8128,
+  "auditor_sha256": "224cab84004844c10bc5827a2c49e5ecd09ef5dff05afa17d689467989ba24f1",
+  "articles_reextracted_offline_with_identical_results": 8128,
+  "published_window": "2026-08-12 through 2026-11-09 UTC",
+  "known_site_controls_remaining": 0,
+  "computed_event_group_split_leakage": 0,
+  "event_group_max_hours": 72,
+  "research_source_share_cap": 0.25,
+  "body_hashes_unique": true,
+  "minimum_hangul_ratio_among_all_unicode_letters": 0.7235494880546075,
+  "three_independent_rater_templates_blank": true,
+  "independent_human_judgments_completed": 0,
+  "limitations": "These are automated provenance/consistency checks. They do not validate semantic event identity, news claims, labels or biological responses.",
+  "test_suite": {
+    "passed": 56,
+    "failed": 0
+  },
+  "csv_parquet_primary_fields_equal": true,
+  "browser_report": {
+    "httpStatus": 200,
+    "initialCount": "8,128건",
+    "visibleRows": 40,
+    "secondPage": "2 / 204",
+    "khanCount": "215건",
+    "trainCount": "3,984건",
+    "flaggedCount": "3,452건",
+    "searchCount": "2,807건",
+    "brokenImages": 0,
+    "brokenDownloads": [],
+    "errors": [],
+    "mobileOverflow": false
+  }
+}

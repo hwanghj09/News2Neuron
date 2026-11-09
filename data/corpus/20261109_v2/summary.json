@@ -1,0 +1,99 @@
+{
+  "configured_start": "2026-08-12",
+  "configured_end": "2026-11-09",
+  "discovered_unique_urls": 427587,
+  "discovery_date_hint_in_window": 400333,
+  "sampled_candidates": 12000,
+  "pages_attempted": 10000,
+  "body_verified_before_deduplication": 8156,
+  "duplicates_removed": 28,
+  "accepted_unique_articles": 8128,
+  "publishers": {
+    "News1": 1469,
+    "Fnnews": 1385,
+    "Seoul": 1318,
+    "Newsis": 1226,
+    "Hankyung": 1195,
+    "Edaily": 1173,
+    "Khan": 215,
+    "SBS": 147
+  },
+  "research_subset_articles": 8056,
+  "research_subset_publisher_counts": {
+    "News1": 1464,
+    "Fnnews": 1382,
+    "Seoul": 1317,
+    "Newsis": 1224,
+    "Hankyung": 1195,
+    "Edaily": 1173,
+    "Khan": 215,
+    "SBS": 86
+  },
+  "research_subset_max_source_share": 0.1817279046673287,
+  "publication_min": "2026-08-12T00:00:08+00:00",
+  "publication_max": "2026-11-09T15:29:35+00:00",
+  "covered_utc_days": 90,
+  "partitions": {
+    "train": 3984,
+    "test": 3163,
+    "validation": 910,
+    "excluded_previously_scored_pilot": 63,
+    "purged_version_change": 8
+  },
+  "event_groups": 8013,
+  "known_legacy_pilot_overlap_articles": 63,
+  "normalized_topics": {
+    "society": 1620,
+    "unclassified": 1564,
+    "economy": 1497,
+    "politics": 960,
+    "regional": 552,
+    "world": 530,
+    "mixed": 452,
+    "sports": 380,
+    "culture": 343,
+    "technology": 97,
+    "health": 79,
+    "opinion": 54
+  },
+  "topic_mapping_scope": "Publisher metadata only; mixed and unclassified retained; not emotion or threat labels",
+  "event_groups_human_validated": 0,
+  "independent_human_ratings": 0,
+  "qc_template_articles": 120,
+  "quarantine_reasons": {
+    "insufficient_prose_sentences": 934,
+    "insufficient_verified_body": 1398,
+    "outside_90_day_window": 161,
+    "table_roundup_or_nonarticle": 65,
+    "non_korean_or_encoding_failure": 301,
+    "conflicting_article_publication_dates": 117,
+    "video_teaser_incomplete_transcript": 12,
+    "redirect_outside_publisher_allowlist": 67,
+    "http_404": 14,
+    "http_502": 3,
+    "ParserError": 1,
+    "invalid_headline": 9,
+    "TimeoutError": 2,
+    "publication_unverified": 2,
+    "http_503": 1
+  },
+  "quality_flags": {
+    "modification_time_unavailable": 3335,
+    "url_date_differs_from_publication": 87,
+    "opinion_genre": 76,
+    "possible_sponsored_content": 1
+  },
+  "goals": {
+    "candidate_goal": 12000,
+    "unique_article_goal": 3000,
+    "accepted_goal_met": true,
+    "publisher_goal_met": true
+  },
+  "scoring_scope": "Full-body keyword baseline only. Existing 240-item session judgments are not transferred or reused as truth.",
+  "limitations": [
+    "Publisher-time coverage is uneven and reported explicitly",
+    "Event clusters are automated candidates and may miss or overmerge events",
+    "Full bodies are private caches; public releases contain limited excerpts and non-reversible hashes",
+    "Rule scores are unvalidated diagnostic values, not labels or human physiological outcomes"
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-11-09T16:16:51.900381+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/corpus/20261109_v2/resolved_config.json": "00f0a362121d91e086e9a409c0b746be1960da8cd33a979426f10632da68a320",
+    "data/corpus/20261109_v2/discovered_candidates.parquet": "5d53044cf588b5f4ff0ccdd7c575d790a7cc023e448475029c049fec194a180f",
+    "data/corpus/20261109_v2/extraction_ledger.parquet": "383893a7d0653e5ad000416556c9d9039f05b5f6301f6f5a6eea24d315fbb0bd",
+    "data/corpus/20261109_v2/news.parquet": "0aef39cf91a6327990432847ce7c266fc510a4c14592486c11eef115a8861376",
+    "data/corpus/20261109_v2/splits.csv": "04ac7624526b4548daa1269fc3b561c2b34104090e7b335daaa11b34193ebc5b",
+    "data/corpus/20261109_v2/provisional_rule_scores.csv": "1cd2fa914f0819027f552df57cca3164182675accb9613708e08b580e5cca20d",
+    "data/real_news/2026-11-09/news.csv": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/http.py": "3863d80d820bb12f80e30ecf0c2ae588800d7d6c42e1b0539f68669b39761740",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/prepare.py": "bb44325382da7ff378e3d16a7477f7ebde4645f389dc1f219ebd2bd9a7ed4716",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/build.py": "4b61eb132fea28a75df9187ff231236b9f8d04d8c798d5d02ad39190c35e19c1",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/report.py": "6577e6c80c51f8a18e476c37d60f2d641a5ba26c9d20ab8ace8904d3fee154b7",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/extract.py": "48a47ecec0655cdbeece0f5bdb5439edecaf46a3322f81b0e5eacac9be9c4ef7",
+    "/workspace/news-flywire-research/src/news_flywire/corpus/__init__.py": "93711f922d53198f72ffac02cc3b7fe6d5446443cb33a58dbc703ca3ed38c784"
+  },
+  "config_version": "corpus_v2_20261109",
+  "data_source": "official_publisher_pages",
+  "raw_cache": "data/raw/corpus/20261109_v2",
+  "publication_dates": "Article JSON-LD/meta first; publisher sitemap only as declared fallback; lastmod and URL dates never promoted to publication time",
+  "input_hashes_verified": true,
+  "independent_human_accuracy_evaluated": false
+}

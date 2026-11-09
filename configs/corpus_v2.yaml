@@ -1,0 +1,77 @@
+version: corpus_v2_20261109
+start_date: '2026-08-12'
+end_date: '2026-11-09'
+seed: 20261109
+candidate_target: 12000
+fetch_target: 10000
+accepted_goal: 3000
+min_publishers: 6
+max_research_source_share: 0.25
+user_agent: 'ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)'
+request_interval_seconds: 0.75
+workers: 9
+request_timeout_seconds: 18
+max_response_bytes: 5000000
+max_xml_bytes: 18000000
+min_body_chars: 400
+max_body_chars: 60000
+min_korean_letter_ratio: 0.50
+min_sentences: 3
+max_excerpt_words_including_title: 25
+duplicate_title_similarity: 0.80
+duplicate_body_similarity: 0.94
+event_similarity: 0.63
+event_min_token_jaccard: 0.20
+event_max_span_hours: 72
+train_end: '2026-10-11'
+validation_end: '2026-10-25'
+# Keep the legacy 240-item convenience pilot isolated from this corpus.
+publishers:
+  - name: Hankyung
+    host: www.hankyung.com
+    allowed_hosts: [www.hankyung.com]
+    roots: ['https://www.hankyung.com/sitemap/daily-article.xml']
+    article_pattern: '/article/[0-9]{12}'
+    archive_mode: daily
+  - name: Edaily
+    host: www.edaily.co.kr
+    allowed_hosts: [www.edaily.co.kr]
+    roots: ['https://www.edaily.co.kr/sitemap/daily-article.xml']
+    article_pattern: '/News/Read\?'
+    archive_mode: daily
+  - name: Fnnews
+    host: www.fnnews.com
+    allowed_hosts: [www.fnnews.com]
+    roots: ['https://www.fnnews.com/resource/view_xml/sitemap_index/news-sitemap-index-2026.xml', 'https://www.fnnews.com/sitemap/news/latest.xml']
+    article_pattern: '/news/[0-9]{18}'
+    archive_mode: monthly
+  - name: Seoul
+    host: www.seoul.co.kr
+    allowed_hosts: [www.seoul.co.kr]
+    roots: ['https://www.seoul.co.kr/sitemap/sitemap_dailyArticle', 'https://www.seoul.co.kr/sitemap/sitemap_latestArticle']
+    article_pattern: '/news/.*/[0-9]{12,}'
+    archive_mode: monthly
+  - name: News1
+    host: www.news1.kr
+    allowed_hosts: [www.news1.kr]
+    roots: ['https://www.news1.kr/api/feeds/sitemap-index/']
+    article_pattern: '/[a-zA-Z-]+/[a-zA-Z-]+/[0-9]{6,}'
+    archive_mode: sections
+  - name: Newsis
+    host: www.newsis.com
+    allowed_hosts: [www.newsis.com]
+    roots: ['https://www.newsis.com/newsis_news_google.xml']
+    article_pattern: '/view/NISX[0-9]'
+    archive_mode: latest
+  - name: SBS
+    host: news.sbs.co.kr
+    allowed_hosts: [news.sbs.co.kr]
+    roots: ['https://news.sbs.co.kr/news/sitemapRSS.do', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08', 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09']
+    article_pattern: '/news/endPage.do\?'
+    archive_mode: latest
+  - name: Khan
+    host: www.khan.co.kr
+    allowed_hosts: [www.khan.co.kr]
+    roots: ['https://www.khan.co.kr/sitemap/latest-articles.xml']
+    article_pattern: '/article/[0-9]{15}'
+    archive_mode: latest

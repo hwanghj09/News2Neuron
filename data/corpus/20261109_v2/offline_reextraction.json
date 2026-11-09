@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "network_requests": 0,
+  "original_response_count": 10000,
+  "initial_state_sha256": "24131594cb4920d2421c67d700a3dd8f4150f1ed5ef6985bb931dab2abdb5dd3",
+  "extractor_sha256": "48a47ecec0655cdbeece0f5bdb5439edecaf46a3322f81b0e5eacac9be9c4ef7",
+  "reason": "AI quality spotcheck found photo captions, site controls, related-article cards, bylines and video-only teasers; deterministic cleanup applied to all cached inputs",
+  "phase2_accepted_before_deduplication": 8156
+}

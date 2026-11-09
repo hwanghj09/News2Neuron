@@ -22,6 +22,13 @@ def config(path):
 def main(argv=None):
     parser=argparse.ArgumentParser(description="뉴스 위협성 → 가상 입력 → FlyWire LIF 연구 파이프라인")
     sub=parser.add_subparsers(dest="command",required=True)
+    p=sub.add_parser("build-corpus",help="Discover and verify a large 90-day article corpus with cached resumable acquisition")
+    p.add_argument("--config",default="configs/corpus_v2.yaml")
+    p.add_argument("--out",default="data/corpus/20261109_v2")
+    p.add_argument("--raw",default="data/raw/corpus/20261109_v2")
+    p=sub.add_parser("prepare-corpus",help="Clean copies, propose events, purge time-boundary versions and create blinded review packets")
+    p.add_argument("--out",default="data/corpus/20261109_v2")
+    p.add_argument("--raw",default="data/raw/corpus/20261109_v2")
     p=sub.add_parser("collect-news",help="Collect real articles from official RSS feeds, without a synthetic fallback")
     p.add_argument("--config",default="configs/news_sources_v1.yaml")
     p.add_argument("--out",required=True)
@@ -67,7 +74,16 @@ def main(argv=None):
     p.add_argument("--out",default="results/validation.csv")
     args=parser.parse_args(argv)
     try:
-        if args.command=="collect-news":
+        if args.command=="build-corpus":
+            from .corpus.build import build
+            build(config(args.config),args.out,args.raw)
+        elif args.command=="prepare-corpus":
+            from .corpus.prepare import prepare
+            from .corpus.report import report
+            settings=json.loads((Path(args.out)/"resolved_config.json").read_text())
+            prepare(settings,args.out,args.raw)
+            print(report(args.out))
+        elif args.command=="collect-news":
             from .news_ingestion import collect_news
             news=collect_news(config(args.config),args.out)
             print(f"{len(news)} actual articles → {args.out}/news.csv")

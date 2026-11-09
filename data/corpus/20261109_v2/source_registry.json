@@ -1,0 +1,98 @@
+[
+  {
+    "source": "Hankyung",
+    "host": "www.hankyung.com",
+    "roots": [
+      "https://www.hankyung.com/sitemap/daily-article.xml"
+    ],
+    "robots_response_sha256": "ac6afe7d4bd56d5362bf89318bf57b927ec353de3723dce009c13988f2f5a29a",
+    "robots_retrieved_at": "2026-11-09T15:32:19.446750+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "Edaily",
+    "host": "www.edaily.co.kr",
+    "roots": [
+      "https://www.edaily.co.kr/sitemap/daily-article.xml"
+    ],
+    "robots_response_sha256": "df458aa4b39613c5d8b7e6f64d4dd6299b63d2d80320a6c582675e5abfd901e7",
+    "robots_retrieved_at": "2026-11-09T15:32:19.447595+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "Fnnews",
+    "host": "www.fnnews.com",
+    "roots": [
+      "https://www.fnnews.com/resource/view_xml/sitemap_index/news-sitemap-index-2026.xml",
+      "https://www.fnnews.com/sitemap/news/latest.xml"
+    ],
+    "robots_response_sha256": "633867b273e5cfedb8e7ed82b6b834e691a4cf792192c441bc422aa5bf046edf",
+    "robots_retrieved_at": "2026-11-09T15:32:19.448071+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "Seoul",
+    "host": "www.seoul.co.kr",
+    "roots": [
+      "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle",
+      "https://www.seoul.co.kr/sitemap/sitemap_latestArticle"
+    ],
+    "robots_response_sha256": "d2f54b87c299ed9adce0f8100d5a2b2820d5eb94a2971b630b3980944ba7fa04",
+    "robots_retrieved_at": "2026-11-09T15:32:19.448613+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "News1",
+    "host": "www.news1.kr",
+    "roots": [
+      "https://www.news1.kr/api/feeds/sitemap-index/"
+    ],
+    "robots_response_sha256": "0d50fa0163622d861a5ecd5011619f720fb8a298a118515e4f82c782c5671f2f",
+    "robots_retrieved_at": "2026-11-09T15:32:19.449058+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "Newsis",
+    "host": "www.newsis.com",
+    "roots": [
+      "https://www.newsis.com/newsis_news_google.xml"
+    ],
+    "robots_response_sha256": "28a3998eada41a86df587798e4ad3fa71cf38436e7660ba90e8b7c65eaa44e52",
+    "robots_retrieved_at": "2026-11-09T15:32:19.450050+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "SBS",
+    "host": "news.sbs.co.kr",
+    "roots": [
+      "https://news.sbs.co.kr/news/sitemapRSS.do",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08",
+      "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09"
+    ],
+    "robots_response_sha256": "59a1160b086b8b14a57ab431fd7d80fc21211f40a2c8e2b0bbed80ab80bcfc4a",
+    "robots_retrieved_at": "2026-11-09T15:32:19.450182+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  },
+  {
+    "source": "Khan",
+    "host": "www.khan.co.kr",
+    "roots": [
+      "https://www.khan.co.kr/sitemap/latest-articles.xml"
+    ],
+    "robots_response_sha256": "706c11c3a69e57c84981045b52c4f0a5693198f7acb072075181cdb766cc1122",
+    "robots_retrieved_at": "2026-11-09T15:32:19.450625+00:00",
+    "user_agent": "ChatGPT-User News2NeuronResearch/0.2 (user-requested noncommercial research)",
+    "policy": "URL-specific robots check before every uncached request; no access-block bypass"
+  }
+]

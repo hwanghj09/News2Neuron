@@ -1,0 +1,14 @@
+{
+  "httpStatus": 200,
+  "initialCount": "8,128건",
+  "visibleRows": 40,
+  "secondPage": "2 / 204",
+  "khanCount": "215건",
+  "trainCount": "3,984건",
+  "flaggedCount": "3,452건",
+  "searchCount": "2,807건",
+  "brokenImages": 0,
+  "brokenDownloads": [],
+  "errors": [],
+  "mobileOverflow": false
+}

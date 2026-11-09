@@ -1,0 +1,12 @@
+{
+  "source_file": "data/real_news/2026-11-09/news.csv",
+  "sha256": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+  "articles": 240,
+  "publishers": 3,
+  "summary_chars_mean": 67.8625,
+  "summary_chars_under_80": 195,
+  "roundup_or_update_markers": 16,
+  "body_verification_in_legacy_dataset": false,
+  "independent_human_ground_truth_available": false,
+  "disposition": "Preserve as initial short-input pilot; do not transfer these session judgments as labels to the new corpus"
+}

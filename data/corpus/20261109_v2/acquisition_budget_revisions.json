@@ -1,0 +1,8 @@
+[
+  {
+    "previous_fetch_target": 6500,
+    "new_fetch_target": 10000,
+    "reason": "Increase acquisition only; source/window/quality/scoring thresholds unchanged",
+    "at_utc": "2026-11-09T15:56:38.260112+00:00"
+  }
+]

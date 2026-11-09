@@ -1,0 +1,1814 @@
+[
+  {
+    "source": "Newsis",
+    "url": "https://www.newsis.com/newsis_news_google.xml",
+    "status": "parsed",
+    "article_candidates": 1397,
+    "children": 0,
+    "response_sha256": "e8a3e9e1a536f036cc9564a4e3337c3ab081bc78c109556ae66f44da2d651e01"
+  },
+  {
+    "source": "Khan",
+    "url": "https://www.khan.co.kr/sitemap/latest-articles.xml",
+    "status": "parsed",
+    "article_candidates": 234,
+    "children": 0,
+    "response_sha256": "e0d6509e883b7cded58f54304860fba9ab01f465603556098930f18d110f485b"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/sitemapRSS.do",
+    "status": "parsed",
+    "article_candidates": 102,
+    "children": 0,
+    "response_sha256": "1b449a7ac8a44c9b27d0f4018c05629777becd4d9cffab3442e08162feb755ee"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=01",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "2cfff2a79522b76f9cb6e695038dadc5e5c7ad5854f2007566d5ccc5351f036e"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "48bc40e44260be1206707f6fbd7c0f5f002ae5a0d53b79be1b6f37745a2ed446"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "f8922e5f8fcb0e6433c6da5113b6753990bdd7df85680ae6586f9bad16ef24a8"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "4f9fbe955f7a85ca2b4c5d4f8b33900e56a0fad807583645eda8b65f4a1733f9"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "3e3d0f467eb4248c783d4bdd03225f85355d0808c7236bf3d8b7a9d293a2647d"
+  },
+  {
+    "source": "SBS",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09",
+    "status": "parsed",
+    "article_candidates": 29,
+    "children": 0,
+    "response_sha256": "4c6d17ffcb5ddc4af7c9672f38dc369d9b7e27a65b0b2bb5ee8a864db05794a2"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 323,
+    "response_sha256": "8a959282f153073548fbad0ab7b6c64f6232c32e9539aa516f817886cdc41ad0"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_latestArticle",
+    "status": "parsed",
+    "article_candidates": 438,
+    "children": 0,
+    "response_sha256": "9c824e3a7259610ce9a4f1fd41d8aa885e186141eb737b960349b3cdbf2686c5"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle_20260011",
+    "status": "parsed",
+    "article_candidates": 1868,
+    "children": 0,
+    "response_sha256": "1dc940cce721f317b9f944043b04e0585e09ca527c7ea756ccaf2c37cfb5e521"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle_20260010",
+    "status": "parsed",
+    "article_candidates": 6906,
+    "children": 0,
+    "response_sha256": "fb121080e2d558d5d71bb06a79ec382638e1ad41c270fb06a1b5dd14b6533f11"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle_20260009",
+    "status": "parsed",
+    "article_candidates": 6709,
+    "children": 0,
+    "response_sha256": "eede82fa9bd440b154e304f96e42eb3cb6f6e1bc419be3db7cce0d759d7239dc"
+  },
+  {
+    "source": "Seoul",
+    "url": "https://www.seoul.co.kr/sitemap/sitemap_dailyArticle_20260008",
+    "status": "parsed",
+    "article_candidates": 6350,
+    "children": 0,
+    "response_sha256": "ac961f4948e288a3a4ab7516a3335c9ba75e8f6d3b694360bb34f65aee1b7474"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_index/news-sitemap-index-2026.xml",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 31,
+    "response_sha256": "a4aa2baf17f7b00f5680e32ac2c8e43ec4980512bbb256fe6e18e2667b41d8cb"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/sitemap/news/latest.xml",
+    "status": "parsed",
+    "article_candidates": 900,
+    "children": 0,
+    "response_sha256": "e4060eb2fd28a8ebb1a700dd466ba3e07fd24b8e34cfffa4f61289d02d9ce04a"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202611-1.xml",
+    "status": "parsed",
+    "article_candidates": 30265,
+    "children": 0,
+    "response_sha256": "a9a8406def82042896889365cd1d196ec7cbbab7a622fff5cad83dfcff181802"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202610-3.xml",
+    "status": "parsed",
+    "article_candidates": 39013,
+    "children": 0,
+    "response_sha256": "a4346d7fad4166880260a6d1d6f574dbc56d6562ef11059edf07e8562b2811b8"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202610-2.xml",
+    "status": "parsed",
+    "article_candidates": 34544,
+    "children": 0,
+    "response_sha256": "e1f7e26b46495b8b02a6fab349f8f0dbd2179ec9b8bf3e5d0072d3be53b8ac90"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202610-1.xml",
+    "status": "parsed",
+    "article_candidates": 28714,
+    "children": 0,
+    "response_sha256": "52e3477d85113e6d8cb14d57a6a8b7f79815881b6ae381595a01d8b1ca440ff6"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202609-3.xml",
+    "status": "parsed",
+    "article_candidates": 32239,
+    "children": 0,
+    "response_sha256": "ac4c1759e43671599e9eea319fda822074147978a28e61cdff48ebac2f29a4c5"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202609-2.xml",
+    "status": "parsed",
+    "article_candidates": 31382,
+    "children": 0,
+    "response_sha256": "ba0a4ab8d3706f28d5ae1af960865b260d97f1225e161c7d03b9e84e60c59843"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202609-1.xml",
+    "status": "parsed",
+    "article_candidates": 36942,
+    "children": 0,
+    "response_sha256": "8ce52df5dbb3354f0336fe1c66cdb939d006ef713b8eac9eb990e9a019da9f78"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202608-3.xml",
+    "status": "parsed",
+    "article_candidates": 29213,
+    "children": 0,
+    "response_sha256": "fbb49f6b05b5ac15ac0c7d401dc2cf31286aa0525cca6dbdbd545e2ded76a250"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202608-2.xml",
+    "status": "parsed",
+    "article_candidates": 32909,
+    "children": 0,
+    "response_sha256": "31166e0128354e5e6c1fc083c46f83a38c94ee0899f12a79e452318eb2399d27"
+  },
+  {
+    "source": "Fnnews",
+    "url": "https://www.fnnews.com/resource/view_xml/sitemap_v3/sitemap-202608-1.xml",
+    "status": "parsed",
+    "article_candidates": 27941,
+    "children": 0,
+    "response_sha256": "e94ff441a10777c54e58c3fc116ead41d0981431abea19c26232e5b7752cb425"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/sitemap-index/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 32,
+    "response_sha256": "821999aeb4489fd21e2a40dfc3edf8b9b85bef73b071fd614c216881f46a8374"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/latest/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "f485b502f82b459eb9f03a906d983df3528ce90c17ff5d4bf6e91b5be5000aaa"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/politics/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "ce082633f8a0922fbc9f5df0cb4f5b412db3514c97bc0deec258e9385c77c115"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/diplomacy/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "bd98d09d85a1b79c1a9faf8431b6251f9df0209cee19052075aff06b70608303"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/nk/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "f3e1904df6495460286b78c27afc55ab17ab5c75ebd33f28c1722d4d4bff2a46"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/society/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "674514bbf1629dadd78cfa4c1165deed66dc228b7774d4bf0c09f2f3d92b293a"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/economy/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "a8ad5ac0b5be2bcd0e209c566814a0373b9ffee9b8774c2c71e1a83d284d2fd4"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/it-science/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "26b173dd8311cefa0d0f7f87fd07bb947685dd6d0adc1a79d7991463f9a267ef"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/finance/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "646cb8e010eb6bee7d73a5b351ef0dd5b327d2b052481b41b238576d48d7ec29"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/industry/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "41526317dc12eff35afcb3cfaf276680332fa652573abe00f932f7f4c51f1aa3"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/local/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "f4ad7b518fd1bc1b2c1e560345bfed13135a0eee68fefe0e966941fe44b53f16"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/world/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "4326f7de64083be27a4339ff8ec62a15b2e3ba474c9924210b0f331388d0edca"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/life-culture/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "30332232c61aa975ddfadee7393e658b684ceaaf99cda66d4fe84645c3a9f143"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/entertain/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "c4ee4ea96c7a0cdadf9e9fe2a335c1de8b57fac6557ef7c92a6dd3d808b74f71"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/sports/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "e847585ce358be727d8128447e1e888fd80428f5ef96fcf0dea10c38b014a693"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/bio/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "a1012478bf4673f9a92bf1fbe7cd011e1036d104d21ece70d23ef7e955622a61"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/realestate/",
+    "status": "parsed",
+    "article_candidates": 500,
+    "children": 0,
+    "response_sha256": "75374b196c48c7a4ebef1e82d3e4064d72a753fc4e4fcb953081d89e5df2526a"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/section/press/",
+    "status": "parsed",
+    "article_candidates": 1000,
+    "children": 0,
+    "response_sha256": "8b3daff685caebdd1c54876622db4e82652687501f2ba32b4a92f83fb5831958"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/politics/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "b0a8158cfe09476062f9d59d455bc8f5c2c675d29819a0525b317970e9330cde"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/nk/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "cfdefeb5f95b678016935b4d29b6418f12de32e4edcc00be6e83e582eb7f980c"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/society/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "f47d91d9581408568cc8015a657aaf5cec84c44fe18a50cc647c8f4eff3d3988"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/economy/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "4679af14de7a8f33e10f0528e456b0074442abe93c9617764bcbb7d362415f47"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/it-science/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "501b24ca92ee84b22c2481ce01f1caf0541446318bae96b7342fc55501fec85e"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/finance/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "2cb8525d8e5fb0e3ea433b684c2a3fa476361c4549d8282fabffd2c5541995d7"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/industry/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "09047d1e3f6903a5efb3037674e9e716ee50c1980cd3f32214ed2b8e7ad8e0ea"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/local/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "ee36f7bc2adbc75fe77293d0d6df16c3360a79ed9abf77d013aed1ab139b480e"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/world/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "c771018e535c13bd5ce98ea4ce4cbd5514189ed25652d8fbf6be492f8fa25dac"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/life-culture/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "900c1c304a0c7c7c9699a4b5aa8595a11fb9ed20050b5ae06e1af7f60f5e65b2"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/entertain/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "8cb15f8629fb92542fa3daecf2dd48289f430a5c2e8ee18a7fa831af9b353250"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/sports/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "537013980bd303ea1163991d8dcfe98c130b56fc0d5eca4d3fa03cc1e1f3bd62"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/bio/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "d1362493b9c52e37773f20d9da2dfd681c89eebd310a61d9cccbf063d0868f22"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/photo/realty/",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 0,
+    "response_sha256": "0587818051dea97ef6689900b3b9b062f6f5834e7e2985597727e97ac761d096"
+  },
+  {
+    "source": "News1",
+    "url": "https://www.news1.kr/api/feeds/news-sitemap/videos/",
+    "status": "parsed",
+    "article_candidates": 500,
+    "children": 0,
+    "response_sha256": "05200bd79b90c72e3f3814092f67ac04075d3059a57cda95e6eef0a6b56569e7"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article.xml",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 366,
+    "response_sha256": "eb0c5ace6bc9e0a8404022db11261d77f5536fe6bfc9b5dd8a8905227a4a1ef6"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261110.xml",
+    "status": "parsed",
+    "article_candidates": 5,
+    "children": 0,
+    "response_sha256": "02c717d74e322b7f9156ad218a854bbe978ade9243f5c947a1d092723aab508e"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261109.xml",
+    "status": "parsed",
+    "article_candidates": 427,
+    "children": 0,
+    "response_sha256": "efe27b87921827b09a277e27223910a1f260c808566c5f8d6b861b3add93286c"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261108.xml",
+    "status": "parsed",
+    "article_candidates": 228,
+    "children": 0,
+    "response_sha256": "b8489ef8cdcdaf8b57887153bf1879acaff9c7d1e6ae20a747eab0dd4e5e2d0a"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261107.xml",
+    "status": "parsed",
+    "article_candidates": 86,
+    "children": 0,
+    "response_sha256": "a390963eccfacaf20dbc5278e9840ac7d749742e74e418b7be54d032f7cb4dd0"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261106.xml",
+    "status": "parsed",
+    "article_candidates": 386,
+    "children": 0,
+    "response_sha256": "4de891605296a619dd538e1e0a44dad5ffd695b0eadcae6c6625b5ed5343dcd6"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261105.xml",
+    "status": "parsed",
+    "article_candidates": 474,
+    "children": 0,
+    "response_sha256": "12b3dcac40403a49707d947aa1529ab4e17efe88028bc1f52b21bb79f713b90e"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261104.xml",
+    "status": "parsed",
+    "article_candidates": 491,
+    "children": 0,
+    "response_sha256": "819bdabfdcc2f0faaee00d5794fa70a79388bef7983a6b96c4c147c7bd08f310"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261103.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261102.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261101.xml",
+    "status": "parsed",
+    "article_candidates": 209,
+    "children": 0,
+    "response_sha256": "3c31b6295afb97a15e99acbb1dced44aaabb217635977f4c71dad1a86ad46918"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261031.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261030.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261029.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261028.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261027.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261026.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261025.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261024.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261023.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261022.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261021.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261020.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261019.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261018.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261017.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261016.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261015.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261014.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261013.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261012.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261011.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261010.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261009.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261008.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261007.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261006.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261005.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261004.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261003.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261002.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20261001.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260930.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260929.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260928.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260927.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260926.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260925.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260924.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260923.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260922.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260921.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260920.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260919.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260918.xml",
+    "status": "parsed",
+    "article_candidates": 355,
+    "children": 0,
+    "response_sha256": "bcf6c1c6527fa13b70e2991c1b18c25ab370c2f3b47108870022167162786543"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260917.xml",
+    "status": "parsed",
+    "article_candidates": 478,
+    "children": 0,
+    "response_sha256": "197853a1b8fedf853d553ddd45ee54eb177602e36ec3104bf0caf678f6dcb178"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260916.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260915.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260914.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260913.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260912.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260911.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260910.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260909.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260908.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260907.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260906.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260905.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260904.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260903.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260902.xml",
+    "status": "parsed",
+    "article_candidates": 122,
+    "children": 0,
+    "response_sha256": "097a8ab04ee1d8f128781f16d405741cb8adcea4de2df867ac1441bccee644b2"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260901.xml",
+    "status": "parsed",
+    "article_candidates": 532,
+    "children": 0,
+    "response_sha256": "77d2a453d57c07e76e80fedd1d3ae60c0bac5c3dc125051901f462b08eb9c405"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260831.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260830.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260829.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260828.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260827.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260826.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260825.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260824.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260823.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260822.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260821.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260820.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260819.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260818.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260817.xml",
+    "status": "parsed",
+    "article_candidates": 300,
+    "children": 0,
+    "response_sha256": "4c177da5e53613fdd27a2138e407f7c5068f2a99dd3825f6d50ed17a4224b15b"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260816.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260815.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260814.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260813.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260812.xml",
+    "status": "parsed",
+    "article_candidates": 445,
+    "children": 0,
+    "response_sha256": "bb9c809892d9356b87bd0a79a8be1dba3f2bedd3adb04f9fb42709afe3c58767"
+  },
+  {
+    "source": "Hankyung",
+    "url": "https://www.hankyung.com/sitemap/daily-article/20260811.xml",
+    "status": "failed",
+    "reason": "http_429"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/daily-article.xml",
+    "status": "parsed",
+    "article_candidates": 0,
+    "children": 5998,
+    "response_sha256": "6486bb750b4303b054df9a5b0fcd0b5c050a9145e281fe2efe932f4a37dd661d"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261110.xml",
+    "status": "parsed",
+    "article_candidates": 3,
+    "children": 0,
+    "response_sha256": "79872e90de10cc3aba94574466171cc80d18e660361e975d9bad96fbd3803255"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261109.xml",
+    "status": "parsed",
+    "article_candidates": 582,
+    "children": 0,
+    "response_sha256": "beade02e1e8c90848e683aece4323a8f867c94ddc0a7ec91c446af4fd74c802c"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261108.xml",
+    "status": "parsed",
+    "article_candidates": 413,
+    "children": 0,
+    "response_sha256": "c2284c296fa85144c04eafdbec6ba433e1c795013f96cb3ceef4cf74efbf7c2f"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261107.xml",
+    "status": "parsed",
+    "article_candidates": 555,
+    "children": 0,
+    "response_sha256": "cd1824e2270634b7b5cc2d954b4a3e8b1d930d7314988c749fe975076c3d53ec"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261106.xml",
+    "status": "parsed",
+    "article_candidates": 787,
+    "children": 0,
+    "response_sha256": "26142ce106f581f1aee9a615bfc153f1f0d6113b15510ab18f626a651e3349ff"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261105.xml",
+    "status": "parsed",
+    "article_candidates": 833,
+    "children": 0,
+    "response_sha256": "29bb2960d49638318d1818d7300be4bf4c48315cd707fa5da95a1b4ea63890c5"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261104.xml",
+    "status": "parsed",
+    "article_candidates": 686,
+    "children": 0,
+    "response_sha256": "9f875d0bc55f92e45f850a0b981916844730814e36283f59e2bd78a4ab126c42"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261103.xml",
+    "status": "parsed",
+    "article_candidates": 822,
+    "children": 0,
+    "response_sha256": "5cbec9c4f3b64259c7687ce4c6fa77720d976aeead5601851ed2ed9ebfef4b7f"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261102.xml",
+    "status": "parsed",
+    "article_candidates": 689,
+    "children": 0,
+    "response_sha256": "97543f7386e286cc1ae23d20cc450f4206c1448a41fa2f51eb14909a57ea38f8"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261101.xml",
+    "status": "parsed",
+    "article_candidates": 638,
+    "children": 0,
+    "response_sha256": "f812f588d97de721d4de6a03e4ecd391cccebeb2d6a674d487ae2ff6590bac26"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261031.xml",
+    "status": "parsed",
+    "article_candidates": 541,
+    "children": 0,
+    "response_sha256": "7e12393a44d1b4371cc2731685115c3d5deae7e6d3d2bb0637a55afff46c68bf"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261030.xml",
+    "status": "parsed",
+    "article_candidates": 1089,
+    "children": 0,
+    "response_sha256": "840bcfd3b66e35edf3c8854fe1ebf0f509af75e3c9daefdac81e234763c08638"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261029.xml",
+    "status": "parsed",
+    "article_candidates": 1213,
+    "children": 0,
+    "response_sha256": "e23407440efb6c7052e13a9fe8bd632f1aaae5fafd81881f08d2a56093d158a4"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261028.xml",
+    "status": "parsed",
+    "article_candidates": 908,
+    "children": 0,
+    "response_sha256": "9d34e55132108c6d6c2a4da33f69136daf8c5e421fba6c1c0b4a970c7b892d21"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261027.xml",
+    "status": "parsed",
+    "article_candidates": 810,
+    "children": 0,
+    "response_sha256": "94a890de54f81f11c64cb1c7a170f9e80862a5e7c933e46f0eafcb98fc478844"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261026.xml",
+    "status": "parsed",
+    "article_candidates": 747,
+    "children": 0,
+    "response_sha256": "15455310d41fec57b0ef0108b41ae80658fd7415b7a8919bd2367a098ecb1e56"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261025.xml",
+    "status": "parsed",
+    "article_candidates": 385,
+    "children": 0,
+    "response_sha256": "3def454b994e265b9be579962fc7272236c2583fecb53379f52803e955ba9586"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261024.xml",
+    "status": "parsed",
+    "article_candidates": 452,
+    "children": 0,
+    "response_sha256": "7e5714748cce0854fb247e24efffefe7543d497ed32b16bf59f8908982fe989d"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261023.xml",
+    "status": "parsed",
+    "article_candidates": 953,
+    "children": 0,
+    "response_sha256": "c9120eec79001495f564dc4e7e99aeb62cbcfab638423720d8db308cf2c4e61a"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261022.xml",
+    "status": "parsed",
+    "article_candidates": 1026,
+    "children": 0,
+    "response_sha256": "0f188df3f0f680060d0cb8901bebd9e35fa8588df748f2d2b35e5002669f89c5"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261021.xml",
+    "status": "parsed",
+    "article_candidates": 786,
+    "children": 0,
+    "response_sha256": "764e3ebc17679e5fc9b2853c8320c19a4ea662a26ddc4f40d22f897514b875bd"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261020.xml",
+    "status": "parsed",
+    "article_candidates": 718,
+    "children": 0,
+    "response_sha256": "953fe5a2ff911282e96a9369a9da3ee2dca8724056da1e2c7eed0a092ab3969e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261019.xml",
+    "status": "parsed",
+    "article_candidates": 778,
+    "children": 0,
+    "response_sha256": "68a8eb96ad18990a63a7e8e24e18ae5dd5c160209e3bf95983a5823f1aedec49"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261018.xml",
+    "status": "parsed",
+    "article_candidates": 547,
+    "children": 0,
+    "response_sha256": "1abd0eaafb258bea6dc2e22b69ae26a4a20a839192d716a572f00e76b0951b53"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261017.xml",
+    "status": "parsed",
+    "article_candidates": 654,
+    "children": 0,
+    "response_sha256": "e0c01deab147502dd3f3f224745efdb7ca41cbebb54243456920eb94c6b49a8c"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261016.xml",
+    "status": "parsed",
+    "article_candidates": 919,
+    "children": 0,
+    "response_sha256": "7c32712e258e277d73b39cedc3d33130c09df761afe5f8d41d864459472fabd8"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261015.xml",
+    "status": "parsed",
+    "article_candidates": 901,
+    "children": 0,
+    "response_sha256": "c0f23b5485fd1b73f2c12a852b3743b72743a69b64ce9396b1016aab58bc6d51"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261014.xml",
+    "status": "parsed",
+    "article_candidates": 743,
+    "children": 0,
+    "response_sha256": "0bce91dbb4927e3fd9329818b23a7bc0a957c5ac3bc6f3c93b14154304d0c9ae"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261013.xml",
+    "status": "parsed",
+    "article_candidates": 686,
+    "children": 0,
+    "response_sha256": "94faccffab4d6f7a45e190cf2aaf1c8fee099053d5e4700c8f389c2c97497e33"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261012.xml",
+    "status": "parsed",
+    "article_candidates": 696,
+    "children": 0,
+    "response_sha256": "19457b399b32901fc6d9651e5f1372edc108963598ed7a3ad043412350533d1e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261011.xml",
+    "status": "parsed",
+    "article_candidates": 605,
+    "children": 0,
+    "response_sha256": "e77996a992dc072de3cfd351e17d9f49730e06581418eded1dfc21e3e1c3c3a1"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261010.xml",
+    "status": "parsed",
+    "article_candidates": 539,
+    "children": 0,
+    "response_sha256": "34c54bea73152c572203226d288214020daad0190dbad03c0fbc9ad5c6f3c17a"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261009.xml",
+    "status": "parsed",
+    "article_candidates": 684,
+    "children": 0,
+    "response_sha256": "55f671baac439e3740b789f70bfb74214891bf0ff5d38745112ce0be78dce80e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261008.xml",
+    "status": "parsed",
+    "article_candidates": 1133,
+    "children": 0,
+    "response_sha256": "12a4965d6a91e672d1ee957cd2822a82c8972da79ababb6e6491ff9b426e30bf"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261007.xml",
+    "status": "parsed",
+    "article_candidates": 730,
+    "children": 0,
+    "response_sha256": "50a510da77bb33d0f8fcb338e34c4d722ab460dc7bb9492a9d5cb66265f4af9b"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261006.xml",
+    "status": "parsed",
+    "article_candidates": 966,
+    "children": 0,
+    "response_sha256": "ded04201903637080f950538b0d5558d9dfe1ebc4f0167fd4f5c9985664403d4"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261005.xml",
+    "status": "parsed",
+    "article_candidates": 768,
+    "children": 0,
+    "response_sha256": "23d038ea6109c2f06b8cd01fa52880eac5c7704e02b63aebdca3cf82f8982f8e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261004.xml",
+    "status": "parsed",
+    "article_candidates": 267,
+    "children": 0,
+    "response_sha256": "03eada8d57fbe4fda6a476e41bd12ef99ea07e08c3676f88a1990698d5351412"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261003.xml",
+    "status": "parsed",
+    "article_candidates": 657,
+    "children": 0,
+    "response_sha256": "737dc69cbfff0fcb5673ed21d49b19a35fe1fdaa86378b88a686fdf4abc0daca"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261002.xml",
+    "status": "parsed",
+    "article_candidates": 780,
+    "children": 0,
+    "response_sha256": "ab5a348e93b7813d9de63c53c3a1724c2e39ccae9c969c93330dd3bf24bffdad"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20261001.xml",
+    "status": "parsed",
+    "article_candidates": 1138,
+    "children": 0,
+    "response_sha256": "5447935b9fd5daeb86e28dccf440bec135207c10271b39291589d3c4fd5e6480"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260930.xml",
+    "status": "parsed",
+    "article_candidates": 871,
+    "children": 0,
+    "response_sha256": "5636fadcf336a6cdb481f08f9384bf287be9234895e3fa51f8caef512dbde0f9"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260929.xml",
+    "status": "parsed",
+    "article_candidates": 676,
+    "children": 0,
+    "response_sha256": "645641479ed5940c1890ca5639001caac07e4fbdca9dc0f9884f2406bcb43836"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260928.xml",
+    "status": "parsed",
+    "article_candidates": 621,
+    "children": 0,
+    "response_sha256": "9f832dabbbbb95442546b43184ae68feb80b8a01f92e2b8918566cd2bbb5b5a0"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260927.xml",
+    "status": "parsed",
+    "article_candidates": 287,
+    "children": 0,
+    "response_sha256": "1d96054a607d3b2e990dbd601f12285cb715549d79eb5e1d333d8f9d02f5e2a2"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260926.xml",
+    "status": "parsed",
+    "article_candidates": 211,
+    "children": 0,
+    "response_sha256": "704a86569128830dbcc707ddc8a7a17e237cb1bb046ad315f0ec2f2cbef63bea"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260925.xml",
+    "status": "parsed",
+    "article_candidates": 210,
+    "children": 0,
+    "response_sha256": "95eab3d79ad57bc7616dce64c602166a5055637dc334a29a8d920f94b8cdec10"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260924.xml",
+    "status": "parsed",
+    "article_candidates": 261,
+    "children": 0,
+    "response_sha256": "dd4242388b3cfe77979cc6e57bdaa521224c07d846c3316a00f5af4e6850d409"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260923.xml",
+    "status": "parsed",
+    "article_candidates": 584,
+    "children": 0,
+    "response_sha256": "58dd7e6c6e22d6675f4fc5ce70e148c3d4705c9f588ab26061f51c2176f3fa54"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260922.xml",
+    "status": "parsed",
+    "article_candidates": 711,
+    "children": 0,
+    "response_sha256": "f67206665297df55bfd0b585b29f7430af1a3a6d4d696d6477c703c9dca0a476"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260921.xml",
+    "status": "parsed",
+    "article_candidates": 725,
+    "children": 0,
+    "response_sha256": "6312bc8a7317d8fa114b9bde03366e1c380791fabec4f25e7518e83e8216efe8"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260920.xml",
+    "status": "parsed",
+    "article_candidates": 525,
+    "children": 0,
+    "response_sha256": "3e6e36d5aebebeb612e096bb01f298e6ed3408580d08f2e2a22271c2a5ae25fa"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260919.xml",
+    "status": "parsed",
+    "article_candidates": 430,
+    "children": 0,
+    "response_sha256": "ed48c27b41e9ac5a18e216268ae5af171ff41909add1aa98e5bcaab62dc7f14f"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260918.xml",
+    "status": "parsed",
+    "article_candidates": 777,
+    "children": 0,
+    "response_sha256": "c9d169c69baa52f0dc3fa52990369f62380814a50eb92d8b94f40fd666f5dd7b"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260917.xml",
+    "status": "parsed",
+    "article_candidates": 914,
+    "children": 0,
+    "response_sha256": "c2f4542ef6c727ebe59f54a7041f0bc33d8d426fa5f52715d54aa6377a438845"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260916.xml",
+    "status": "parsed",
+    "article_candidates": 721,
+    "children": 0,
+    "response_sha256": "816316183aa646bf892de5e5fab4212b3623c2c128a7dacbc564d53ed3019118"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260915.xml",
+    "status": "parsed",
+    "article_candidates": 706,
+    "children": 0,
+    "response_sha256": "00fedf21a3bb20185f42dc579dd992ed5fec7c6c1a3d9f8c4372801e623470fe"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260914.xml",
+    "status": "parsed",
+    "article_candidates": 640,
+    "children": 0,
+    "response_sha256": "15f709937ee0324d8b998a17b35fb4433ba134f340c7f269c82fc7168a284a56"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260913.xml",
+    "status": "parsed",
+    "article_candidates": 445,
+    "children": 0,
+    "response_sha256": "fb458aafc23f11345cfc16fd9b5a9ed68344b4e7ff40fb09515d6f55bf6e2ead"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260912.xml",
+    "status": "parsed",
+    "article_candidates": 330,
+    "children": 0,
+    "response_sha256": "3585ff55167009f523df568764038d6e33b222c550e88c22ebf1a487fc7c953e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260911.xml",
+    "status": "parsed",
+    "article_candidates": 693,
+    "children": 0,
+    "response_sha256": "3e31e0faa2f16934c35589893fbbd26fcb7677d536d3ee3c5135559475fe70d7"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260910.xml",
+    "status": "parsed",
+    "article_candidates": 844,
+    "children": 0,
+    "response_sha256": "4a192cacec42704ae14518db287f2657843467f49dc8196f734a1867a7e7ee30"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260909.xml",
+    "status": "parsed",
+    "article_candidates": 652,
+    "children": 0,
+    "response_sha256": "89062dd3938c9af84157b5cd2b34770328988cf1b2b8a2106decc9e8032d68bc"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260908.xml",
+    "status": "parsed",
+    "article_candidates": 665,
+    "children": 0,
+    "response_sha256": "8fbb237255bdf8df608d2be965610b8200f9f86f1c468803a6e44fc279a77f2e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260907.xml",
+    "status": "parsed",
+    "article_candidates": 649,
+    "children": 0,
+    "response_sha256": "c964cf4c97be6325edfbd76654d73e3cbb42efcd68db568c83c80cf1d2ba4698"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260906.xml",
+    "status": "parsed",
+    "article_candidates": 303,
+    "children": 0,
+    "response_sha256": "d009b146c550228229112a324c4eaea940ad96d107613b40fc96b5ab91ac84e4"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260905.xml",
+    "status": "parsed",
+    "article_candidates": 299,
+    "children": 0,
+    "response_sha256": "7744bac734893254da1bd2a615cbaf3b5923ca152c9c9b459cc4eaf546a3e485"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260904.xml",
+    "status": "parsed",
+    "article_candidates": 639,
+    "children": 0,
+    "response_sha256": "b4c0997b9ba35e4ec09271cfdee61f693cb534f30ad4c8b24066982ad6a5b79a"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260903.xml",
+    "status": "parsed",
+    "article_candidates": 785,
+    "children": 0,
+    "response_sha256": "3a6671ec089e99bf1c769493ea14bb6c23d5c5c541e11c9b2de6fdba9fd1b576"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260902.xml",
+    "status": "parsed",
+    "article_candidates": 722,
+    "children": 0,
+    "response_sha256": "83cdd37437962005cad43e9c4b5eeb3bf3e6235354eed03c798029e24b9b2016"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260901.xml",
+    "status": "parsed",
+    "article_candidates": 833,
+    "children": 0,
+    "response_sha256": "9bbca3a52653d902a5c8ae849570d34806e6b06645e3c634189acd5b0dc4062f"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260831.xml",
+    "status": "parsed",
+    "article_candidates": 627,
+    "children": 0,
+    "response_sha256": "bb7a3f34bf5e3d88fae75c4c9271f930c2edafc49878b29643ecccc6a95ce1e1"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260830.xml",
+    "status": "parsed",
+    "article_candidates": 355,
+    "children": 0,
+    "response_sha256": "04d8e7c8ac12bf83e30b8899ef435736a9db74cb087270c7b9f16cb1f5c89c9b"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260829.xml",
+    "status": "parsed",
+    "article_candidates": 318,
+    "children": 0,
+    "response_sha256": "1b0abfa65c9799d02857bb3651ec089ccace46372afc404b5f9bb3fcafe394a2"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260828.xml",
+    "status": "parsed",
+    "article_candidates": 643,
+    "children": 0,
+    "response_sha256": "f30029f231ea8c01d1b90771df6e23ee5d3384cb9e1a5b046f6a8a3f80dcfd6e"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260827.xml",
+    "status": "parsed",
+    "article_candidates": 792,
+    "children": 0,
+    "response_sha256": "bb46858a891dda1e6578e964a0ef7c9842e9d508050e1f003b5bf3316534f0a3"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260826.xml",
+    "status": "parsed",
+    "article_candidates": 700,
+    "children": 0,
+    "response_sha256": "6b1de81953595e1e384c5b3ffdfb80b0b4abdcedcd49da3515766fa07e2d81a7"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260825.xml",
+    "status": "parsed",
+    "article_candidates": 644,
+    "children": 0,
+    "response_sha256": "21132bcb2ec5a7f3c4e2632015e25fcb8b5cd4a80fd87c67bc3ee4d197c6ee03"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260824.xml",
+    "status": "parsed",
+    "article_candidates": 675,
+    "children": 0,
+    "response_sha256": "73300058a695691fae7a7c62be18e77851ca68ee951c0ffde092cd0ba3c0860a"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260823.xml",
+    "status": "parsed",
+    "article_candidates": 417,
+    "children": 0,
+    "response_sha256": "1416a8b1a2ac26ae928d4dc9d280fbf2c4aa264f3b3ece82e45c2eceebea7521"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260822.xml",
+    "status": "parsed",
+    "article_candidates": 294,
+    "children": 0,
+    "response_sha256": "b5fcc8fbb34c3d44580f1e7b2f8e9f0ff4c769303bcb044aff16f9bfc481290f"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260821.xml",
+    "status": "parsed",
+    "article_candidates": 694,
+    "children": 0,
+    "response_sha256": "279d9227b80341fc1b8fb23d1b3321b7fb2bc544f1fb81dee6ec2799c95495da"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260820.xml",
+    "status": "parsed",
+    "article_candidates": 886,
+    "children": 0,
+    "response_sha256": "dfcec2dee6a38877e73ca29ab7915205a9eda9f03903606bcf7a6094674ad110"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260819.xml",
+    "status": "parsed",
+    "article_candidates": 740,
+    "children": 0,
+    "response_sha256": "a21f74912a6a81f3a278a5ed0e6d4fdad7582f4a182321a42b9d7ed250540754"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260818.xml",
+    "status": "parsed",
+    "article_candidates": 741,
+    "children": 0,
+    "response_sha256": "b98ebdd78d3f52d335c2ba7075953d43b768a81c40745163c946fcd70fc42422"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260817.xml",
+    "status": "parsed",
+    "article_candidates": 403,
+    "children": 0,
+    "response_sha256": "40bef903d2d9f11a8b2412f429759382f4067f0a07ab1fe3f8b024034be5d189"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260816.xml",
+    "status": "parsed",
+    "article_candidates": 205,
+    "children": 0,
+    "response_sha256": "aa506f7f80cbe2a9918da8a76a8269bf2ae877ccd460162f07c69209b775ef71"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260815.xml",
+    "status": "parsed",
+    "article_candidates": 250,
+    "children": 0,
+    "response_sha256": "fcff353598eedeaafed2035a714de95d29c3853949e9acaf5498ee98f3ab79d7"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260814.xml",
+    "status": "parsed",
+    "article_candidates": 834,
+    "children": 0,
+    "response_sha256": "63ce38b2f6009a049bacd98ceb483ca1edb465f132c55d0f88ce828928dd92cf"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260813.xml",
+    "status": "parsed",
+    "article_candidates": 857,
+    "children": 0,
+    "response_sha256": "15e2972e7fc1d77817b0f726196dc9094ffcbd5b4be84668779523caa7e4756a"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260812.xml",
+    "status": "parsed",
+    "article_candidates": 819,
+    "children": 0,
+    "response_sha256": "d83c6db53c54ca1374f38a32614f53501546762ac15ee78a35de39f0afcae693"
+  },
+  {
+    "source": "Edaily",
+    "url": "https://www.edaily.co.kr/sitemap/news/20260811.xml",
+    "status": "parsed",
+    "article_candidates": 803,
+    "children": 0,
+    "response_sha256": "7324902f6b3eb7271c4b69a78863e368821103cb68cb9c6c2d7a46dd4bb984be"
+  }
+]
