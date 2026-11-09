@@ -1,0 +1,1893 @@
+{
+  "selected": {
+    "parameters": {
+      "lexical_weight": 0.75,
+      "C": 8.0,
+      "mode": "gated",
+      "cut": 10.0,
+      "family_weight": true
+    },
+    "MAE": 9.68853782627731,
+    "within10": 0.6258329319203597,
+    "high_miss": 0.35985705777248367,
+    "loss": 11.904920214140837
+  },
+  "candidates": [
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.80707624738884,
+      "within10": 0.5254194765574823,
+      "high_miss": 0.30196545562835025,
+      "loss": 14.309329252415612
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.600187655967023,
+      "within10": 0.5254194765574823,
+      "high_miss": 0.30196545562835025,
+      "loss": 14.102440660993794
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.205479042491381,
+      "within10": 0.5225293031470777,
+      "high_miss": 0.30196545562835025,
+      "loss": 13.719292741159771
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.471130521504103,
+      "within10": 0.5806639370584458,
+      "high_miss": 0.3135199523525909,
+      "loss": 12.7755146779755
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.456458227209646,
+      "within10": 0.5806639370584458,
+      "high_miss": 0.3135199523525909,
+      "loss": 12.760842383681045
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.461161145619494,
+      "within10": 0.5806639370584458,
+      "high_miss": 0.3135199523525909,
+      "loss": 12.765545302090892
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.938853914179616,
+      "within10": 0.6008650449582531,
+      "high_miss": 0.17415128052412152,
+      "loss": 12.883696295394845
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.938853914179616,
+      "within10": 0.6008650449582531,
+      "high_miss": 0.17415128052412152,
+      "loss": 12.883696295394845
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.908141761299644,
+      "within10": 0.5979748715478485,
+      "high_miss": 0.17415128052412152,
+      "loss": 12.864544836156494
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.922278899604587,
+      "within10": 0.5155547527296083,
+      "high_miss": 0.28683740321620016,
+      "loss": 14.433734695118554
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.73651064107589,
+      "within10": 0.5155547527296083,
+      "high_miss": 0.28683740321620016,
+      "loss": 14.247966436589858
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.33595303861389,
+      "within10": 0.5068842324983944,
+      "high_miss": 0.28683740321620016,
+      "loss": 13.882090915052714
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.642887458809598,
+      "within10": 0.5653801380860629,
+      "high_miss": 0.2882271193170538,
+      "loss": 12.957821145099455
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.664157774824245,
+      "within10": 0.5653801380860629,
+      "high_miss": 0.2882271193170538,
+      "loss": 12.979091461114102
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.679683836787754,
+      "within10": 0.5595997912652537,
+      "high_miss": 0.2882271193170538,
+      "loss": 13.017738910360848
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.889436085413003,
+      "within10": 0.5922547366730894,
+      "high_miss": 0.17113361127655352,
+      "loss": 12.862684361273752
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.879430002993121,
+      "within10": 0.5922547366730894,
+      "high_miss": 0.17113361127655352,
+      "loss": 12.85267827885387
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.862003037280331,
+      "within10": 0.5893645632626847,
+      "high_miss": 0.17113361127655352,
+      "loss": 12.846812006782699
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.947872751067267,
+      "within10": 0.5188864804110469,
+      "high_miss": 0.2904109589041097,
+      "loss": 14.4531487472313
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.786943907165492,
+      "within10": 0.5188864804110469,
+      "high_miss": 0.2904109589041097,
+      "loss": 14.292219903329524
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.3995554064288,
+      "within10": 0.5131061335902376,
+      "high_miss": 0.2904109589041097,
+      "loss": 13.927952789876068
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.535212174704819,
+      "within10": 0.5828014611432241,
+      "high_miss": 0.30196545562835025,
+      "loss": 12.807937241388624
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.523630359700658,
+      "within10": 0.5828014611432241,
+      "high_miss": 0.30196545562835025,
+      "loss": 12.796355426384462
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.56755041555294,
+      "within10": 0.5799112877328195,
+      "high_miss": 0.30196545562835025,
+      "loss": 12.851836175878363
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.904363557411866,
+      "within10": 0.5982357899807321,
+      "high_miss": 0.15139964264443123,
+      "loss": 12.8142196827778
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.904363557411866,
+      "within10": 0.5982357899807321,
+      "high_miss": 0.15139964264443123,
+      "loss": 12.8142196827778
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.93084370970608,
+      "within10": 0.5953456165703275,
+      "high_miss": 0.15139964264443123,
+      "loss": 12.852260528713632
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.752458874982315,
+      "within10": 0.5290020873474631,
+      "high_miss": 0.2789755807027993,
+      "loss": 14.194401686998061
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.549847171054855,
+      "within10": 0.5290020873474631,
+      "high_miss": 0.2789755807027993,
+      "loss": 13.991789983070602
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.193822165324006,
+      "within10": 0.5203315671162492,
+      "high_miss": 0.2789755807027993,
+      "loss": 13.670447058264608
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.57715920469137,
+      "within10": 0.5874979929351316,
+      "high_miss": 0.2918006750049633,
+      "loss": 12.81076858296077
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.565048238747274,
+      "within10": 0.5874979929351316,
+      "high_miss": 0.2918006750049633,
+      "loss": 12.798657617016675
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.583391026744229,
+      "within10": 0.5817176461143224,
+      "high_miss": 0.2918006750049633,
+      "loss": 12.840121792296866
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.820976161749671,
+      "within10": 0.5964695728965961,
+      "high_miss": 0.15398054397458807,
+      "loss": 12.743058958112462
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.820976161749671,
+      "within10": 0.5964695728965961,
+      "high_miss": 0.15398054397458807,
+      "loss": 12.743058958112462
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.0,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.79648949939482,
+      "within10": 0.5935793994861914,
+      "high_miss": 0.15398054397458807,
+      "loss": 12.73013298939923
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.66805933140893,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 14.221148203045907
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.412090466044571,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.965179337681548
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.958041768696123,
+      "within10": 0.5146415382145151,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.545812721257956
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.84849942149133,
+      "within10": 0.6061335902376365,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.070540403006538
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.825306333527603,
+      "within10": 0.6061335902376365,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.047347315042812
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.892452912757323,
+      "within10": 0.6003532434168272,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.137615281555767
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.659042130806908,
+      "within10": 0.5286508509955042,
+      "high_miss": 0.3101449275362319,
+      "loss": 14.164728581897355
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.445072028987672,
+      "within10": 0.5286508509955042,
+      "high_miss": 0.3101449275362319,
+      "loss": 13.95075848007812
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.858180935498117,
+      "within10": 0.5214254174694927,
+      "high_miss": 0.3101449275362319,
+      "loss": 13.392769120692611
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.994021998261747,
+      "within10": 0.6060533076429031,
+      "high_miss": 0.31216994242604734,
+      "loss": 12.194148652542228
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.001162056879064,
+      "within10": 0.6060533076429031,
+      "high_miss": 0.31216994242604734,
+      "loss": 12.201288711159545
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.002521064815591,
+      "within10": 0.6017180475272961,
+      "high_miss": 0.31216994242604734,
+      "loss": 12.2199887595585
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.075952972503686,
+      "within10": 0.577081326268465,
+      "high_miss": 0.18106015485407984,
+      "loss": 13.129747977137987
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.075952972503686,
+      "within10": 0.577081326268465,
+      "high_miss": 0.18106015485407984,
+      "loss": 13.129747977137987
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.075952972503686,
+      "within10": 0.577081326268465,
+      "high_miss": 0.18106015485407984,
+      "loss": 13.129747977137987
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.66805933140893,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 14.221148203045907
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.412090466044571,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.965179337681548
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.958041768696123,
+      "within10": 0.5146415382145151,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.545812721257956
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.84849942149133,
+      "within10": 0.6061335902376365,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.070540403006538
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.825306333527603,
+      "within10": 0.6061335902376365,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.047347315042812
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.892452912757323,
+      "within10": 0.6003532434168272,
+      "high_miss": 0.32328767123287677,
+      "loss": 12.137615281555767
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 10.727808928463448,
+      "within10": 0.5728664900449583,
+      "high_miss": 0.13341274568195358,
+      "loss": 12.703168459647522
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.676112621499197,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 14.229201493136173
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.419148615586424,
+      "within10": 0.523312058445729,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.972237487223401
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.966453026822489,
+      "within10": 0.5146415382145151,
+      "high_miss": 0.32316855270994643,
+      "loss": 13.554223979384322
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.94428139898699,
+      "within10": 0.6093850353243417,
+      "high_miss": 0.3251935675997618,
+      "loss": 12.157128392889145
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 9.921216580109501,
+      "within10": 0.6093850353243417,
+      "high_miss": 0.3251935675997618,
+      "loss": 12.134063574011657
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 9.988415566490803,
+      "within10": 0.6036046885035323,
+      "high_miss": 0.3251935675997618,
+      "loss": 12.224383947676197
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.038034210730258,
+      "within10": 0.5669657193320488,
+      "high_miss": 0.1581893984514592,
+      "loss": 13.086550130304982
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.038034210730258,
+      "within10": 0.5669657193320488,
+      "high_miss": 0.1581893984514592,
+      "loss": 13.086550130304982
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.25,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.038034210730258,
+      "within10": 0.5669657193320488,
+      "high_miss": 0.1581893984514592,
+      "loss": 13.086550130304982
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 12.044220927499424,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.611223824749562
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.884007263762351,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.451010161012489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.024281367602828,
+      "within10": 0.5227500802825947,
+      "high_miss": 0.33484216795711735,
+      "loss": 13.602965382386685
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.959793286775438,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.182862937449086
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.968008384377125,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.191078035050772
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.907641020308734,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.130710670982381
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 12.039028952355796,
+      "within10": 0.520973827874117,
+      "high_miss": 0.3375421878102045,
+      "loss": 14.630218016479738
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.874876888608629,
+      "within10": 0.520973827874117,
+      "high_miss": 0.3375421878102045,
+      "loss": 14.46606595273257
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.010805387054331,
+      "within10": 0.5180535484906872,
+      "high_miss": 0.3375421878102045,
+      "loss": 13.613675568711992
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.82723641866984,
+      "within10": 0.6142421323057161,
+      "high_miss": 0.33766130633313485,
+      "loss": 12.045590502113244
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 9.838473696160515,
+      "within10": 0.6142421323057161,
+      "high_miss": 0.33766130633313485,
+      "loss": 12.05682777960392
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 9.787359094737516,
+      "within10": 0.6142421323057161,
+      "high_miss": 0.33766130633313485,
+      "loss": 12.00571317818092
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 11.003446756175311,
+      "within10": 0.5648583012202953,
+      "high_miss": 0.1336509827278142,
+      "loss": 13.011315516749757
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.003446756175311,
+      "within10": 0.5648583012202953,
+      "high_miss": 0.1336509827278142,
+      "loss": 13.011315516749757
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.003446756175311,
+      "within10": 0.5648583012202953,
+      "high_miss": 0.1336509827278142,
+      "loss": 13.011315516749757
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 12.044220927499424,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.611223824749562
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.884007263762351,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.451010161012489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.024281367602828,
+      "within10": 0.5227500802825947,
+      "high_miss": 0.33484216795711735,
+      "loss": 13.602965382386685
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.959793286775438,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.182862937449086
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.968008384377125,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.191078035050772
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.907641020308734,
+      "within10": 0.6117132305716121,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.130710670982381
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.156053889424596,
+      "within10": 0.5648583012202955,
+      "high_miss": 0.15080405002977965,
+      "loss": 13.198228784602973
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 12.044220927499424,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.611223824749562
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 11.884007263762351,
+      "within10": 0.5256703596660245,
+      "high_miss": 0.33484216795711735,
+      "loss": 14.451010161012489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.024281367602828,
+      "within10": 0.5227500802825947,
+      "high_miss": 0.33484216795711735,
+      "loss": 13.602965382386685
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.798504484676682,
+      "within10": 0.6189386640976237,
+      "high_miss": 0.3349612864800477,
+      "loss": 11.992672401246283
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 9.806719582278369,
+      "within10": 0.6189386640976237,
+      "high_miss": 0.3349612864800477,
+      "loss": 12.00088749884797
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 9.746352218209978,
+      "within10": 0.6189386640976237,
+      "high_miss": 0.3349612864800477,
+      "loss": 11.940520134779579
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.965068085364871,
+      "within10": 0.5706386480411048,
+      "high_miss": 0.1450863609291245,
+      "loss": 12.972686215058703
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.965068085364871,
+      "within10": 0.5706386480411048,
+      "high_miss": 0.1450863609291245,
+      "loss": 12.972686215058703
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.5,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.965068085364871,
+      "within10": 0.5706386480411048,
+      "high_miss": 0.1450863609291245,
+      "loss": 12.972686215058703
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 12.701905253754571,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.46284970317185
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 12.540373476027195,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.301317925444474
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.60974319314721,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 14.370687642564489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.942243754050663,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.193187798946948
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.956027945330726,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.20697199022701
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.942602402879885,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.193546447776168
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 12.720077843756766,
+      "within10": 0.484154222864483,
+      "high_miss": 0.3723247965058567,
+      "loss": 15.528110545310547
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 12.518945069774439,
+      "within10": 0.484154222864483,
+      "high_miss": 0.3723247965058567,
+      "loss": 15.32697777132822
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.655406857761273,
+      "within10": 0.484154222864483,
+      "high_miss": 0.3723247965058567,
+      "loss": 14.463439559315054
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.721122702639555,
+      "within10": 0.6233040301862557,
+      "high_miss": 0.3725630335517174,
+      "loss": 11.973032648997966
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 9.721122702639555,
+      "within10": 0.6233040301862557,
+      "high_miss": 0.3725630335517174,
+      "loss": 11.973032648997966
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 9.706981841400129,
+      "within10": 0.6233040301862557,
+      "high_miss": 0.3725630335517174,
+      "loss": 11.95889178775854
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.925188969930739,
+      "within10": 0.5722041586384072,
+      "high_miss": 0.11947587849910664,
+      "loss": 12.875324092375324
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.925188969930739,
+      "within10": 0.5722041586384072,
+      "high_miss": 0.11947587849910664,
+      "loss": 12.875324092375324
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 2.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.925188969930739,
+      "within10": 0.5722041586384072,
+      "high_miss": 0.11947587849910664,
+      "loss": 12.875324092375324
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 12.701905253754571,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.46284970317185
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 12.540373476027195,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.301317925444474
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.60974319314721,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 14.370687642564489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 9.942243754050663,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.193187798946948
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 9.956027945330726,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.20697199022701
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 9.942602402879885,
+      "within10": 0.6171925176621709,
+      "high_miss": 0.35985705777248367,
+      "loss": 12.193546447776168
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": false
+      },
+      "MAE": 11.310438197850063,
+      "within10": 0.562118657675016,
+      "high_miss": 0.1366289458010721,
+      "loss": 13.335221458752143
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 12.701905253754571,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.46284970317185
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 12.540373476027195,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 15.301317925444474
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "plain",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 11.60974319314721,
+      "within10": 0.4895732980089917,
+      "high_miss": 0.3596188207266231,
+      "loss": 14.370687642564489
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 9.710664012373519,
+      "within10": 0.6258329319203597,
+      "high_miss": 0.35985705777248367,
+      "loss": 11.927046400237046
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 9.724448203653582,
+      "within10": 0.6258329319203597,
+      "high_miss": 0.35985705777248367,
+      "loss": 11.94083059151711
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "gated",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 9.68853782627731,
+      "within10": 0.6258329319203597,
+      "high_miss": 0.35985705777248367,
+      "loss": 11.904920214140837
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 0.0,
+        "family_weight": true
+      },
+      "MAE": 10.898983698927783,
+      "within10": 0.5750943320488118,
+      "high_miss": 0.13091125670041695,
+      "loss": 12.86042888413337
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 5.0,
+        "family_weight": true
+      },
+      "MAE": 10.898983698927783,
+      "within10": 0.5750943320488118,
+      "high_miss": 0.13091125670041695,
+      "loss": 12.86042888413337
+    },
+    {
+      "parameters": {
+        "lexical_weight": 0.75,
+        "C": 8.0,
+        "mode": "conditional",
+        "cut": 10.0,
+        "family_weight": true
+      },
+      "MAE": 10.898983698927783,
+      "within10": 0.5750943320488118,
+      "high_miss": 0.13091125670041695,
+      "loss": 12.86042888413337
+    }
+  ],
+  "development_articles": 481,
+  "development_families": 346,
+  "audit_labels_used": 0,
+  "features_sha256": "b47cfd7a22ad2033bbca0e2a90959a36808b2bf515176ca8ecda89a5ce650b90"
+}

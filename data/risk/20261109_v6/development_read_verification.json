@@ -1,0 +1,24 @@
+{
+  "articles": 128,
+  "all_actual_complete_bodies_presented": true,
+  "packets": {
+    "data/raw/risk/20261109_v6/packet_development_000.json": "a9c09a60ce36119018d7bb11406545776ae8017d1478316729d4db64d793fd8e",
+    "data/raw/risk/20261109_v6/packet_development_008.json": "963f3dc20308630b633a94f7d7c5d32aed454d41e6ca3badc5b5f3b6dca953da",
+    "data/raw/risk/20261109_v6/packet_development_016.json": "9433bd4f9ce15f1fedf6dc4c27dd15dbf9df022fffac7e69b1e783836fbf8cc7",
+    "data/raw/risk/20261109_v6/packet_development_024.json": "9eb19944f005e26703abae2d94eec402e5ed048525e730186292b1812041e42f",
+    "data/raw/risk/20261109_v6/packet_development_032.json": "e0799f7c5b7773242bc6c8ceef198841aaaa2068f41e57deb68c60a828f6d9b2",
+    "data/raw/risk/20261109_v6/packet_development_040.json": "232991fc23f17d43e5f173f5b0ac0b42f5891d21ff485ee9366795af1d4c480e",
+    "data/raw/risk/20261109_v6/packet_development_048.json": "34f92c009522011a361cdeb65c01b8fcccf4b8efccc521c289730e08d00567c9",
+    "data/raw/risk/20261109_v6/packet_development_056.json": "ab7ddc85fbbbaaf9e34577b40f22f1e46caae9cd8e07203373207883a7c591c1",
+    "data/raw/risk/20261109_v6/packet_development_064.json": "21a92ec8165a075448cc358c0a2dbd04d182f08a31772ed2ea54b0c2b990adfb",
+    "data/raw/risk/20261109_v6/packet_development_072.json": "0566d2f3088f7cd4192195b2866db5c7361cf45e53bfff17f58f54775455d616",
+    "data/raw/risk/20261109_v6/packet_development_080.json": "08e7ce185c3b6af301b507501f2194df077795d845391da0a946fe23f0fab66e",
+    "data/raw/risk/20261109_v6/packet_development_088.json": "5b1143949802b8c4e9eec8f2a14222eb712ce28715bb8015fc4421580bc984f9",
+    "data/raw/risk/20261109_v6/packet_development_096.json": "0d0d39be5f132b9d82c89e50878d3fbcbac9ee5d2d692adacb70c827295155ed",
+    "data/raw/risk/20261109_v6/packet_development_104.json": "b5018f8cbceffea262ac788b361fa42a2dea79bb9025879e0047dffa4d13244e",
+    "data/raw/risk/20261109_v6/packet_development_112.json": "99f1fe7a65478a6241ff3c68d3b5ea2b91232b81afe3e5913d3a2833a26a4f8f",
+    "data/raw/risk/20261109_v6/packet_development_120.json": "f8fcf89de8fcd164e17f2dfc7d81d8eaa69c30b5e8d6c6a408d7282a0e0e4b03"
+  },
+  "judgments_sha256": "268fdd5510ae8a98a18b60e5b89bcb991b07e66afc8c91f38b224dac0dce3ca7",
+  "audit_packets_opened": false
+}

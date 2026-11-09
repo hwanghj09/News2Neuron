@@ -1,0 +1,35 @@
+{
+  "before_any_new_audit_labels": true,
+  "folds": 5,
+  "fold_method": "GroupKFold, frozen global conservative families",
+  "vectorizer": "char2-5, 50000 features, fit on each training fold only; whole cleaned body + title repeated3",
+  "parameters": {
+    "lexical_weight": [
+      0.0,
+      0.25,
+      0.5,
+      0.75
+    ],
+    "C": [
+      2.0,
+      8.0
+    ],
+    "mode": [
+      "plain",
+      "gated",
+      "conditional"
+    ],
+    "cut": [
+      0.0,
+      5.0,
+      10.0
+    ],
+    "family_weight": [
+      false,
+      true
+    ]
+  },
+  "selection_loss": "family-balanced MAE + 4*(1-within10) + 2*false-negative-rate at reference>=30",
+  "no_audit_used": true,
+  "development_sha256": "7743991136a3a08c5b053c502956ddda0b13552c3ed899fe930bc574a6cd502f"
+}

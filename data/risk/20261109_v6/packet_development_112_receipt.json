@@ -1,0 +1,14 @@
+{
+  "sha256": "99f1fe7a65478a6241ff3c68d3b5ea2b91232b81afe3e5913d3a2833a26a4f8f",
+  "cases": [
+    "v6_d_113",
+    "v6_d_114",
+    "v6_d_115",
+    "v6_d_116",
+    "v6_d_117",
+    "v6_d_118",
+    "v6_d_119",
+    "v6_d_120"
+  ],
+  "scope": "complete cleaned stored article body and title, no prediction scores"
+}

@@ -1,0 +1,34 @@
+{
+  "before_model_fit": true,
+  "before_audit_opening": true,
+  "revisions": [
+    {
+      "case_id": "v6_d_001",
+      "previous": {
+        "case_id": "v6_d_001",
+        "N": 3,
+        "T": 3,
+        "A": 2,
+        "S": 3,
+        "L": 4,
+        "I": 3,
+        "X": 2,
+        "state": "ongoing",
+        "rationale": "불은 완전히 꺼졌으나 77세대 주거 피해와 경상자의 치료 부담은 남는다. 잔불을 대형 화재 확산으로 확대하지 않고 현재 이재민의 주거·생활 손실을 평가한다."
+      },
+      "reason": "Do not infer continuing harm solely from a closed incident damage tally; unchanged v3 residual-risk rubric",
+      "new": {
+        "case_id": "v6_d_001",
+        "N": 3,
+        "T": 0,
+        "A": 2,
+        "S": 3,
+        "L": 0,
+        "I": 0,
+        "X": 2,
+        "state": "resolved",
+        "rationale": "완진과 대응 단계 해제, 과거 주거 피해 집계를 전한다. 본문에 명시하지 않은 현재 노숙·미해결 치료를 추론하지 않으며 과거 재산 손실과 추가 위해를 구분한다."
+      }
+    }
+  ]
+}
