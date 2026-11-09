@@ -1,0 +1,141 @@
+{
+  "reference": "same-session AI rubric, not independent human truth",
+  "new_audit_used_for_training_or_selection": false,
+  "results": [
+    {
+      "model": "v3",
+      "cohort": "all",
+      "articles": 32,
+      "MAE": 12.4537757182961,
+      "within10_AI_agreement": 0.5
+    },
+    {
+      "model": "v3",
+      "cohort": "random",
+      "articles": 16,
+      "MAE": 5.346866858269692,
+      "within10_AI_agreement": 0.75
+    },
+    {
+      "model": "v3",
+      "cohort": "stress",
+      "articles": 16,
+      "MAE": 19.56068457832251,
+      "within10_AI_agreement": 0.25
+    },
+    {
+      "model": "v3",
+      "cohort": "novel_all",
+      "articles": 27,
+      "MAE": 11.095363492288651,
+      "within10_AI_agreement": 0.5555555555555556
+    },
+    {
+      "model": "v3",
+      "cohort": "novel_random",
+      "articles": 16,
+      "MAE": 5.346866858269692,
+      "within10_AI_agreement": 0.75
+    },
+    {
+      "model": "v3",
+      "cohort": "novel_stress",
+      "articles": 11,
+      "MAE": 19.45681314177077,
+      "within10_AI_agreement": 0.2727272727272727
+    },
+    {
+      "model": "v4",
+      "cohort": "all",
+      "articles": 32,
+      "MAE": 12.242680978593302,
+      "within10_AI_agreement": 0.625
+    },
+    {
+      "model": "v4",
+      "cohort": "random",
+      "articles": 16,
+      "MAE": 7.972084386524655,
+      "within10_AI_agreement": 0.8125
+    },
+    {
+      "model": "v4",
+      "cohort": "stress",
+      "articles": 16,
+      "MAE": 16.51327757066195,
+      "within10_AI_agreement": 0.4375
+    },
+    {
+      "model": "v4",
+      "cohort": "novel_all",
+      "articles": 27,
+      "MAE": 11.983703987317861,
+      "within10_AI_agreement": 0.6296296296296297
+    },
+    {
+      "model": "v4",
+      "cohort": "novel_random",
+      "articles": 16,
+      "MAE": 7.972084386524655,
+      "within10_AI_agreement": 0.8125
+    },
+    {
+      "model": "v4",
+      "cohort": "novel_stress",
+      "articles": 11,
+      "MAE": 17.818787043017075,
+      "within10_AI_agreement": 0.36363636363636365
+    },
+    {
+      "model": "v5",
+      "cohort": "all",
+      "articles": 32,
+      "MAE": 11.367765125957074,
+      "within10_AI_agreement": 0.5
+    },
+    {
+      "model": "v5",
+      "cohort": "random",
+      "articles": 16,
+      "MAE": 5.113239582966916,
+      "within10_AI_agreement": 0.6875
+    },
+    {
+      "model": "v5",
+      "cohort": "stress",
+      "articles": 16,
+      "MAE": 17.622290668947237,
+      "within10_AI_agreement": 0.3125
+    },
+    {
+      "model": "v5",
+      "cohort": "novel_all",
+      "articles": 27,
+      "MAE": 10.151797374860509,
+      "within10_AI_agreement": 0.5185185185185185
+    },
+    {
+      "model": "v5",
+      "cohort": "novel_random",
+      "articles": 16,
+      "MAE": 5.113239582966916,
+      "within10_AI_agreement": 0.6875
+    },
+    {
+      "model": "v5",
+      "cohort": "novel_stress",
+      "articles": 11,
+      "MAE": 17.480608708523917,
+      "within10_AI_agreement": 0.2727272727272727
+    }
+  ],
+  "primary_cohort": "novel_all",
+  "primary_articles": 27,
+  "related_followups_reported_separately": 5,
+  "paired_error_reduction": 0.9435661174281401,
+  "paired_bootstrap_95_percentile": [
+    -1.6258632655903555,
+    3.4179808911559073
+  ],
+  "interval_scope": "descriptive paired resampling of this small same-AI sample; not independent human accuracy"
+}

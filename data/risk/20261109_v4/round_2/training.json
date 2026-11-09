@@ -1,0 +1,167 @@
+{
+  "round": 2,
+  "development_articles": 273,
+  "event_families": 239,
+  "fresh_audit_labels_used": 0,
+  "cv_candidates": [
+    {
+      "parameters": {
+        "kind": "ordinal",
+        "alpha": 0.1
+      },
+      "MAE": 12.500250736662133,
+      "nonzero_MAE": 19.261253339554784,
+      "selection_loss": 14.528551517529927
+    },
+    {
+      "parameters": {
+        "kind": "ordinal",
+        "alpha": 1.0
+      },
+      "MAE": 13.571657407509372,
+      "nonzero_MAE": 20.861969570356223,
+      "selection_loss": 15.758751056363426
+    },
+    {
+      "parameters": {
+        "kind": "ordinal",
+        "alpha": 10.0
+      },
+      "MAE": 17.334887483467252,
+      "nonzero_MAE": 25.996202514666667,
+      "selection_loss": 19.933281992827077
+    },
+    {
+      "parameters": {
+        "kind": "ridge",
+        "alpha": 0.1
+      },
+      "MAE": 12.380343738929692,
+      "nonzero_MAE": 15.431389566208866,
+      "selection_loss": 13.295657487113443
+    },
+    {
+      "parameters": {
+        "kind": "ridge",
+        "alpha": 1.0
+      },
+      "MAE": 13.267318507363072,
+      "nonzero_MAE": 15.909574448055512,
+      "selection_loss": 14.059995289570804
+    },
+    {
+      "parameters": {
+        "kind": "ridge",
+        "alpha": 10.0
+      },
+      "MAE": 17.65547893422864,
+      "nonzero_MAE": 19.228692723287118,
+      "selection_loss": 18.127443070946182
+    },
+    {
+      "parameters": {
+        "kind": "svr",
+        "C": 2.0,
+        "gamma": 0.25,
+        "alpha": 1.0
+      },
+      "MAE": 12.000550051056019,
+      "nonzero_MAE": 14.853877407073936,
+      "selection_loss": 12.856548257861393
+    },
+    {
+      "parameters": {
+        "kind": "svr",
+        "C": 2.0,
+        "gamma": 1.0,
+        "alpha": 1.0
+      },
+      "MAE": 13.861659493061799,
+      "nonzero_MAE": 16.198361298532845,
+      "selection_loss": 14.562670034703114
+    },
+    {
+      "parameters": {
+        "kind": "svr",
+        "C": 8.0,
+        "gamma": 0.25,
+        "alpha": 1.0
+      },
+      "MAE": 12.07980232538615,
+      "nonzero_MAE": 14.875128723691125,
+      "selection_loss": 12.918400244877642
+    },
+    {
+      "parameters": {
+        "kind": "svr",
+        "C": 8.0,
+        "gamma": 1.0,
+        "alpha": 1.0
+      },
+      "MAE": 13.861659493061799,
+      "nonzero_MAE": 16.198361298532845,
+      "selection_loss": 14.562670034703114
+    },
+    {
+      "parameters": {
+        "kind": "hurdle",
+        "C": 2.0,
+        "gamma": 0.25,
+        "alpha": 1.0
+      },
+      "MAE": 12.21435433643159,
+      "nonzero_MAE": 17.231035840008964,
+      "selection_loss": 13.7193587875048
+    },
+    {
+      "parameters": {
+        "kind": "hurdle",
+        "C": 2.0,
+        "gamma": 1.0,
+        "alpha": 1.0
+      },
+      "MAE": 13.264409717243328,
+      "nonzero_MAE": 17.110553204013772,
+      "selection_loss": 14.418252763274461
+    },
+    {
+      "parameters": {
+        "kind": "hurdle",
+        "C": 8.0,
+        "gamma": 0.25,
+        "alpha": 1.0
+      },
+      "MAE": 12.216097928749953,
+      "nonzero_MAE": 17.24642139013257,
+      "selection_loss": 13.725194967164738
+    },
+    {
+      "parameters": {
+        "kind": "hurdle",
+        "C": 8.0,
+        "gamma": 1.0,
+        "alpha": 1.0
+      },
+      "MAE": 13.264409717243328,
+      "nonzero_MAE": 17.110553204013772,
+      "selection_loss": 14.418252763274461
+    }
+  ],
+  "selected": {
+    "parameters": {
+      "kind": "svr",
+      "C": 2.0,
+      "gamma": 0.25,
+      "alpha": 1.0
+    },
+    "MAE": 12.000550051056019,
+    "nonzero_MAE": 14.853877407073936,
+    "selection_loss": 12.856548257861393
+  },
+  "cv_primary_loss": ".7 all-case MAE + .3 nonzero-reference MAE",
+  "development_sha256": "dd00896cc0086f19b64d63cbb695fed9ce77663d57327065e89544258c483ae7",
+  "selection_sha256": "e460921e5de598d8aeaf81a6607a2c10b11910c739438dff40621511ac7e62bf",
+  "model_sha256": "dca31ea6cee710060ad1900ba7ec117ec2a65ed0a295e4eaa0fda2ca49f02107",
+  "feature_sha256": "ea86acd3d72590c57aa576bd11f256fa9002c9979399be8245d08bd98293e3be",
+  "cross_sectional_not_temporal_forecast": true
+}

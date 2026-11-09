@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "articles": 8128,
+  "body_hashes_checked": 8128,
+  "direct_AI_judgments": 358,
+  "development_articles": 321,
+  "new_audit_articles": 32,
+  "primary_novel_articles": 27,
+  "all_model_predictions_reproduced": true,
+  "pre_audit_hashes_unchanged": true,
+  "fresh_labels_used_for_model_selection": false,
+  "CSV_Parquet_equal": true,
+  "limitation": "Numerical/provenance checks and same-AI agreement, not independent semantic truth.",
+  "tests": {
+    "passed": 75,
+    "failed": 0
+  },
+  "browser": {
+    "MAE": "11.10 → 10.15",
+    "within10": "55.6 → 51.9%",
+    "directCount": "358건",
+    "modelCount": "7,770건",
+    "brokenImages": 0,
+    "brokenDownloads": [],
+    "mobileOverflow": false,
+    "errors": []
+  }
+}

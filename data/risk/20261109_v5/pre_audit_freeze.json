@@ -1,0 +1,10 @@
+{
+  "files": {
+    "data/risk/20261109_v5/model.joblib": "0e85d4f6d1d160135c7cb4b3b852b0defb75ecdb679741d22078608bd42575d6",
+    "data/risk/20261109_v5/predictions.parquet": "f8766149c3ad2bec499d97c7667ff5d4b49613a4241f471899d0c71102af7234",
+    "data/risk/20261109_v5/development.csv": "e82877b0f2374ded791d862b77f7257155c32c62a52ef7c660985f418f5bc6b0",
+    "data/risk/20261109_v5/selection.csv": "425fe3dd0aab7441f1ec974a69162cc6492ff1cab6b0fe24caea69efc6f50957",
+    "data/raw/risk/20261109_v5/features.npy": "b47cfd7a22ad2033bbca0e2a90959a36808b2bf515176ca8ecda89a5ce650b90"
+  },
+  "fresh_reference_judgments": 0
+}

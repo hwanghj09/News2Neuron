@@ -1,0 +1,17 @@
+{
+  "articles": 8128,
+  "direct_AI_judgments": 358,
+  "development_articles": 321,
+  "new_audit_articles": 32,
+  "primary_novel_audit_articles": 27,
+  "human_raters": 0,
+  "model_selection_reference": "development grouped CV only",
+  "index": "same rubric anchors; direct index estimation and a learned zero gate; not probability",
+  "published_bands": {
+    "minimal": 5901,
+    "low": 1652,
+    "moderate": 513,
+    "high": 51,
+    "critical": 11
+  }
+}

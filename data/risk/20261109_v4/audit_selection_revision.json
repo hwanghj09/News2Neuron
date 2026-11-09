@@ -1,0 +1,8 @@
+{
+  "before_sha256": "e8b0a8b0b0ba12d9bde12e4ffd786c097ab34648622b3c32f397698ef0f41b84",
+  "after_sha256": "15e8d3d0756429556c426a59065fb6212820f59bdc72b3739ca77dc8cc5248a9",
+  "reason": "Conservatively block recurring named disaster/crime/military campaign families across the full 90-day range",
+  "before_any_training": true,
+  "before_fresh_reference_decisions": true,
+  "development_case_ids_unchanged": true
+}

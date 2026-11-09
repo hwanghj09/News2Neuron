@@ -1,0 +1,84 @@
+{
+  "links": [
+    {
+      "audit_case": "v4_a_004",
+      "development_case": "r1_d_097",
+      "reason": "Same September DMZ mine incident"
+    },
+    {
+      "audit_case": "v4_a_005",
+      "development_case": "v4_e_001",
+      "reason": "Same ongoing Gulf/Yemen energy supply campaign"
+    },
+    {
+      "audit_case": "v4_a_009",
+      "development_case": "r1_d_061",
+      "reason": "Same Kim Seung-won lobbying allegation and recording dispute"
+    },
+    {
+      "audit_case": "v4_a_010",
+      "development_case": "v4_e_001",
+      "reason": "Conservative campaign-level link: Hormuz supply disruption"
+    },
+    {
+      "audit_case": "v4_a_012",
+      "development_case": "v4_d_034",
+      "reason": "Same Iran/Keshm military escalation"
+    },
+    {
+      "audit_case": "v4_a_019",
+      "development_case": "r1_a_015",
+      "reason": "Conservative family-level link: December martial-law aftermath"
+    },
+    {
+      "audit_case": "v4_a_021",
+      "development_case": "v4_d_051",
+      "reason": "Same one-third rental-fraud compensation policy"
+    },
+    {
+      "audit_case": "v4_a_022",
+      "development_case": "v4_d_031",
+      "reason": "Same November Iran negotiation and escalation sequence"
+    },
+    {
+      "audit_case": "v4_a_023",
+      "development_case": "c1_c_007",
+      "reason": "Same Ourhome inspection with 92 violations"
+    },
+    {
+      "audit_case": "v4_a_024",
+      "development_case": "v4_e_013",
+      "reason": "Same Trump CBS interview and immigration-policy admission"
+    },
+    {
+      "audit_case": "v4_a_028",
+      "development_case": "v4_d_001",
+      "reason": "Same DMZ mine-related policy aftermath"
+    },
+    {
+      "audit_case": "v4_a_035",
+      "development_case": "r1_a_036",
+      "reason": "Conservative campaign-level link: US immigration enforcement accountability"
+    },
+    {
+      "audit_case": "v4_a_036",
+      "development_case": "v4_d_031",
+      "reason": "Same Iran negotiation/conditional attack statements"
+    },
+    {
+      "audit_case": "v4_a_039",
+      "development_case": "r1_a_038",
+      "reason": "Same Samsung championship and associated merchandise"
+    },
+    {
+      "audit_case": "v4_a_048",
+      "development_case": "r3_d_018",
+      "reason": "Same August 17 southern-Korea rain campaign"
+    }
+  ],
+  "excluded_from_primary_metrics": true,
+  "all_48_retained_for_sensitivity_analysis": true,
+  "review_completed_before_opening_model_audit_scores": true,
+  "model_parameters_unchanged": true,
+  "limitations": "Conservative manual novelty audit; no claim that every remaining semantic event relation is discovered."
+}

@@ -1,0 +1,13 @@
+{
+  "development_articles": 321,
+  "previous_v4_holdout_retired": true,
+  "new_audit_articles": 32,
+  "random_articles": 16,
+  "stress_articles": 16,
+  "purge": "candidate groups, headline lexical/semantic neighbors and named families in complete cleaned bodies",
+  "selection_before_model_fit_and_fresh_judgments": true,
+  "sampling_does_not_use_v5_predictions": true,
+  "selection_sha256": "425fe3dd0aab7441f1ec974a69162cc6492ff1cab6b0fe24caea69efc6f50957",
+  "model_selection_loss": "event-family-balanced MAE + 4 * (1 - within10 agreement) on development OOF predictions",
+  "reference": "same-session AI rubric; not independent human accuracy or temporal forecasting"
+}

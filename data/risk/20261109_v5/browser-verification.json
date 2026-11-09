@@ -1,0 +1,10 @@
+{
+  "MAE": "11.10 → 10.15",
+  "within10": "55.6 → 51.9%",
+  "directCount": "358건",
+  "modelCount": "7,770건",
+  "brokenImages": 0,
+  "brokenDownloads": [],
+  "mobileOverflow": false,
+  "errors": []
+}

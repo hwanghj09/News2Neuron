@@ -1,0 +1,23 @@
+{
+  "cases": 16,
+  "rule": "two per publisher with largest v3/v4 disagreement plus .15 predicted index",
+  "audit_labels_used": 0,
+  "case_ids": [
+    "v4_e_001",
+    "v4_e_002",
+    "v4_e_003",
+    "v4_e_004",
+    "v4_e_005",
+    "v4_e_006",
+    "v4_e_007",
+    "v4_e_008",
+    "v4_e_009",
+    "v4_e_010",
+    "v4_e_011",
+    "v4_e_012",
+    "v4_e_013",
+    "v4_e_014",
+    "v4_e_015",
+    "v4_e_016"
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "reference": "same-session AI rubric, not independent human truth",
+  "old_audit_retired": true,
+  "fresh_audit_used_for_model_selection": false,
+  "results": [
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "all",
+      "articles": 48,
+      "danger_MAE": 16.53843557075467,
+      "within10_AI_agreement": 0.4791666666666667,
+      "NTA_MAE": {
+        "N": 0.6912763714790344,
+        "T": 0.8763977885246277,
+        "A": 0.5438868999481201
+      }
+    },
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "fresh_random",
+      "articles": 24,
+      "danger_MAE": 11.313245405353944,
+      "within10_AI_agreement": 0.6666666666666666,
+      "NTA_MAE": {
+        "N": 0.720997154712677,
+        "T": 0.7824696898460388,
+        "A": 0.5524435639381409
+      }
+    },
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "fresh_stress",
+      "articles": 24,
+      "danger_MAE": 21.7636257361554,
+      "within10_AI_agreement": 0.2916666666666667,
+      "NTA_MAE": {
+        "N": 0.6615555882453918,
+        "T": 0.9703259468078613,
+        "A": 0.5353302359580994
+      }
+    },
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "novel_all",
+      "articles": 33,
+      "danger_MAE": 16.051546472017492,
+      "within10_AI_agreement": 0.45454545454545453,
+      "NTA_MAE": {
+        "N": 0.6597470641136169,
+        "T": 0.9213287830352783,
+        "A": 0.5587969422340393
+      }
+    },
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "novel_random",
+      "articles": 20,
+      "danger_MAE": 10.980924456877464,
+      "within10_AI_agreement": 0.65,
+      "NTA_MAE": {
+        "N": 0.6921982765197754,
+        "T": 0.8177380561828613,
+        "A": 0.5078824758529663
+      }
+    },
+    {
+      "model": "v3_frozen_baseline",
+      "cohort": "novel_stress",
+      "articles": 13,
+      "danger_MAE": 23.85250341838677,
+      "within10_AI_agreement": 0.15384615384615385,
+      "NTA_MAE": {
+        "N": 0.6098219156265259,
+        "T": 1.08069908618927,
+        "A": 0.6371269822120667
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "all",
+      "articles": 48,
+      "danger_MAE": 14.412100221665327,
+      "within10_AI_agreement": 0.4791666666666667,
+      "NTA_MAE": {
+        "N": 0.6848430633544922,
+        "T": 0.8294670581817627,
+        "A": 0.47763386368751526
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "fresh_random",
+      "articles": 24,
+      "danger_MAE": 11.76330989819437,
+      "within10_AI_agreement": 0.5833333333333334,
+      "NTA_MAE": {
+        "N": 0.7490203380584717,
+        "T": 0.7432275414466858,
+        "A": 0.4713374674320221
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "fresh_stress",
+      "articles": 24,
+      "danger_MAE": 17.060890545136278,
+      "within10_AI_agreement": 0.375,
+      "NTA_MAE": {
+        "N": 0.6206659078598022,
+        "T": 0.91570645570755,
+        "A": 0.4839302599430084
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "novel_all",
+      "articles": 33,
+      "danger_MAE": 15.17553133237631,
+      "within10_AI_agreement": 0.48484848484848486,
+      "NTA_MAE": {
+        "N": 0.7004117965698242,
+        "T": 0.8453769087791443,
+        "A": 0.5179185271263123
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "novel_random",
+      "articles": 20,
+      "danger_MAE": 12.966228279496036,
+      "within10_AI_agreement": 0.55,
+      "NTA_MAE": {
+        "N": 0.7513142228126526,
+        "T": 0.7549740672111511,
+        "A": 0.46451130509376526
+      }
+    },
+    {
+      "model": "v4_round_1",
+      "cohort": "novel_stress",
+      "articles": 13,
+      "danger_MAE": 18.574459106038276,
+      "within10_AI_agreement": 0.38461538461538464,
+      "NTA_MAE": {
+        "N": 0.6221004128456116,
+        "T": 0.9844580292701721,
+        "A": 0.6000835299491882
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "all",
+      "articles": 48,
+      "danger_MAE": 14.077354704231652,
+      "within10_AI_agreement": 0.4166666666666667,
+      "NTA_MAE": {
+        "N": 0.6628549098968506,
+        "T": 0.8231870532035828,
+        "A": 0.46571359038352966
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "fresh_random",
+      "articles": 24,
+      "danger_MAE": 11.694553341732318,
+      "within10_AI_agreement": 0.5833333333333334,
+      "NTA_MAE": {
+        "N": 0.7426784038543701,
+        "T": 0.7574571967124939,
+        "A": 0.4646548926830292
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "fresh_stress",
+      "articles": 24,
+      "danger_MAE": 16.460156066730985,
+      "within10_AI_agreement": 0.25,
+      "NTA_MAE": {
+        "N": 0.5830313563346863,
+        "T": 0.8889169692993164,
+        "A": 0.4667722284793854
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "novel_all",
+      "articles": 33,
+      "danger_MAE": 15.175693391711333,
+      "within10_AI_agreement": 0.3939393939393939,
+      "NTA_MAE": {
+        "N": 0.6894800662994385,
+        "T": 0.8498414754867554,
+        "A": 0.5122451782226562
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "novel_random",
+      "articles": 20,
+      "danger_MAE": 12.83267581046123,
+      "within10_AI_agreement": 0.55,
+      "NTA_MAE": {
+        "N": 0.7468883395195007,
+        "T": 0.7744373679161072,
+        "A": 0.46224555373191833
+      }
+    },
+    {
+      "model": "v4_round_2",
+      "cohort": "novel_stress",
+      "articles": 13,
+      "danger_MAE": 18.7803358244038,
+      "within10_AI_agreement": 0.15384615384615385,
+      "NTA_MAE": {
+        "N": 0.6011596322059631,
+        "T": 0.9658478498458862,
+        "A": 0.5891675353050232
+      }
+    }
+  ],
+  "primary_cohort": "novel_all",
+  "primary_articles": 33,
+  "related_articles_separately_reported": 15,
+  "paired_error_reduction": 0.8758530803061602,
+  "paired_bootstrap_95_percentile": [
+    -1.158539281417304,
+    2.9121654072419054
+  ],
+  "bootstrap_scope": "2000 paired resamples within publisher/cohort strata; describes this same-AI sample, not a guarantee for human truth or all future news"
+}

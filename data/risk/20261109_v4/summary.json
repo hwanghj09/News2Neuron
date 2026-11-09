@@ -1,0 +1,19 @@
+{
+  "articles": 8128,
+  "direct_AI_judgments": 326,
+  "model_predictions": 7802,
+  "development_articles": 273,
+  "fresh_audit_articles": 48,
+  "primary_novel_audit_articles": 33,
+  "known_related_audit_articles": 15,
+  "human_judgments": 0,
+  "index": "direct estimate of the unchanged AI rubric index; component_index is separate for unreviewed model outputs",
+  "model_choice": "predeclared final round 2 selected by development CV only",
+  "published_bands": {
+    "minimal": 4641,
+    "low": 2976,
+    "moderate": 448,
+    "high": 53,
+    "critical": 10
+  }
+}

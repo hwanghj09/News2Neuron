@@ -1,0 +1,33 @@
+{
+  "links": [
+    {
+      "case_id": "v5_a_011",
+      "development_case": "v4_a_041",
+      "reason": "same GMO information leak"
+    },
+    {
+      "case_id": "v5_a_016",
+      "development_case": "r1_a_015",
+      "reason": "same Yoon appeal closing statement"
+    },
+    {
+      "case_id": "v5_a_028",
+      "development_case": "v4_e_014",
+      "reason": "same November6-7 cold wave"
+    },
+    {
+      "case_id": "v5_a_031",
+      "development_case": "r2_d_015",
+      "reason": "same August17 southern Korea rain campaign"
+    },
+    {
+      "case_id": "v5_a_020",
+      "development_case": "r1_d_102",
+      "reason": "same August12 North Korean missile launch"
+    }
+  ],
+  "exclude_from_primary": true,
+  "reviewed_before_model_scores_opened": true,
+  "all_32_retained_for_sensitivity": true,
+  "limitations": "Conservative novelty review; remaining semantic independence is not guaranteed."
+}

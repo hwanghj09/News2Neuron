@@ -1,0 +1,14 @@
+{
+  "seed": 20261110,
+  "rubric": "risk-rubric-v3 (unchanged reference anchors and index)",
+  "legacy_judgments_reclassified_as_development": 193,
+  "fresh_random_audit": 24,
+  "fresh_stress_audit": 24,
+  "initial_new_training": 64,
+  "second_active_training": 16,
+  "new_test_labels_used_for_tuning": false,
+  "evaluation_target": "cross-sectional scoring of this 90-day corpus; no temporal forecast claim",
+  "known_limitations": "same-session AI reference, not independent human accuracy; approximate event-family purge",
+  "selection_sha256": "e8b0a8b0b0ba12d9bde12e4ffd786c097ab34648622b3c32f397698ef0f41b84",
+  "legacy_snapshot_sha256": "1ae124dc324e0ded3a30f2f165d8c7b5e4c14024155fc3e3a00e192b07204cb3"
+}

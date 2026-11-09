@@ -1,0 +1,5 @@
+{
+  "sha256": "be1934ee43a5849da04784f5f1520bc8a8ea26fd38f517bb12639d1aa2666018",
+  "cases": 64,
+  "input_scope": "title, first130 chars, selected evidence145 chars, last135 chars; not a full individual read claim"
+}

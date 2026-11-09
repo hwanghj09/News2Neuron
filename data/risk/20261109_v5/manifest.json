@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-11-09T22:59:59.627316+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/corpus/20261109_v2/news.parquet": "0aef39cf91a6327990432847ce7c266fc510a4c14592486c11eef115a8861376",
+    "data/risk/20261109_v3/decision_audit.csv": "a52b26f470faf3bc741db4bcf258f638c99b46da53713a0d2e0a15f2b5fabfff",
+    "data/risk/20261109_v3/input_corrections.csv": "81f0dcab5cd68b8e873935d4df10ea82da4c7f5d4d3da5a567bdfc6bdf50204d",
+    "src/news_flywire/risk_v4.py": "1addbd45ec0b7b72abbe8ebe891ece6f77d1f1a220f7ab0b319a60c5dff261f1",
+    "src/news_flywire/risk_v5.py": "7e682750ed6fffa2d7cd342841f5b01f36431f13904e8f700548695cf647cf0f",
+    "src/news_flywire/risk_accuracy_report.py": "6c65e0e8e6c35b96809fc8d623ee885023721912358513ea0c92634dea570930",
+    "scripts/refine_risk_v4.py": "65b76d683f34179d77a0e1c86243b99193631b6d1cc6d1cab71cb508b565f520",
+    "scripts/refine_risk_v5.py": "532bc3514430b0734808dc48cae0ee724de8ba3dc30ee9cc5c48eca6b78e8309",
+    "scripts/audit_risk_accuracy.py": "b23b754179110432e50d1180aa9ae380cfa243063e90f39d5ba9d1722b7440ec",
+    "tests/test_risk_accuracy.py": "aa0b704d7d127f1f1afa2a00e3210165c1e2127b83bb30d3f5c376b97073a3a4",
+    "docs/risk-accuracy-v5.md": "5471d0f6396de432c1ae3feed86abad6e3cdb6608c9ce7946a7a2b46a4f19351",
+    "docs/implementation-status.md": "a92229cfcc04545818d34a45de57b48b40468734d40f9db089c83044305aa2e5",
+    "README.md": "3e7d4218633e44315896720ca9ffe4f852f2e6f64d4fbe0ead7aa8f5d2e2c634"
+  },
+  "base_git_commit": "428db6a06cac441e1a9ff910b335709f7a36980f",
+  "direct_AI_judgments": 358,
+  "development_articles": 321,
+  "new_audit_articles": 32,
+  "primary_novel_articles": 27,
+  "previous_test_retired_as_development": true,
+  "method": "AI-reference risk regression plus learned zero gate; event-family-balanced development model selection",
+  "limits": "MAE improved on this new sample; within10 agreement declined; paired interval contains zero; no independent human accuracy claim"
+}

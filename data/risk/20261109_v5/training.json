@@ -1,0 +1,404 @@
+{
+  "development_articles": 321,
+  "candidate_configurations": [
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 9.69177547197168,
+      "within10": 0.6227061556329848,
+      "loss": 11.20095084943974
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 9.448741870766227,
+      "within10": 0.6266260162601625,
+      "loss": 10.942237805725577
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 9.669467980711932,
+      "within10": 0.6227061556329848,
+      "loss": 11.178643358179993
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 9.459321429661355,
+      "within10": 0.6266260162601625,
+      "loss": 10.952817364620705
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 11.35701038762276,
+      "within10": 0.5194831591173054,
+      "loss": 13.279077751153539
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 11.279072933336098,
+      "within10": 0.518321718931475,
+      "loss": 13.205786057610197
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.86124755412813,
+      "within10": 0.5194831591173054,
+      "loss": 12.78331491765891
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.793382899279383,
+      "within10": 0.518321718931475,
+      "loss": 12.720096023553483
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.191891168119232,
+      "within10": 0.6169570267131242,
+      "loss": 11.724063061266735
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.077513914957729,
+      "within10": 0.6216027874564459,
+      "loss": 11.591102765131945
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.144673327836996,
+      "within10": 0.6169570267131242,
+      "loss": 11.676845220984498
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.052752581169832,
+      "within10": 0.6216027874564459,
+      "loss": 11.566341431344048
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 12.769366010333325,
+      "within10": 0.47845528455284553,
+      "loss": 14.855544872121943
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 12.768621742991385,
+      "within10": 0.47845528455284553,
+      "loss": 14.854800604780003
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 12.044853075681791,
+      "within10": 0.4749709639953542,
+      "loss": 14.144969219700375
+    },
+    {
+      "parameters": {
+        "C": 2.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 12.072555512676484,
+      "within10": 0.4749709639953542,
+      "loss": 14.172671656695067
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 9.571246133338796,
+      "within10": 0.6157375145180022,
+      "loss": 11.108296075266788
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 9.433580774264092,
+      "within10": 0.6231416957026712,
+      "loss": 10.941013991453406
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 9.586687075599574,
+      "within10": 0.6157375145180022,
+      "loss": 11.123737017527565
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 9.476094068233635,
+      "within10": 0.6231416957026712,
+      "loss": 10.983527285422952
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 11.36288491294068,
+      "within10": 0.5148373983739837,
+      "loss": 13.303535319444746
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 11.362868670937354,
+      "within10": 0.5148373983739837,
+      "loss": 13.30351907744142
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.949599975102148,
+      "within10": 0.5148373983739837,
+      "loss": 12.890250381606213
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 0.25,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.948757785385691,
+      "within10": 0.5148373983739837,
+      "loss": 12.889408191889757
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.18670414589882,
+      "within10": 0.6169570267131242,
+      "loss": 11.718876039046323
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.077513914957729,
+      "within10": 0.6216027874564459,
+      "loss": 11.591102765131945
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 10.139648943960978,
+      "within10": 0.6169570267131242,
+      "loss": 11.67182083710848
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": true,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 10.052752581169832,
+      "within10": 0.6216027874564459,
+      "loss": 11.566341431344048
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 12.768621742991385,
+      "within10": 0.47845528455284553,
+      "loss": 14.854800604780003
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 0.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 12.768621742991385,
+      "within10": 0.47845528455284553,
+      "loss": 14.854800604780003
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": true
+      },
+      "family_balanced_MAE": 12.072555512676484,
+      "within10": 0.4749709639953542,
+      "loss": 14.172671656695067
+    },
+    {
+      "parameters": {
+        "C": 8.0,
+        "gamma": 1.0,
+        "gate": false,
+        "floor": 8.0,
+        "family_weight": false
+      },
+      "family_balanced_MAE": 12.072555512676484,
+      "within10": 0.4749709639953542,
+      "loss": 14.172671656695067
+    }
+  ],
+  "selected": {
+    "parameters": {
+      "C": 8.0,
+      "gamma": 0.25,
+      "gate": true,
+      "floor": 0.0,
+      "family_weight": false
+    },
+    "family_balanced_MAE": 9.433580774264092,
+    "within10": 0.6231416957026712,
+    "loss": 10.941013991453406
+  },
+  "fresh_audit_labels_used": 0,
+  "development_sha256": "e82877b0f2374ded791d862b77f7257155c32c62a52ef7c660985f418f5bc6b0",
+  "features_sha256": "b47cfd7a22ad2033bbca0e2a90959a36808b2bf515176ca8ecda89a5ce650b90"
+}
