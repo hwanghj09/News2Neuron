@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-11-09T15:10:40.020542+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/real_news/2026-11-09/news.csv": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+    "configs/scoring_v1.yaml": "9439b52c0236b3256ff3a7ccd8a8a111757f3d20209f25c067817e2b45d5efd4"
+  },
+  "seed": 20261109,
+  "test_fraction": 0.25,
+  "unit": "event_group"
+}

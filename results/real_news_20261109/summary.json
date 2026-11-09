@@ -1,0 +1,49 @@
+{
+  "articles": 240,
+  "events": 146,
+  "sources": {
+    "Yonhap": 92,
+    "MBN": 76,
+    "SBS": 72
+  },
+  "categories": {
+    "economy": 40,
+    "society": 40,
+    "international": 40,
+    "culture": 40,
+    "sports": 40,
+    "lifestyle_health": 40
+  },
+  "levels": {
+    "L": 181,
+    "M": 40,
+    "H": 19
+  },
+  "scorers": [
+    "codex_session_nta_v1_20261109"
+  ],
+  "score_sources": [
+    "llm_prediction"
+  ],
+  "published_min": "2026-10-28T05:02:00+00:00",
+  "published_max": "2026-11-09T14:52:08+00:00",
+  "agreement_with_rule_baseline": {
+    "N": {
+      "spearman_between_scorers": 0.3254254112549552,
+      "mean_absolute_difference": 0.25729166666666664
+    },
+    "T": {
+      "spearman_between_scorers": 0.2637414844379265,
+      "mean_absolute_difference": 0.209375
+    },
+    "A": {
+      "spearman_between_scorers": 0.3368722014962573,
+      "mean_absolute_difference": 0.375
+    }
+  },
+  "human_accuracy_evaluated": false,
+  "simulation_reused_from": "results/v783",
+  "new_simulation_trials": 0,
+  "simulation_scope": "30 computational seeds per predefined level, shared across articles",
+  "input_scope": "Title plus short RSS excerpt only; no full-article claim"
+}

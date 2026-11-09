@@ -5,10 +5,14 @@
   "matched_external_event_counts": "E3/E4/E5/E6/E7 identical per seed",
   "E9_invariance": "exact equality per seed",
   "code_and_source_checksums": "verified",
+  "historical_code_versions": {
+    "src/news_flywire/cli.py": "e3aadbd638d4cd351afccb1f80c7e01cff628058",
+    "src/news_flywire/reporting.py": "e3aadbd638d4cd351afccb1f80c7e01cff628058"
+  },
   "notebook_code_cells": "executed successfully",
   "scope": "Saved computational output consistency, not biological validity",
   "test_suite": {
-    "passed": 25,
+    "passed": 34,
     "failed": 0,
     "command": "python -m pytest -q"
   },

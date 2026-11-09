@@ -12,6 +12,7 @@ from .reporting import make_report
 from .evaluation import evaluate_ratings, compare_observations
 from .provenance import write_json, manifest
 
+REAL_NEWS = "data/real_news/2026-11-09/news.csv"
 
 def config(path):
     with open(path,encoding="utf-8") as f:
@@ -21,15 +22,23 @@ def config(path):
 def main(argv=None):
     parser=argparse.ArgumentParser(description="뉴스 위협성 → 가상 입력 → FlyWire LIF 연구 파이프라인")
     sub=parser.add_subparsers(dest="command",required=True)
+    p=sub.add_parser("collect-news",help="Collect real articles from official RSS feeds, without a synthetic fallback")
+    p.add_argument("--config",default="configs/news_sources_v1.yaml")
+    p.add_argument("--out",required=True)
+    p=sub.add_parser("analyze-news",help="Report actual article ratings, baseline differences and shared-level model responses")
+    p.add_argument("--news",default="data/real_news/2026-11-09/news.csv")
+    p.add_argument("--scores",default="data/derived/real_news_scores.csv")
+    p.add_argument("--simulation",default="results/v783")
+    p.add_argument("--out",required=True)
     p=sub.add_parser("prepare",help="Validate articles, freeze event split, write blank 3-rater sheet")
-    p.add_argument("--news",default="data/sample_news.csv")
-    p.add_argument("--out",default="data/labels")
+    p.add_argument("--news",default=REAL_NEWS)
+    p.add_argument("--out",default="data/labels/real_news_20261109")
     p.add_argument("--config",default="configs/scoring_v1.yaml")
     p=sub.add_parser("score",help="Rule baseline or strict LLM JSONL import")
-    p.add_argument("--news",default="data/sample_news.csv")
+    p.add_argument("--news",default=REAL_NEWS)
     p.add_argument("--llm-jsonl")
     p.add_argument("--model")
-    p.add_argument("--out",default="data/derived/news_scores.csv")
+    p.add_argument("--out",default="data/derived/real_news_rule_scores.csv")
     p.add_argument("--config",default="configs/scoring_v1.yaml")
     p=sub.add_parser("extract",help="Extract confirmed paths from measured v783 connectivity")
     p.add_argument("--config",default="configs/connectome_v783.yaml")
@@ -37,7 +46,7 @@ def main(argv=None):
     for command in ["demo","run"]:
         p=sub.add_parser(command,help="Run E0–E9 and produce figures and an HTML report")
         p.add_argument("--config",default="configs/stimulation_v1.yaml")
-        p.add_argument("--scores",default="data/derived/news_scores.csv")
+        p.add_argument("--scores",default="data/derived/real_news_scores.csv" if command=="run" else "data/derived/news_scores.csv")
         p.add_argument("--seeds",type=int)
         p.add_argument("--out",default=f"results/{command}")
         if command=="run":
@@ -58,7 +67,14 @@ def main(argv=None):
     p.add_argument("--out",default="results/validation.csv")
     args=parser.parse_args(argv)
     try:
-        if args.command=="prepare":
+        if args.command=="collect-news":
+            from .news_ingestion import collect_news
+            news=collect_news(config(args.config),args.out)
+            print(f"{len(news)} actual articles → {args.out}/news.csv")
+        elif args.command=="analyze-news":
+            from .news_analysis import analyze_news
+            print(analyze_news(args.news,args.scores,args.out,args.simulation))
+        elif args.command=="prepare":
             news=load_news(args.news)
             scoring=config(args.config)
             out=Path(args.out)

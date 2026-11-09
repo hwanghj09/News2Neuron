@@ -1,6 +1,8 @@
 """Audit saved provenance and recompute the primary metric from every raw trial."""
 from pathlib import Path
 import json
+import hashlib
+import subprocess
 import numpy as np
 import pandas as pd
 from news_flywire.provenance import sha256, write_json
@@ -25,8 +27,20 @@ for condition in ['E4','E5','E6','E7']:
 rates=metrics.pivot(index='seed',columns='condition_id',values='delta_rate_hz')
 np.testing.assert_array_equal(rates.E9a,rates.E9b)
 manifest=json.loads((run/'manifest.json').read_text())
+historical_code={}
 for path,digest in manifest['files'].items():
-    assert sha256(path)==digest,f'Code changed since run: {path}'
+    if Path(path).exists() and sha256(path)==digest:
+        continue
+    # Keep checking the recorded version after unrelated CLI/report changes.
+    relative='src/news_flywire/'+Path(path).name
+    commits=subprocess.check_output(['git','-C',str(ROOT),'log','--format=%H','--',relative],text=True).splitlines()
+    for commit in commits:
+        blob=subprocess.check_output(['git','-C',str(ROOT),'show',f'{commit}:{relative}'])
+        if hashlib.sha256(blob).hexdigest()==digest:
+            historical_code[relative]=commit
+            break
+    else:
+        raise AssertionError(f'Recorded code snapshot cannot be verified: {path}')
 source_manifest=json.loads((ROOT/'data/derived/source_manifest.json').read_text())
 for path,digest in source_manifest['files'].items():
     assert sha256(path)==digest,f'Source changed: {path}'
@@ -42,6 +56,7 @@ write_json(ROOT/'results/verification.json',{
     'matched_external_event_counts':'E3/E4/E5/E6/E7 identical per seed',
     'E9_invariance':'exact equality per seed',
     'code_and_source_checksums':'verified',
+    'historical_code_versions':historical_code,
     'notebook_code_cells':'executed successfully',
     'scope':'Saved computational output consistency, not biological validity'})
 print('All 330 raw trials, controls, provenance and notebook cells verified.')

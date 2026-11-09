@@ -1,0 +1,22 @@
+version: real_rss_pilot_v1
+per_category: 40
+max_quote_words: 25
+event_similarity_threshold: 0.52
+categories: [economy, society, international, culture, sports, lifestyle_health]
+feeds:
+  - {source: Yonhap, category: economy, url: 'https://www.yna.co.kr/rss/economy.xml'}
+  - {source: SBS, category: economy, url: 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02'}
+  - {source: MBN, category: economy, url: 'https://www.mbn.co.kr/rss/economy/'}
+  - {source: Yonhap, category: society, url: 'https://www.yna.co.kr/rss/society.xml'}
+  - {source: SBS, category: society, url: 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03'}
+  - {source: MBN, category: society, url: 'https://www.mbn.co.kr/rss/society/'}
+  - {source: Yonhap, category: international, url: 'https://www.yna.co.kr/rss/international.xml'}
+  - {source: MBN, category: international, url: 'https://www.mbn.co.kr/rss/international/'}
+  - {source: SBS, category: international, url: 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07'}
+  - {source: Yonhap, category: culture, url: 'https://www.yna.co.kr/rss/culture.xml'}
+  - {source: SBS, category: culture, url: 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08'}
+  - {source: Yonhap, category: sports, url: 'https://www.yna.co.kr/rss/sports.xml'}
+  - {source: MBN, category: sports, url: 'https://www.mbn.co.kr/rss/sports/'}
+  - {source: SBS, category: sports, url: 'https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09'}
+  - {source: Yonhap, category: lifestyle_health, url: 'https://www.yna.co.kr/rss/health.xml'}
+  - {source: MBN, category: lifestyle_health, url: 'https://www.mbn.co.kr/rss/health/'}

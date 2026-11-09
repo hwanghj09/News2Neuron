@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "actual_articles": 240,
+  "official_publishers": 3,
+  "categories": 6,
+  "all_240_inputs_matched_to_cached_official_rss": true,
+  "rss_snapshots_verified": 16,
+  "snapshot_and_decision_hashes": "verified",
+  "contextual_scores_with_rationales": 240,
+  "independent_human_ratings": 0,
+  "event_group_split_leakage": 0,
+  "test_articles": 54,
+  "linked_model_rows": 7200,
+  "new_independent_simulation_trials": 0,
+  "simulation_values_match_existing_30_seed_results": true,
+  "scope": "Input provenance and output consistency; not model accuracy or biological validity",
+  "test_suite": {
+    "passed": 34,
+    "failed": 0
+  },
+  "browser_report": {
+    "total": 240,
+    "initialCount": "240건",
+    "sportCount": 40,
+    "highCount": 59,
+    "searchCount": 2,
+    "imageBroken": false,
+    "brokenDownloadLinks": [],
+    "errors": [],
+    "mobileOverflow": false
+  }
+}

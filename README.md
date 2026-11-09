@@ -4,11 +4,15 @@
 
 첨부 연구계획서의 계산 파일럿을 실제로 실행하는 Python 프로젝트입니다. **뉴스 N/T/A 평가 → 위협성 기반 입력 → 실제 FAFB v783 부분 회로 → LIF → 대조실험·분석·보고서**를 연결했습니다.
 
+현재 뉴스 평가는 **연합뉴스·SBS·MBN의 실제 기사 240건**을 사용합니다. 제목·짧은 RSS 발췌문에 현재 Codex 세션의 문맥 평가와 규칙 baseline을 적용했습니다. 원문 전체·독립 사람 정답·생리 반응을 평가한 것은 아닙니다. 가상 24건은 초기 파일럿과 소프트웨어 예제로 따로 보존합니다.
+
 ## 먼저 볼 결과
 
-- [실행 결과 보고서](results/v783/report.html): 6개 분석 그림과 원자료 링크
-- [연구 결과 원고](docs/manuscript.md): 방법, 실제 계산 결과, 해석의 범위
-- [발표 포스터](results/research_poster.pdf)
+- [실제 뉴스 240건 평가 보고서](results/real_news_20261109/report.html): 기사 검색·출처·N/T/A·근거·규칙 비교
+- [실제 뉴스 자료·평가 방법](docs/real-news-study.md)
+- [초기 가상 기사 계산 보고서](results/v783/report.html): 6개 분석 그림과 원자료 링크
+- [초기 파일럿 원고](docs/manuscript.md): 가상 기사 기반 방법·계산 결과·한계
+- [초기 파일럿 발표 포스터](results/research_poster.pdf)
 - [실행·검증 상태](docs/implementation-status.md)
 - [원래 연구계획서](docs/research-plan.md)
 
@@ -18,7 +22,7 @@
 
 | 항목 | 제공 범위 |
 |---|---|
-| 뉴스 점수 | 직접 작성한 가상 기사 24개, N/T/A 규칙 baseline, 엄격한 LLM JSONL 가져오기 |
+| 뉴스 점수 | 실제 기사 240건의 문맥 AI 점수·근거·규칙 baseline; 초기 가상 예제 24건 별도 |
 | 사람 평가 | 3인 빈 평가 양식, 기준서, 사건 단위 고정 분할, 중위값·서열형 α·Spearman·MAE·군집 bootstrap |
 | 실제 연결 | FAFB v783에서 확인한 LPLC2 210개, LC4 104개, GF 2개, DNp06 2개 |
 | 회로 | 최대 3-hop 입력→출력 경로의 노드 1,367개, 유도 방향성 연결 29,377개 |
@@ -28,7 +32,7 @@
 | 민감도 | 연결 임계 1/3/5, 입력률 .75/1/1.25배, dt .1/.5 ms를 각 3시드에서 비교 |
 | 실측 검증 | DANDI 메타데이터·자산 목록 확인, 정리된 세포형별 반응 방향 CSV 비교 기능 |
 
-실제 기사 240개, 사람 평가·LLM 정확도, 생리 보정된 인코더, 대용량 NWB 시간계열 재분석, 사람 대상 실험은 아직 확보·수행하지 않았습니다. 이를 데이터나 검증된 성과로 생성하지 않았습니다.
+독립 사람 평가·LLM 정확도, 생리 보정된 인코더, 대용량 NWB 시간계열 재분석, 사람 대상 실험은 아직 확보·수행하지 않았습니다. 실제 뉴스의 매체 분야별 편의표본이 원계획의 정서 범주 균형을 대신하지는 않습니다.
 
 ## 실행
 
@@ -39,10 +43,16 @@ python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e '.[research,test]'
 
-# 인터넷 없이 가상 연결로 전체 코드 흐름 점검
+# 실제 기사에 규칙 baseline 적용 (기본 입력이 실제 뉴스로 변경됨)
+news-flywire score
+
+# 실제 뉴스 문맥 AI 점수·근거 보고서; 기존 단계별 계산 재사용
+news-flywire analyze-news --out results/my_real_news_report
+
+# 인터넷 없이 가상 연결과 가상 기사로 전체 코드 흐름 점검
 news-flywire demo --seeds 3 --out results/my_demo
 
-# 준비된 실제 v783 부분 회로와 가상 기사 점수로 재실행
+# 준비된 실제 v783 부분 회로와 실제 기사 점수로 재실행
 news-flywire run --seeds 30 --out results/my_v783
 
 # 핵심 계산·스키마·분할·대조군·Brian2 수치 비교 검사
@@ -77,7 +87,7 @@ news-flywire evaluate --scores data/derived/my_scores.csv \
   --splits data/labels/my_study/splits.csv --out results/my_evaluation
 ```
 
-LLM은 [고정 프롬프트와 JSON 형식](docs/llm-prompt.md)을 사용해 결과를 가져옵니다. API 키나 연결된 LLM이 없는 상태에서 LLM 실행을 가장하지 않습니다. 규칙 baseline은 문맥·부정문·제목과 본문의 불일치에 취약하며 성능을 검증하지 않았습니다.
+LLM은 [고정 프롬프트와 JSON 형식](docs/llm-prompt.md)을 사용해 결과를 가져옵니다. 현재 240건은 이 Codex 세션의 실제 문맥 판단을 기록한 것으로, 유료 API 호출이나 노출되지 않은 정확한 모델 스냅샷·온도를 주장하지 않습니다. 가져오기와 정형화는 LLM을 새로 실행하지 않습니다. 규칙 baseline과 문맥 AI 모두 독립 사람 정답에 대한 성능은 미검증입니다.
 
 실측 자료를 정리한 경우:
 

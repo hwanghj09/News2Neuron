@@ -35,7 +35,7 @@ def make_report(out_dir, circuit, scores, config):
                          "axes.titleweight":"bold", "axes.labelcolor":"#354353", "axes.edgecolor":"#bec8d2"})
     synthetic=scores.data_source.astype(str).str.contains("synthetic").all()
     scorer_name=", ".join(sorted(scores.scorer.astype(str).unique())) if "scorer" in scores else "imported scores"
-    news_description="직접 작성한 가상 기사" if synthetic else "입력 기사"
+    news_description="직접 작성한 가상 기사" if synthetic else ("실제 뉴스의 제목·RSS 발췌문" if scores.data_source.eq("real_publisher_rss").all() else "입력 기사")
     score_description="규칙 baseline 예측" if scorer_name=="rule_baseline_v1" else f"{scorer_name} 예측"
     fig, ax=plt.subplots(figsize=(8.4,5.5))
     for i,(category, group) in enumerate(scores.groupby("category")):
@@ -164,7 +164,7 @@ def make_report(out_dir, circuit, scores, config):
 <style>:root{{color-scheme:light}}*{{box-sizing:border-box}}body{{margin:0;background:#eff3f7;color:#233347;font:16px/1.75 system-ui,sans-serif}}main{{max-width:1160px;margin:auto;padding:48px 24px}}.eyebrow{{letter-spacing:.13em;font-size:12px;color:#357d85}}h1{{font-size:clamp(28px,4vw,46px);line-height:1.25;letter-spacing:-.04em;max-width:920px}}h2{{font-size:23px}}.lead{{color:#526476;max-width:850px}}.cards{{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:30px 0}}.card,section{{background:white;border:1px solid #dce4ec;border-radius:14px;padding:24px}}.card strong{{display:block;font-size:27px}}.card span{{font-size:13px;color:#637489}}section{{margin:20px 0}}img{{width:100%;height:auto;display:block}}.notice{{border-left:4px solid #c08029;background:#fff8e9;padding:18px 22px}}.overflow{{overflow-x:auto}}table{{border-collapse:collapse;width:100%;font-size:12px;white-space:nowrap}}th,td{{padding:10px;border-bottom:1px solid #e4ebf0;text-align:right}}th{{background:#f2f6fa}}a{{color:#246b98}}.downloads a{{display:inline-block;margin:5px 12px 5px 0}}footer{{font-size:12px;color:#64758a}}li{{margin:8px 0}}</style>
 <main><div class="eyebrow">COMPUTATIONAL RESEARCH · REPRODUCIBLE RUN</div><h1>뉴스의 위협성에서<br>초파리 회로 모델의 반응까지</h1><p class="lead">부정성(N)과 위협성(T)을 분리하고, 가상 입력·연결 구조·대조 조건에 따른 모델 출력을 비교합니다.</p>
 <div class="notice"><strong>연구 단계: 계산 파일럿</strong><br>{html.escape(news_description)} · {html.escape(score_description)} · {'실제 연결 데이터' if stats['version']=='FAFB_v783' else '가상 연결 데이터'} · 모형 활동. 사람·초파리의 실제 스트레스 반응을 측정한 결과가 아닙니다.</div>
-<div class="cards">{''.join(f'<div class="card"><strong>{value:,}</strong><span>{label}</span></div>' for label,value in [('뉴런',stats['n']),('방향성 연결',stats['edges']),('입력 세포',stats['inputs']),('출력 세포',stats['outputs']),('계산 시드',stats['seeds']),('가상 기사',stats['articles'])])}</div>
+<div class="cards">{''.join(f'<div class="card"><strong>{value:,}</strong><span>{label}</span></div>' for label,value in [('뉴런',stats['n']),('방향성 연결',stats['edges']),('입력 세포',stats['inputs']),('출력 세포',stats['outputs']),('계산 시드',stats['seeds']),('가상 기사' if synthetic else '실제 기사',stats['articles'])])}</div>
 <section><h2>이번 실행에서 관찰한 값</h2><p>{text}</p><p>버전: <code>{html.escape(stats['version'])}</code> · 엔진: <code>{man['engine']}</code></p></section>
 {figure_html}<section><h2>조건별 요약</h2><div class="overflow">{html_summary}</div></section><section><h2>시드별 대응 비교</h2><div class="overflow">{html_contrasts}</div></section>
 <section><h2>해석 범위와 남은 검증</h2><ul>{''.join(f'<li>{s}</li>' for s in limits)}</ul></section><section class="downloads"><h2>원자료와 재현 설정</h2>{downloads}</section>

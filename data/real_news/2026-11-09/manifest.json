@@ -1,0 +1,162 @@
+{
+  "created_utc": "2026-11-09T15:00:03.697519+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/raw/news_rss/f5877b583dc49014.xml": "e8ec7dd28f604bc390b5f8e7ee4deb8488ad648239a7dbefb483351f0d5fadfb",
+    "data/raw/news_rss/e3f7346b6babdfac.xml": "e03bfd9ae9b28225ac0335d22164d6f5b2fb67ec26d8dd77a88dc40412976c9e",
+    "data/raw/news_rss/8fa41879f31e4b90.xml": "4d20dca0333ec301464d8c9a8aa1a69c405a01ecc83c0a7f41d5f29d5703d8bf",
+    "data/raw/news_rss/967ca4138b9c5a99.xml": "4ea33161938802d5b896f03e40d6a8c280b42327a332392d3e4f89056e2fb8c1",
+    "data/raw/news_rss/b428cc98fbdad76e.xml": "6dcba692079642ca6923666321c45db246afa8f97f4db1528bcf253f8c0ba3cf",
+    "data/raw/news_rss/2b0083a8737484e3.xml": "0522699d9de7421a39cbb203976f848fec99668e25fd058a19d9e5590d0b48c5",
+    "data/raw/news_rss/6c13bdda2fb6ab98.xml": "ed60856e1e4f35162423b9815cb7f24cf365badae3b423f11f808b479b7a33c3",
+    "data/raw/news_rss/63d937f749a11a36.xml": "4cc4858c9470c7eae10ff93b3dcb67d4c5c77ce63f099f2bd81c5f23c3ebde3a",
+    "data/raw/news_rss/8f5c6f41b659d2f7.xml": "3fed49a0d201e30634ff5c7f75a34d68495abdff8959392e807d620453dc1a35",
+    "data/raw/news_rss/34d8467790a3b57d.xml": "b7a8fe376d4bb2bce9f9c9110e80bb160aa551ee1f115d27426e08394d0f45f7",
+    "data/raw/news_rss/4d43edd6063c81d7.xml": "1ce39554e24bff8f0e0048e620308a0b42f9684bba7a24465ef0db6efdbbc164",
+    "data/raw/news_rss/1c72e072f4c63656.xml": "e206ce420141ff69dc0c91efe20bea944b14c8b77bda63d145f04c14cfd6c5e2",
+    "data/raw/news_rss/943612da1b21739f.xml": "2d159a8ad1aa255e5b252f5677cb04ce274f9aeb01ff717803a78e31d46d9800",
+    "data/raw/news_rss/081e8971623a047a.xml": "470323ff73b894817c3f82389ac56e018fbffdfeb7654c155df732fbb832ed79",
+    "data/raw/news_rss/5ca78251124c3641.xml": "9d8cbf2f2087ea7cbf03acba130f5061c0f8f5c98c35e45b127e488fc893d913",
+    "data/raw/news_rss/07aab1d956e2e52f.xml": "c788ccaaf26e404495f18e05454c66a6f0375a5d24f745aa464cfe7e8dc993bc"
+  },
+  "collection_utc": "2026-11-09T14:59:55.877768+00:00",
+  "dataset_type": "real_news_convenience_pilot",
+  "n_articles": 240,
+  "n_events": 146,
+  "categories": {
+    "economy": 40,
+    "society": 40,
+    "international": 40,
+    "culture": 40,
+    "sports": 40,
+    "lifestyle_health": 40
+  },
+  "sources": {
+    "Yonhap": 92,
+    "MBN": 76,
+    "SBS": 72
+  },
+  "published_min": "2026-10-28T05:02:00+00:00",
+  "published_max": "2026-11-09T14:52:08+00:00",
+  "max_quoted_words_per_article": 25,
+  "config": {
+    "version": "real_rss_pilot_v1",
+    "per_category": 40,
+    "max_quote_words": 25,
+    "event_similarity_threshold": 0.52,
+    "categories": [
+      "economy",
+      "society",
+      "international",
+      "culture",
+      "sports",
+      "lifestyle_health"
+    ],
+    "feeds": [
+      {
+        "source": "Yonhap",
+        "category": "economy",
+        "url": "https://www.yna.co.kr/rss/economy.xml"
+      },
+      {
+        "source": "SBS",
+        "category": "economy",
+        "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02"
+      },
+      {
+        "source": "MBN",
+        "category": "economy",
+        "url": "https://www.mbn.co.kr/rss/economy/"
+      },
+      {
+        "source": "Yonhap",
+        "category": "society",
+        "url": "https://www.yna.co.kr/rss/society.xml"
+      },
+      {
+        "source": "SBS",
+        "category": "society",
+        "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03"
+      },
+      {
+        "source": "MBN",
+        "category": "society",
+        "url": "https://www.mbn.co.kr/rss/society/"
+      },
+      {
+        "source": "Yonhap",
+        "category": "international",
+        "url": "https://www.yna.co.kr/rss/international.xml"
+      },
+      {
+        "source": "MBN",
+        "category": "international",
+        "url": "https://www.mbn.co.kr/rss/international/"
+      },
+      {
+        "source": "SBS",
+        "category": "international",
+        "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07"
+      },
+      {
+        "source": "Yonhap",
+        "category": "culture",
+        "url": "https://www.yna.co.kr/rss/culture.xml"
+      },
+      {
+        "source": "SBS",
+        "category": "culture",
+        "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08"
+      },
+      {
+        "source": "Yonhap",
+        "category": "sports",
+        "url": "https://www.yna.co.kr/rss/sports.xml"
+      },
+      {
+        "source": "MBN",
+        "category": "sports",
+        "url": "https://www.mbn.co.kr/rss/sports/"
+      },
+      {
+        "source": "SBS",
+        "category": "sports",
+        "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09"
+      },
+      {
+        "source": "Yonhap",
+        "category": "lifestyle_health",
+        "url": "https://www.yna.co.kr/rss/health.xml"
+      },
+      {
+        "source": "MBN",
+        "category": "lifestyle_health",
+        "url": "https://www.mbn.co.kr/rss/health/"
+      }
+    ]
+  },
+  "news_csv_sha256": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+  "limitations": [
+    "Convenience sample of available RSS feeds, not representative of Korean news",
+    "Publisher sections are not negativity/neutrality labels; health/lifestyle sections may include culture",
+    "Title plus short publisher excerpt only; complete articles not evaluated",
+    "Automatic event grouping requires manual audit before a confirmatory study",
+    "No independent human ground-truth ratings or measured physiological outcomes"
+  ],
+  "contextual_event_group_review": {
+    "reviewer": "current Codex session; not independent human review",
+    "before_news_sha256": "d56922717a19f45764d7a2f2e78452d33b2335538d4790c851458f5afa6896f0",
+    "decisions_sha256": "93ac4548d18c57bfeb06af41472955b5f2f1b52a9192e75785b432426c118638",
+    "method": "union of automatic similar pairs and explicitly identified conservative related-event tags; multi-event bulletins merge all related tags",
+    "limitation": "Conservative topic clusters can merge different events; independent human audit remains pending"
+  }
+}

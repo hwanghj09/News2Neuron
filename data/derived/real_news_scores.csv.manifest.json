@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-11-09T15:10:36.622178+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "/workspace/news-flywire-research/data/real_news/2026-11-09/news.csv": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+    "/workspace/news-flywire-research/data/real_news/2026-11-09/ratings/codex_nta_v1.jsonl": "f89a06590d674f2207065e0b6c5c10f1de637e1b7e927b5687c0d1934e2c8b9f",
+    "/workspace/news-flywire-research/data/real_news/2026-11-09/ratings/contextual_decisions.tsv": "93ac4548d18c57bfeb06af41472955b5f2f1b52a9192e75785b432426c118638",
+    "data/real_news/2026-11-09/ratings/input_snapshot.json": "24c00c63738262681d9f657e70f9d87e9e5814465b6fad2f1b695bb44d2b2721"
+  },
+  "method": "codex_session_nta_v1_20261109",
+  "evaluated_against_humans": false,
+  "scoring_mode": "interactive_Codex_session_content_judgment",
+  "exact_model_snapshot": "not exposed to this session",
+  "temperature": "not exposed; no API decoding setting claimed",
+  "scoring_reference": "docs/labeling-rubric.md; raw N/T/A integer anchors 0..4",
+  "temporal_reference": "article publication narrative, not a current real-world alert",
+  "source_scope": "Title and short RSS excerpt only; no full article or fact-check claim",
+  "confidence": "null; neither confidence calibration nor accuracy measured",
+  "decision_formatting_script": "Reformats recorded judgments; does not rerun an LLM",
+  "human_raters": 0,
+  "decisions_bound_to_ordered_content_snapshot": true
+}

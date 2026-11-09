@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-11-09T15:17:11.189639+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "data/real_news/2026-11-09/news.csv": "358275814f3a17e64ca240bb1df7a025bec7a587f83b4d4bf7be5dc1b71da0fc",
+    "data/derived/real_news_scores.csv": "e1259bad8efcfe95238fd32ff6377fe0482cf8a2bc70b470c8144500eb34929c",
+    "results/v783/manifest.json": "8297d9de936cdfd3321cdd848631d0a7bc0e5d50d04760a10df3f689f1cccb89"
+  },
+  "data_source": "real_news_and_ai_ratings",
+  "human_reference_available": false,
+  "report_module_sha256": "0909e4bea28b7debb63d6bffa898fe4bb2f8d2fa9e3ac20aafd173256518ccc0"
+}

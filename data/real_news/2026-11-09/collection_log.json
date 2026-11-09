@@ -1,0 +1,162 @@
+[
+  {
+    "source": "Yonhap",
+    "category": "economy",
+    "url": "https://www.yna.co.kr/rss/economy.xml",
+    "status": "ok",
+    "items_retained": 113,
+    "excluded": {
+      "insufficient_excerpt": 5,
+      "missing_title_description_or_date": 1,
+      "pilot_content_exclusion": 1
+    },
+    "sha256": "e8ec7dd28f604bc390b5f8e7ee4deb8488ad648239a7dbefb483351f0d5fadfb"
+  },
+  {
+    "source": "SBS",
+    "category": "economy",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=02",
+    "status": "ok",
+    "items_retained": 29,
+    "excluded": {},
+    "sha256": "e03bfd9ae9b28225ac0335d22164d6f5b2fb67ec26d8dd77a88dc40412976c9e"
+  },
+  {
+    "source": "MBN",
+    "category": "economy",
+    "url": "https://www.mbn.co.kr/rss/economy/",
+    "status": "ok",
+    "items_retained": 30,
+    "excluded": {},
+    "sha256": "4d20dca0333ec301464d8c9a8aa1a69c405a01ecc83c0a7f41d5f29d5703d8bf"
+  },
+  {
+    "source": "Yonhap",
+    "category": "society",
+    "url": "https://www.yna.co.kr/rss/society.xml",
+    "status": "ok",
+    "items_retained": 119,
+    "excluded": {
+      "insufficient_excerpt": 1
+    },
+    "sha256": "4ea33161938802d5b896f03e40d6a8c280b42327a332392d3e4f89056e2fb8c1"
+  },
+  {
+    "source": "SBS",
+    "category": "society",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=03",
+    "status": "ok",
+    "items_retained": 28,
+    "excluded": {
+      "pilot_content_exclusion": 1
+    },
+    "sha256": "6dcba692079642ca6923666321c45db246afa8f97f4db1528bcf253f8c0ba3cf"
+  },
+  {
+    "source": "MBN",
+    "category": "society",
+    "url": "https://www.mbn.co.kr/rss/society/",
+    "status": "ok",
+    "items_retained": 30,
+    "excluded": {},
+    "sha256": "0522699d9de7421a39cbb203976f848fec99668e25fd058a19d9e5590d0b48c5"
+  },
+  {
+    "source": "Yonhap",
+    "category": "international",
+    "url": "https://www.yna.co.kr/rss/international.xml",
+    "status": "ok",
+    "items_retained": 116,
+    "excluded": {
+      "missing_title_description_or_date": 1,
+      "insufficient_excerpt": 2,
+      "pilot_content_exclusion": 1
+    },
+    "sha256": "ed60856e1e4f35162423b9815cb7f24cf365badae3b423f11f808b479b7a33c3"
+  },
+  {
+    "source": "MBN",
+    "category": "international",
+    "url": "https://www.mbn.co.kr/rss/international/",
+    "status": "ok",
+    "items_retained": 30,
+    "excluded": {},
+    "sha256": "4cc4858c9470c7eae10ff93b3dcb67d4c5c77ce63f099f2bd81c5f23c3ebde3a"
+  },
+  {
+    "source": "SBS",
+    "category": "international",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=07",
+    "status": "ok",
+    "items_retained": 29,
+    "excluded": {},
+    "sha256": "3fed49a0d201e30634ff5c7f75a34d68495abdff8959392e807d620453dc1a35"
+  },
+  {
+    "source": "Yonhap",
+    "category": "culture",
+    "url": "https://www.yna.co.kr/rss/culture.xml",
+    "status": "ok",
+    "items_retained": 119,
+    "excluded": {
+      "pilot_content_exclusion": 1
+    },
+    "sha256": "b7a8fe376d4bb2bce9f9c9110e80bb160aa551ee1f115d27426e08394d0f45f7"
+  },
+  {
+    "source": "SBS",
+    "category": "culture",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=08",
+    "status": "ok",
+    "items_retained": 29,
+    "excluded": {},
+    "sha256": "1ce39554e24bff8f0e0048e620308a0b42f9684bba7a24465ef0db6efdbbc164"
+  },
+  {
+    "source": "Yonhap",
+    "category": "sports",
+    "url": "https://www.yna.co.kr/rss/sports.xml",
+    "status": "ok",
+    "items_retained": 116,
+    "excluded": {
+      "insufficient_excerpt": 4
+    },
+    "sha256": "e206ce420141ff69dc0c91efe20bea944b14c8b77bda63d145f04c14cfd6c5e2"
+  },
+  {
+    "source": "MBN",
+    "category": "sports",
+    "url": "https://www.mbn.co.kr/rss/sports/",
+    "status": "ok",
+    "items_retained": 30,
+    "excluded": {},
+    "sha256": "2d159a8ad1aa255e5b252f5677cb04ce274f9aeb01ff717803a78e31d46d9800"
+  },
+  {
+    "source": "SBS",
+    "category": "sports",
+    "url": "https://news.sbs.co.kr/news/SectionRssFeed.do?sectionId=09",
+    "status": "ok",
+    "items_retained": 29,
+    "excluded": {},
+    "sha256": "470323ff73b894817c3f82389ac56e018fbffdfeb7654c155df732fbb832ed79"
+  },
+  {
+    "source": "Yonhap",
+    "category": "lifestyle_health",
+    "url": "https://www.yna.co.kr/rss/health.xml",
+    "status": "ok",
+    "items_retained": 120,
+    "excluded": {},
+    "sha256": "9d8cbf2f2087ea7cbf03acba130f5061c0f8f5c98c35e45b127e488fc893d913"
+  },
+  {
+    "source": "MBN",
+    "category": "lifestyle_health",
+    "url": "https://www.mbn.co.kr/rss/health/",
+    "status": "ok",
+    "items_retained": 30,
+    "excluded": {},
+    "sha256": "c788ccaaf26e404495f18e05454c66a6f0375a5d24f745aa464cfe7e8dc993bc"
+  }
+]
