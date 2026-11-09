@@ -1,0 +1,41 @@
+{
+  "seed": 20261111,
+  "rubric": "docs/risk-rubric-v3.md (unchanged)",
+  "primary": "128 source-stratified random articles, 16 per publisher, one per purged family",
+  "secondary": "64 challenge articles, 8 per publisher; do not pool into primary",
+  "new_development_articles": 128,
+  "legacy_development_articles": 353,
+  "sampling_population": "research-eligible articles outside all previously judged conservative families",
+  "sampling_not_representative_of_unrestricted_corpus": true,
+  "reference": "same executing AI rubric; not independent human/empirical danger ground truth",
+  "reference_blinding": "audit packets omit previous and candidate scores; opened only after final freeze",
+  "primary_endpoint": "mean absolute error, index points /100, against AI rubric",
+  "comparison_baselines": [
+    "v3 original pure model",
+    "v5 original pure model",
+    "constant zero diagnostic"
+  ],
+  "superiority_rule": "paired mean error reduction 95% percentile interval lower bound > 0 against BOTH v3 and v5 on random cohort",
+  "agreement_guard": "within10 point estimate must not decrease versus either v3 or v5; report paired interval and exact McNemar test separately",
+  "challenge_guard": "challenge MAE point estimate must not increase versus either v3 or v5",
+  "all_zero_guard": "report nonzero/high-risk reference recall and constant-zero MAE; no accuracy claim from zero-majority collapse",
+  "bootstrap": "20000 stratified paired resamples within publisher, seed 20261111; descriptive conditional AI-reference uncertainty",
+  "two_primary_comparisons": "require BOTH comparisons to pass (intersection-union claim); no alternative endpoint promotion",
+  "post_opening_rule": "do not tune weights, thresholds, exclusions, labels or primary cohort after viewing final audit predictions",
+  "no_optional_stopping": "one fixed audit size; publish failure if criteria not met",
+  "family_construction": {
+    "headline_char_tfidf_cosine": 0.4,
+    "semantic_cosine": 0.91,
+    "minimum_lexical_for_semantic": 0.15,
+    "days": 21,
+    "other": "candidate event ID + pre-existing named campaigns in entire bodies; connected components"
+  },
+  "families_total": 5933,
+  "purged_random_pool_articles": 6726,
+  "files": {
+    "data/risk/20261109_v6/audit_selection.csv": "23e6e906272f0fb077d842049cb5017a7073ae60fbc5758c3779005b87e31bca",
+    "data/risk/20261109_v6/development_selection.csv": "2ab225a51fe5c5ac6a9dffbbb1d703407bdcbee342d8252b85e307d64f34e85a",
+    "data/risk/20261109_v6/legacy_development.csv": "4e91d75018a15f2d5cb60ba4ac9dcf07e5506a6062b7e5bc891c0fe95b0cb889",
+    "data/risk/20261109_v6/corpus_families.csv": "8f21c48ec20b17e93b0d82795e5a95203b7137813cc67c784364af27984ae779"
+  }
+}
