@@ -1,0 +1,16 @@
+{
+  "all_articles_checked": 8128,
+  "flagged": 1,
+  "records": [
+    {
+      "news_id": "corpus_e78060f084922a14a334",
+      "source": "SBS",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008836313",
+      "assessment_body_sha256": "c00aaddbca36d1f16f288f738d26ff6b46006435d456d2b5fa96cf1e2e000463",
+      "reason": "unfilled_numeric_broadcast_draft"
+    }
+  ],
+  "v6_primary_cases_excluded": 0,
+  "model_inputs_or_predictions_changed": false,
+  "no_missing_numeric_values_invented": true
+}

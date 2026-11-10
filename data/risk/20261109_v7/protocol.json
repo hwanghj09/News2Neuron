@@ -1,0 +1,25 @@
+{
+  "seed": 20261112,
+  "prior_v6_superiority_failed": true,
+  "v6_all_audit_retired_to_development": true,
+  "development_articles": 673,
+  "primary_articles": 280,
+  "challenge_articles": 42,
+  "primary_population": "seven publishers, 40 uniform random articles per source, excluding all previously judged conservative families and incomplete drafts",
+  "SBS_not_in_confirmatory_audit": "only four eligible unjudged articles remained after family purge; training still includes all eight sources",
+  "primary_endpoint": "AI-reference MAE, paired comparisons against both v5 AND v6 fixed original models",
+  "superiority": "both paired stratified 97.5% percentile lower bounds for MAE reduction > 0",
+  "alpha": "two-sided .025 for this second confirmatory attempt; v6 failure remains published, not pooled or erased",
+  "guards": "within10 point estimate, high-risk recall (reference >=30) and challenge MAE must not worsen against either comparison baseline",
+  "within10_significance_reported_separately": true,
+  "bootstrap_resamples": 20000,
+  "stop_rule": "one fixed 280+42 audit; no extra samples, retuning, outcome-based exclusions or new primary endpoints after opening",
+  "model_selection": "family grouped five-fold CV on development only; MAE + 4*(1-within10) + 8*high-risk miss rate",
+  "reference": "one executing AI full-body rubric, not human truth, physical risk probability or whole-corpus representative accuracy",
+  "features": "whole-body E5 semantics, char context, explicit present treatment/repair/finance/negation cues as learned inputs",
+  "files": {
+    "data/risk/20261109_v7/development.csv": "2c5f3f11c058b46199b8438db775f09bab350b5e05cd084308c4e22e136ce61c",
+    "data/risk/20261109_v7/corpus_families.csv": "5b3c03128bfa1a43e149f532faa0b9d38a98be917386b2b6083ab44f0ef82a33",
+    "data/risk/20261109_v7/audit_selection.csv": "60e76f11003b14b30694e3b06a5dd3fb32e8e53dfec2a30d901919bece449b0d"
+  }
+}

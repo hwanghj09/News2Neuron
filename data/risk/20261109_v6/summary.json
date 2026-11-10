@@ -1,0 +1,11 @@
+{
+  "articles": 8128,
+  "direct_AI_judgments": 678,
+  "new_full_body_AI_judgments": 320,
+  "development_articles": 481,
+  "fresh_audit_articles": 192,
+  "primary_articles": 128,
+  "challenge_articles": 64,
+  "human_raters": 0,
+  "preregistered_evidence_pass": false
+}
