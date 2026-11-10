@@ -1,0 +1,7 @@
+{
+  "model_sha256": "cd304907198140253fa49469bc6974c1d4e8a8ba74515de312f1237231874d0c",
+  "source_sha256": "36edfa8a8fb90d7dfe5d5183b354a06f0d7d564c5e7f66319ae98d1c2689ffce",
+  "inference_sha256": "e66d6695502fec6312c517d85c1898035fe5986336dfb0c9ce998345519e1ab3",
+  "dataset_sha256": "5f9ffac5c4ac01b15765c8c498154ff0834a7c2869253fe2ce1a5574c32b38d4",
+  "test_predictions_not_opened": true
+}

@@ -1,0 +1,11 @@
+{
+  "rows": 1091,
+  "development": 1043,
+  "test": 48,
+  "feature_sha256": "5f9ffac5c4ac01b15765c8c498154ff0834a7c2869253fe2ce1a5574c32b38d4",
+  "articles_sha256": "c24e4cad4197ab37313240eedada38b46a5a912bcf88c9f2ddc1516902447ae2",
+  "metadata_sha256": "dcc76b24cb2aad8eaea0fd82b319b7f330e221a086e495910b22bbb42697312e",
+  "source_sha256": "36edfa8a8fb90d7dfe5d5183b354a06f0d7d564c5e7f66319ae98d1c2689ffce",
+  "canonical_title_policy": "one title per encoder call; same during training and inference",
+  "no_test_families_in_training": true
+}

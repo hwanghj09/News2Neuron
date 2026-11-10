@@ -1,0 +1,52 @@
+{
+  "kernels": [
+    {
+      "cue_weight": 0.15,
+      "high_weight": 1.0,
+      "floor": 3.0
+    },
+    {
+      "cue_weight": 0.15,
+      "high_weight": 2.0,
+      "floor": 3.0
+    },
+    {
+      "cue_weight": 0.4,
+      "high_weight": 1.0,
+      "floor": 3.0
+    },
+    {
+      "cue_weight": 0.4,
+      "high_weight": 2.0,
+      "floor": 3.0
+    }
+  ],
+  "trees": [
+    {
+      "high_weight": 1.0,
+      "leaves": 7
+    },
+    {
+      "high_weight": 1.0,
+      "leaves": 15
+    },
+    {
+      "high_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "high_weight": 2.0,
+      "leaves": 15
+    }
+  ],
+  "tree_weights": [
+    0.0,
+    0.5,
+    1.0
+  ],
+  "objective": "0.5 * old-family-balanced MAE + 0.5 * fresh development MAE + 4 * overall high-risk miss rate",
+  "dev_only": true,
+  "test_labels_used": 0,
+  "source_sha256": "36edfa8a8fb90d7dfe5d5183b354a06f0d7d564c5e7f66319ae98d1c2689ffce",
+  "functional_promotion": "For these diagnostics only: test real MAE and within10 do not worsen, synthetic MAE improves. No corpus-default promotion or population superiority claim."
+}
