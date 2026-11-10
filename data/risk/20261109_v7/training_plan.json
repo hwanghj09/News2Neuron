@@ -1,0 +1,149 @@
+{
+  "trees": [
+    {
+      "loss": "absolute_error",
+      "quantile": null,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "absolute_error",
+      "quantile": null,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    },
+    {
+      "loss": "absolute_error",
+      "quantile": null,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "absolute_error",
+      "quantile": null,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    },
+    {
+      "loss": "quantile",
+      "quantile": 0.65,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "quantile",
+      "quantile": 0.65,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    },
+    {
+      "loss": "quantile",
+      "quantile": 0.65,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "quantile",
+      "quantile": 0.65,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    },
+    {
+      "loss": "squared_error",
+      "quantile": null,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "squared_error",
+      "quantile": null,
+      "high_weight": 1.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    },
+    {
+      "loss": "squared_error",
+      "quantile": null,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 7
+    },
+    {
+      "loss": "squared_error",
+      "quantile": null,
+      "high_weight": 2.0,
+      "full_weight": 2.0,
+      "leaves": 15
+    }
+  ],
+  "kernels": [
+    {
+      "lexical_weight": 0.25,
+      "high_weight": 1.0,
+      "mode": "plain",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.25,
+      "high_weight": 1.0,
+      "mode": "gated",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.25,
+      "high_weight": 2.0,
+      "mode": "plain",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.25,
+      "high_weight": 2.0,
+      "mode": "gated",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.5,
+      "high_weight": 1.0,
+      "mode": "plain",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.5,
+      "high_weight": 1.0,
+      "mode": "gated",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.5,
+      "high_weight": 2.0,
+      "mode": "plain",
+      "full_weight": 2.0
+    },
+    {
+      "lexical_weight": 0.5,
+      "high_weight": 2.0,
+      "mode": "gated",
+      "full_weight": 2.0
+    }
+  ],
+  "blend_tree_weights": [
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0
+  ],
+  "folds": 5,
+  "source_sha256": "89a14597af5b3feb5fdc8fe4ed538677d1d17e230e17e55aa6d89a08946015c8",
+  "audit_labels_used": 0,
+  "loss": "family-balanced MAE + 4*(1-within10) + 8*high-risk miss rate"
+}

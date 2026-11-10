@@ -1,0 +1,16 @@
+{
+  "files": {
+    "data/risk/20261109_v7/protocol.json": "41850aa3610315442fe0bf8292109dddf5acaffe20c9a7db856050ecb5d17d70",
+    "data/risk/20261109_v7/audit_selection.csv": "60e76f11003b14b30694e3b06a5dd3fb32e8e53dfec2a30d901919bece449b0d",
+    "data/risk/20261109_v7/corpus_families.csv": "5b3c03128bfa1a43e149f532faa0b9d38a98be917386b2b6083ab44f0ef82a33",
+    "data/risk/20261109_v7/development.csv": "2c5f3f11c058b46199b8438db775f09bab350b5e05cd084308c4e22e136ce61c",
+    "data/risk/20261109_v7/training_plan.json": "c43e9f2bd731a44734df6d9754dd84ef1ecae42e39125fdf7d624e9086be2ad6",
+    "data/risk/20261109_v7/training.json": "8ac12c4b7eba5ea6fef0303d72380e6cb1fbe51b1920a8ed58dd949c7da139ef",
+    "data/risk/20261109_v7/feature_manifest.json": "503ff5ed777535699946b9b69fb7e2d08069588ccbae97adc46ac8da27101ffd",
+    "data/risk/20261109_v7/model.joblib": "34e3bba837ef3801e77a021e998f2ccbc9718d18c2e1e388e33bc0088c493156",
+    "data/risk/20261109_v7/predictions.parquet": "4e6346ab1750d13b073a30a1f55684c022eba5ff7d123964b99bc09d124b621b"
+  },
+  "source_sha256": "89a14597af5b3feb5fdc8fe4ed538677d1d17e230e17e55aa6d89a08946015c8",
+  "features_sha256": "5d98ecd066e5fda812344016058b2432fb2f3e8282022892c6b8933fa847bcf7",
+  "audit_judgments_opened": 0
+}
