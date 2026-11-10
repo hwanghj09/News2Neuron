@@ -1,0 +1,33 @@
+case_id,role,news_id,row_index,source,title,family,assessment_body_sha256
+v8_r01,development,corpus_e5102e43711ef1bba8e7,2322,Edaily,"현대차, 판매량 11% 줄어도 이익 늘었다...불황 속 돋보인 방어력-IBK",1800,11e09d9c00ee7bf210bef65db2edfe9f0fce9879c28ec786580f9b8626ba31d9
+v8_r02,test,corpus_9e919783d59e6b08b65d,4494,Edaily,"인천세종병원, ‘제49차 IHF 세계병원대회’ 연계 병원 투어 성료",3409,6b0a769e1182fdeecc885cefd9743ff65c7d0c4ba938b5be0ccfe006ac502732
+v8_r03,development,corpus_c224161b4ad5bab576a9,4648,Edaily,인지도·신뢰도 1위 아파트 브랜드는 대우건설 ‘푸르지오’,3521,ce297d2d9829dab6e74a9965f92f390e1be6ddbf6811b8b390f3feea72dfbc8c
+v8_r04,test,corpus_5055a09a89d705edbb65,2038,Edaily,"한미약품, 퓨리오사AI 등과 맞손...‘에피데이’ 챗봇 국산 AI로 전환",1594,2b33e302192b4955150ff60a59e282f3bd1ca321b759f517ca3c82249316929b
+v8_r05,development,corpus_fa99c467ac3713aecb3e,359,Fnnews,"인하대, 과기부 'AX대학원' 선정...""AI 석·박사 인재 양성""",299,0d1400fb7ac7c03bbe65e449aca283a0c967c3d4bcd1b6b78b69b9418328d333
+v8_r06,test,corpus_fe22ab27f6a133c10270,4980,Fnnews,"韓총리, 전국 호우 대응 긴급지시...""산사태·급경사지 철저 점검""",3754,9e8a7109c733daa6eb78500060d7aa15b5ea9262ce17f3926a84ab16e030c2f0
+v8_r07,development,corpus_f8c31e5ed61947724d9f,4660,Fnnews,"美백악관, CNN '에어포스원 동승 취재'서 배제...공동취재단 운영 위기",3527,65ba4070eb7444f1f5dc9bdcb263cd8f525befeba0e865a6ab92796636eca445
+v8_r08,test,corpus_9831a5302a6eb2ca430e,7923,Fnnews,"'거함' 전북 꺾고 홈 100승 달성한 이영민 부천 감독 ""행복해...팬들께 감사""",5796,26d1c796bf93b01a53f98422a572f6cf09b6b262a4e21535079aa083857cd0f8
+v8_r09,development,corpus_4c50c13bc2aa91df3d11,3040,Hankyung,"""하루 2시간 잤더니""...장재인 고백한 질환 정체 [건강!톡]",2356,8158bb1027a8131267c187d993e76699302b878808677f140984770de5c13623
+v8_r10,test,corpus_ba3f0f05898f48ba2864,495,Hankyung,"뿌링클·맛초킹을 내 맘대로... bhc ""내 취향 치킨 조립해 드세요""",416,82dd45efd5524997ae3bd6d21e33fbc04b65945dd508540c6ca851b156717275
+v8_r11,development,corpus_d6a08a4f72001aac5b4d,4580,Hankyung,"""말 걸었더니 짜증""...최우식, '승무원 갑질' 의혹에 ""법적 조치""",3472,0447caeb1b63c6fde018996bed152989688dd82ded18a843b79d6802b023f9fa
+v8_r12,test,corpus_60f90ff58d8508aef70e,1369,Hankyung,성수동서 맞붙은 네이버-토스...얼굴 결제 팝업 '정면승부',356,f5cbab3721332ffaf7c5cc256b54a29320b84d4e42b4774121b2abf6e470d573
+v8_r13,development,corpus_85129721c681c7b5ac66,850,Hankyung,"한국서비스경영학회, ‘듀얼지능 시대 서비스 혁신’ 주제로 가을학술대회 개최",684,4855752d4e5d52cb9ac6fc2213bf3bd7d58956b9e5ce80e35e1131acae65fd7c
+v8_r14,test,corpus_5b1ad8fc67b2d3f7955e,3617,Hankyung,경제 사령탑 김용범 사퇴,2438,3b2856b3e41fd227b2607b0faf70142cadd4e170a6f0f926b27149460e394713
+v8_r15,development,corpus_acbf233176fd0cfb0e33,103,Khan,“싸우지 않으면 살지 못하는 사회라서”...‘재일 3세’ 신숙옥의 우아한 투쟁기[플랫],94,579d29caf6d0aa221b263ed57fa494f278286f720dec91ad12fba799eeb9cea8
+v8_r16,test,corpus_d98d17ea2fdeea931339,1453,Khan,젠슨 황부터 빌 게이츠까지...권력자들이 외도를 정당화하는 심리 [이윤정 기자의 소소월드],1139,10bba27cf7dbfb50aab27bd19d1b95f951a03de4d00c0d605fce9d4e2081d7da
+v8_r17,development,corpus_93afc1f85568a9c8293c,97,Khan,"“남산에서 꽃을 보다”···서울시, ‘작가정원’ 국제공모",89,035099cd8c75e76d364176e94a653b17b8469eba1f19406f8cea185846c17d56
+v8_r18,test,corpus_55f68912525fc695151a,639,Khan,"유튜브 라이브 보고 산 해외 유명 명품, 알고보니 ‘짝퉁’···경찰, 셀러 등 29명 송치",531,0aa76d435e5bd35b013f4a47f6587205a0cfe55e7805d6de745143eb17518edb
+v8_r19,development,corpus_c616f15a35096ac036cd,2519,News1,"北, 장거리포·미사일 합동타격훈련 진행...""통합 화력지휘체계 숙달""",1959,9cd5c1aa138b02aff2f93a4d9b4162f8a1772793c9464804a251ecac3ad1016b
+v8_r20,test,corpus_325c8b9e53039fbeb206,393,News1,"방미통위, 퍼스트모바일 1년 4개월째 조사만...'늑장 행정' 논란",327,98525ffc92dd4ad2c6fed4f7c0818d4cb1f83dba6a25944e49fe6bd6fe63cb01
+v8_r21,development,corpus_4c1f3dd3ff21fe9d6651,1781,News1,"국방부, 2026 드론 기술전 개최...민간 첨단 기술 도입 신속 추진",1053,bc37cfc994d4e36903439716762a948c00a5a88c8ea6efbe7234d5bd074c472c
+v8_r22,test,corpus_65833ddcb83040b984f5,2152,News1,한-투르크메니스탄 '투자보장협정' 체결...중앙아 5개국 모두 확보,241,adc5f9cdd83286407a1c68c697bc387e176be4708f7a7d79a6dc7ddef8d4d4e2
+v8_r23,development,corpus_8ae1f8f46984ebd95313,4294,News1,"국민체육진흥공단, 암생존자 체력 증진 심포지엄 개최",3266,e7e123debc4d8c290ac03095965f8b07a39454e29c9700507cf9eae44c27cbe4
+v8_r24,test,corpus_8996844c1e1a195e2229,4900,News1,WKBL 정규리그 105경기로 확대...PO는 3전 2선승제로 축소,3696,d945cd4bdfa7bb00d9b80cc0eda2c229644719fd814b70db1dcaf30a62ae49c2
+v8_r25,development,corpus_f4e529aa6c5b4128d448,6969,Newsis,"진보당 ""경남도, 내년 청년예산 전체의 5% 편성"" 촉구",5157,91045f115afbd5806f62b321a40cb3c7c330117a8830a5cdbe5889384d382297
+v8_r26,test,corpus_7b05288c1f1ba8993bdc,1271,Newsis,"해수부, 베트남 해양플랜트 시장 공략...국내 기업 28곳 수출 지원",998,ae6fe89f78760fc77116c57dfbc3a2a58977fe9b0e53c0b40c235069f7313830
+v8_r27,development,corpus_30b70a2d74f78e016c65,1305,Newsis,"[성남소식]시, 윤대현 교수 초청 '희망성남 토크콘서트' 등",1026,86cd29cfb53dc394d52b8a20d63e5de3a2367e739ddd4bc89e9156381b0df95f
+v8_r28,test,corpus_e1d39a1abd0f16b8c0f6,5431,Newsis,"인천 9월 제조업 생산, 작년비 27% 늘었다",4082,d7933f3ba10d55051c00a1eeb085d8172d6e462cca6f0cc1b1c7e6d4159d28fa
+v8_r29,development,corpus_a991146fd940bc85950c,7667,Seoul,"“뚜껑, 뚜껑 놀렸는데, 나 X될 듯” 이하늘 ‘돌발 발언’...한동훈 반응 ‘화제’",5626,57643720d931a7ada8a4d5038dfad3cfb2fa7839cab6129cda1e3e6d2de0e56f
+v8_r30,test,corpus_12d8884e64f7fcb3e96d,6653,Seoul,[포착] “어? 이거 나도 봤는데” 밀크티 든 사진에 인생역전...‘재산 12조’ 억만장자 된 근황,4938,006a49fb76f8ac1bb8258b8df4f92e2bd31b8c854aa18f815bbec596f1106eba
+v8_r31,development,corpus_8060fe106b9da109a55a,1637,Seoul,"‘봄 여왕’ 이예원, 3년 만에 가을에 우승...S오일 챔피언십 제패",1292,61b015040e366575daa778ab7ecfb27133daee8f6477f7e271ec5ebe984faca0
+v8_r32,test,corpus_8bc01f92eb02ec51ca6e,5787,Seoul,"LG, ‘K-엑사원 2.5’ API 무료 개방... “성능 70% 향상”",4331,eeef232aa4008caa4c2ca960b695f7e0354ac63182b7e4803ec9a2943b0e77cf

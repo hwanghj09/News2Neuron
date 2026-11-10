@@ -1,0 +1,8 @@
+{
+  "synthetic_sha256": "73764246bdb150aeb30fff3e3dccf726c5bf64889d3c3aa3db2dbcdfbf4ef9e6",
+  "real_judgments_sha256": "a6edc91541ae24a6c7cd7e5361b2aea3b13aedc4312e86eaa526a7f8626ea7d1",
+  "real_reference_sha256": "6203b4ba52f65976045e9edcf431990c4834f59095a33421151b185fe6e81590",
+  "all_32_real_full_bodies_read": true,
+  "model_predictions_not_yet_opened": true,
+  "reference": "Direct current-session AI judgment; same evaluator, not blinded or independently validated."
+}

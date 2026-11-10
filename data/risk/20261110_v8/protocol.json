@@ -1,0 +1,19 @@
+{
+  "experiment": "v8 targeted diagnostics",
+  "synthetic": 64,
+  "real": 32,
+  "development_synthetic": 32,
+  "development_real": 16,
+  "test_synthetic": 32,
+  "test_real": 16,
+  "real_source": "Previously unjudged real stored articles; no new downloads. Seven publishers; SBS has too few unjudged families.",
+  "old_judgments_now_development": 995,
+  "split": "Synthetic scenario families disjoint; real families disjoint from all 1000 old judgments and each other.",
+  "baseline": "Published v5 pure model, without direct-reference overrides.",
+  "expectations_before_predictions": true,
+  "training": "995 existing references + development cases only; test cases never used for fitting or selection.",
+  "test_stop": "One frozen corrected model; all test failures reported, no tuning after test predictions.",
+  "reference": "Single AI authored judgments and synthetic functional expectations, not independent human truth.",
+  "synthetic_sha256": "73764246bdb150aeb30fff3e3dccf726c5bf64889d3c3aa3db2dbcdfbf4ef9e6",
+  "selection_sha256": "b34808c25c9f722e8d0433df3bf00d7427be57541b13ff31c117232ca5ebdb8a"
+}
