@@ -1,0 +1,17 @@
+{
+  "model": "v5",
+  "articles": 8128,
+  "previous_release": "../20261110_release",
+  "new_real_direct_reviews": 32,
+  "total_real_direct_reviews": 1032,
+  "synthetic_training_cases": 32,
+  "synthetic_cases_in_corpus_or_review_catalog": 0,
+  "failed_candidate": "v8",
+  "candidate_reason": "Real held-out MAE and within10 worsened; synthetic within10 also worsened.",
+  "candidate_metrics": "../20261110_v8/test_metrics.json",
+  "no_pure_model_accuracy_gain_claimed": true,
+  "reviews_are_not_held_out_accuracy": true,
+  "exact_title_and_cleaned_body_hash_required_for_review_reuse": true,
+  "unchanged_unreviewed_model_predictions": 7096,
+  "catalog_sha256": "f7f44ce5542e45083da2b7593482565462ecc9633fabf7a9f0e45349e0bbe959"
+}

@@ -1,0 +1,14 @@
+{
+  "report": "20261110_followup",
+  "articles": 8128,
+  "direct": 1032,
+  "model": 7096,
+  "eligible": 8050,
+  "corrected_article_detail_verified": true,
+  "pagination": true,
+  "local_links_checked": 12,
+  "all_local_links_http200": true,
+  "images_loaded": true,
+  "mobile_overflow": false,
+  "javascript_errors": []
+}

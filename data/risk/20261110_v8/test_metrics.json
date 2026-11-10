@@ -1,0 +1,78 @@
+{
+  "cohorts": {
+    "new_real": {
+      "v5": {
+        "n": 16,
+        "MAE": 3.7847790799578194,
+        "within10": 0.8125,
+        "high_risk_n": 1,
+        "high_risk_recall": 1.0,
+        "max_error": 19.6875
+      },
+      "v8": {
+        "n": 16,
+        "MAE": 7.252535560783468,
+        "within10": 0.5625,
+        "high_risk_n": 1,
+        "high_risk_recall": 1.0,
+        "max_error": 15.45353776545322
+      }
+    },
+    "synthetic": {
+      "v5": {
+        "n": 32,
+        "MAE": 23.667207641519838,
+        "within10": 0.46875,
+        "high_risk_n": 16,
+        "high_risk_recall": 0.1875,
+        "max_error": 85.00000000000001
+      },
+      "v8": {
+        "n": 32,
+        "MAE": 18.364227384070613,
+        "within10": 0.21875,
+        "high_risk_n": 16,
+        "high_risk_recall": 0.8125,
+        "max_error": 51.38505033227338
+      }
+    }
+  },
+  "targeted_guard_passed": false,
+  "default_corpus_model": "v5 remains unchanged; small same-AI diagnostics are not population evidence",
+  "unresolved_test_errors_over10": [
+    "v8_r04",
+    "v8_r06",
+    "v8_r14",
+    "v8_r16",
+    "v8_r22",
+    "v8_r28",
+    "v8_r32",
+    "v8_s33",
+    "v8_s34",
+    "v8_s35",
+    "v8_s36",
+    "v8_s37",
+    "v8_s38",
+    "v8_s40",
+    "v8_s41",
+    "v8_s43",
+    "v8_s44",
+    "v8_s46",
+    "v8_s47",
+    "v8_s48",
+    "v8_s50",
+    "v8_s51",
+    "v8_s52",
+    "v8_s53",
+    "v8_s54",
+    "v8_s57",
+    "v8_s59",
+    "v8_s60",
+    "v8_s61",
+    "v8_s62",
+    "v8_s63",
+    "v8_s64"
+  ],
+  "reference": "One AI evaluator; synthetic specifications and real article references reported separately.",
+  "model_sha256": "cd304907198140253fa49469bc6974c1d4e8a8ba74515de312f1237231874d0c"
+}

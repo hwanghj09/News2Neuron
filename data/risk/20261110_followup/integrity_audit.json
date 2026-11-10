@@ -1,0 +1,20 @@
+{
+  "articles": 8128,
+  "real_direct_reviews": 1032,
+  "new_real_reviews": 32,
+  "previous_scores_unchanged_except_new_reviews": true,
+  "model_scores_unchanged": true,
+  "csv_parquet_equal": true,
+  "research_eligibility_unchanged": true,
+  "exact_review_routes_verified": 1031,
+  "incomplete_drafts_quarantined": [
+    "corpus_e78060f084922a14a334"
+  ],
+  "new_article_CLI_smoke": {
+    "inputs": 96,
+    "real_direct": 32,
+    "synthetic_pure_model": 64
+  },
+  "catalog_sha256": "f7f44ce5542e45083da2b7593482565462ecc9633fabf7a9f0e45349e0bbe959",
+  "verification_kind": "application integrity, not held-out accuracy"
+}

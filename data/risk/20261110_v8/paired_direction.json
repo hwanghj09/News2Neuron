@@ -1,0 +1,12 @@
+{
+  "v5": {
+    "pairs": 16,
+    "strict_correct_direction": 7,
+    "ties_count_as_failure": true
+  },
+  "v8": {
+    "pairs": 16,
+    "strict_correct_direction": 16,
+    "ties_count_as_failure": true
+  }
+}

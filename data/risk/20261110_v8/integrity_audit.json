@@ -1,0 +1,38 @@
+{
+  "training": 1043,
+  "final_test": 48,
+  "frozen_model_and_source_verified": true,
+  "reference_hashes_verified": true,
+  "families_disjoint": true,
+  "max_test_replay_difference": 7.105427357601002e-15,
+  "public_inference_articles_reencoded": 4,
+  "max_feature_replay_difference": 0.0,
+  "complete_body_receipts": [
+    {
+      "body_sha256": "130aee21ba95821e37702e7d19179451c48876c46e6fcaab4a2217632a08af04",
+      "windows": 3,
+      "input_chars": 1138,
+      "all_body_tokens_processed": true
+    },
+    {
+      "body_sha256": "6b0a769e1182fdeecc885cefd9743ff65c7d0c4ba938b5be0ccfe006ac502732",
+      "windows": 3,
+      "input_chars": 1131,
+      "all_body_tokens_processed": true
+    },
+    {
+      "body_sha256": "ce297d2d9829dab6e74a9965f92f390e1be6ddbf6811b8b390f3feea72dfbc8c",
+      "windows": 3,
+      "input_chars": 1110,
+      "all_body_tokens_processed": true
+    },
+    {
+      "body_sha256": "bd10d962c3867fdc695a94c2652ac21f4cb06f7ab2c4eadf2ca94fad58291902",
+      "windows": 1,
+      "input_chars": 134,
+      "all_body_tokens_processed": true
+    }
+  ],
+  "reported_metrics_recomputed": true,
+  "no_corpus_default_change": true
+}
