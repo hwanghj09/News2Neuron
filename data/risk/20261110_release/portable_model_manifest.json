@@ -1,0 +1,16 @@
+{
+  "v6": {
+    "original_sha256": "77a8c9d9614cab9cd1c32c4052f2de72ac1ff6f20ad4cd35e3244638bdaa33fc",
+    "portable_sha256": "1d38ce62aa0a17e2cd9a4b9ee3174d4a1125c312591dc2dbb69acf61a25f99e9",
+    "fitted_parameters_changed": false,
+    "retrained": false,
+    "reason": "importable class paths for artifacts trained with python -m"
+  },
+  "v7": {
+    "original_sha256": "34e3bba837ef3801e77a021e998f2ccbc9718d18c2e1e388e33bc0088c493156",
+    "portable_sha256": "b016971078eabcc0d4fa0baa94065fae59ba52d871b5a5bb434af460fdd958fb",
+    "fitted_parameters_changed": false,
+    "retrained": false,
+    "reason": "importable class paths for artifacts trained with python -m"
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "reference": "single executing AI full-body residual-risk rubric; no independent human truth",
+  "primary_cohort": "random",
+  "primary_articles": 280,
+  "challenge_articles": 42,
+  "primary_publishers": 7,
+  "results": [
+    {
+      "model": "v5",
+      "cohort": "random",
+      "articles": 280,
+      "MAE": 9.197910753440647,
+      "RMSE": 16.985649884705026,
+      "within10_AI_agreement": 0.6928571428571428,
+      "reference_positive": 112,
+      "reference_high": 43,
+      "high_recall": 0.046511627906976744,
+      "nonzero_recall": 0.5625,
+      "zero_false_positive_rate": 0.07738095238095238,
+      "error_gt30": 33
+    },
+    {
+      "model": "v5",
+      "cohort": "challenge",
+      "articles": 42,
+      "MAE": 18.550753040685933,
+      "RMSE": 23.317846309825335,
+      "within10_AI_agreement": 0.3333333333333333,
+      "reference_positive": 36,
+      "reference_high": 32,
+      "high_recall": 0.46875,
+      "nonzero_recall": 0.9444444444444444,
+      "zero_false_positive_rate": 0.6666666666666666,
+      "error_gt30": 9
+    },
+    {
+      "model": "v5",
+      "cohort": "all",
+      "articles": 322,
+      "MAE": 10.4178467039509,
+      "RMSE": 17.93879922996823,
+      "within10_AI_agreement": 0.6459627329192547,
+      "reference_positive": 148,
+      "reference_high": 75,
+      "high_recall": 0.22666666666666666,
+      "nonzero_recall": 0.6554054054054054,
+      "zero_false_positive_rate": 0.09770114942528736,
+      "error_gt30": 42
+    },
+    {
+      "model": "v6",
+      "cohort": "random",
+      "articles": 280,
+      "MAE": 8.5526011483161,
+      "RMSE": 16.049886986835446,
+      "within10_AI_agreement": 0.7,
+      "reference_positive": 112,
+      "reference_high": 43,
+      "high_recall": 0.09302325581395349,
+      "nonzero_recall": 0.6071428571428571,
+      "zero_false_positive_rate": 0.08333333333333333,
+      "error_gt30": 27
+    },
+    {
+      "model": "v6",
+      "cohort": "challenge",
+      "articles": 42,
+      "MAE": 14.98379165800269,
+      "RMSE": 19.859463259954463,
+      "within10_AI_agreement": 0.47619047619047616,
+      "reference_positive": 36,
+      "reference_high": 32,
+      "high_recall": 1.0,
+      "nonzero_recall": 1.0,
+      "zero_false_positive_rate": 0.8333333333333334,
+      "error_gt30": 5
+    },
+    {
+      "model": "v6",
+      "cohort": "all",
+      "articles": 322,
+      "MAE": 9.391452084362177,
+      "RMSE": 16.596453639943476,
+      "within10_AI_agreement": 0.6708074534161491,
+      "reference_positive": 148,
+      "reference_high": 75,
+      "high_recall": 0.48,
+      "nonzero_recall": 0.7027027027027027,
+      "zero_false_positive_rate": 0.10919540229885058,
+      "error_gt30": 32
+    },
+    {
+      "model": "v7",
+      "cohort": "random",
+      "articles": 280,
+      "MAE": 8.980862515700546,
+      "RMSE": 15.456467109383146,
+      "within10_AI_agreement": 0.7035714285714286,
+      "reference_positive": 112,
+      "reference_high": 43,
+      "high_recall": 0.16279069767441862,
+      "nonzero_recall": 0.9642857142857143,
+      "zero_false_positive_rate": 0.08928571428571429,
+      "error_gt30": 29
+    },
+    {
+      "model": "v7",
+      "cohort": "challenge",
+      "articles": 42,
+      "MAE": 16.2361167260139,
+      "RMSE": 19.854086274684818,
+      "within10_AI_agreement": 0.30952380952380953,
+      "reference_positive": 36,
+      "reference_high": 32,
+      "high_recall": 0.75,
+      "nonzero_recall": 1.0,
+      "zero_false_positive_rate": 0.8333333333333334,
+      "error_gt30": 3
+    },
+    {
+      "model": "v7",
+      "cohort": "all",
+      "articles": 322,
+      "MAE": 9.927200021393592,
+      "RMSE": 16.098341442354894,
+      "within10_AI_agreement": 0.6521739130434783,
+      "reference_positive": 148,
+      "reference_high": 75,
+      "high_recall": 0.41333333333333333,
+      "nonzero_recall": 0.972972972972973,
+      "zero_false_positive_rate": 0.11494252873563218,
+      "error_gt30": 32
+    },
+    {
+      "model": "zero",
+      "cohort": "random",
+      "articles": 280,
+      "MAE": 11.903041294642858,
+      "RMSE": 21.703174239866556,
+      "within10_AI_agreement": 0.6285714285714286,
+      "reference_positive": 112,
+      "reference_high": 43,
+      "high_recall": 0.0,
+      "nonzero_recall": 0.0,
+      "zero_false_positive_rate": 0.0,
+      "error_gt30": 43
+    },
+    {
+      "model": "zero",
+      "cohort": "challenge",
+      "articles": 42,
+      "MAE": 41.38578869047619,
+      "RMSE": 47.743055273719335,
+      "within10_AI_agreement": 0.14285714285714285,
+      "reference_positive": 36,
+      "reference_high": 32,
+      "high_recall": 0.0,
+      "nonzero_recall": 0.0,
+      "zero_false_positive_rate": 0.0,
+      "error_gt30": 32
+    },
+    {
+      "model": "zero",
+      "cohort": "all",
+      "articles": 322,
+      "MAE": 15.748617041925465,
+      "RMSE": 26.5876347708842,
+      "within10_AI_agreement": 0.5652173913043478,
+      "reference_positive": 148,
+      "reference_high": 75,
+      "high_recall": 0.0,
+      "nonzero_recall": 0.0,
+      "zero_false_positive_rate": 0.0,
+      "error_gt30": 75
+    }
+  ],
+  "paired_comparisons": {
+    "v5": {
+      "articles": 280,
+      "baseline_MAE": 9.197910753440647,
+      "candidate_MAE": 8.980862515700546,
+      "MAE_reduction": 0.2170482377401018,
+      "MAE_reduction_95_percentile": [
+        -0.579116327011963,
+        1.0381163516141716
+      ],
+      "relative_MAE_reduction": 0.02359755857153875,
+      "baseline_within10": 0.6928571428571428,
+      "candidate_within10": 0.7035714285714286,
+      "within10_change": 0.010714285714285714,
+      "within10_change_95_percentile": [
+        -0.02857142857142857,
+        0.05
+      ],
+      "within10_improved_cases": 17,
+      "within10_regressed_cases": 14,
+      "mcnemar_exact_one_sided_p": 0.360050065908581,
+      "paired_error_wins": 87,
+      "paired_error_losses": 147,
+      "sign_test_one_sided_p": 0.9999695626556842,
+      "paired_sign_flip_one_sided_p": 0.3071846407679616,
+      "resamples": 20000,
+      "seed": 20261112,
+      "MAE_reduction_97_5_percentile": [
+        -0.7024207802357122,
+        1.1522768596697879
+      ],
+      "within10_change_97_5_percentile": [
+        -0.03214285714285714,
+        0.05357142857142857
+      ],
+      "primary_interval_level": 0.975
+    },
+    "v6": {
+      "articles": 280,
+      "baseline_MAE": 8.5526011483161,
+      "candidate_MAE": 8.980862515700546,
+      "MAE_reduction": -0.4282613673844453,
+      "MAE_reduction_95_percentile": [
+        -1.1477735620208978,
+        0.29484145853037597
+      ],
+      "relative_MAE_reduction": -0.05007381496666247,
+      "baseline_within10": 0.7,
+      "candidate_within10": 0.7035714285714286,
+      "within10_change": 0.0035714285714285713,
+      "within10_change_95_percentile": [
+        -0.02857142857142857,
+        0.039285714285714285
+      ],
+      "within10_improved_cases": 13,
+      "within10_regressed_cases": 12,
+      "mcnemar_exact_one_sided_p": 0.5,
+      "paired_error_wins": 70,
+      "paired_error_losses": 164,
+      "sign_test_one_sided_p": 0.9999999998500573,
+      "paired_sign_flip_one_sided_p": 0.872206389680516,
+      "resamples": 20000,
+      "seed": 20261112,
+      "MAE_reduction_97_5_percentile": [
+        -1.243852195631525,
+        0.39191780417556227
+      ],
+      "within10_change_97_5_percentile": [
+        -0.03571428571428571,
+        0.04285714285714286
+      ],
+      "primary_interval_level": 0.975
+    }
+  },
+  "preregistered_checks": {
+    "MAE_superiority_both": false,
+    "within10_point_estimate_non_decrease_both": true,
+    "high_recall_non_decrease_both_cohorts": false,
+    "challenge_MAE_non_increase_both": false,
+    "beats_constant_zero": true
+  },
+  "preregistered_evidence_pass": false,
+  "prior_v6_failure_preserved": true,
+  "primary_interval_level": 0.975,
+  "no_posthoc_exclusions": true,
+  "fresh_audit_labels_used_for_training_or_selection": false,
+  "uncertainty_scope": "publisher-stratified paired sampling conditional on this AI reference and family-purged seven-publisher pool; no label-truth or future-shift guarantee"
+}

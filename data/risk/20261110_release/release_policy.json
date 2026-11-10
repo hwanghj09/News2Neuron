@@ -1,0 +1,22 @@
+{
+  "model": "v5",
+  "previous_published_model": "v5",
+  "promotion": "candidate must pass all of its preregistered checks; otherwise retain prior published model",
+  "candidate_pass": {
+    "v6": false,
+    "v7": false
+  },
+  "new_direct_judgments": 642,
+  "total_direct_judgments": 1000,
+  "human_raters": 0,
+  "new_full_body_judgments": 642,
+  "older_358_scope": "title/lead/evidence windows plus selected whole bodies; not all individually read in full",
+  "incomplete_drafts_flagged": 1,
+  "frozen_models_retrained_after_audit": false,
+  "claimed_confirmatory_accuracy_improvement": false,
+  "caveat": "Direct references replace display scores only. Agreement with those same references is not held-out accuracy evidence.",
+  "evidence_reports": {
+    "v6": "../20261109_v6/report.html",
+    "v7": "../20261109_v7/report.html"
+  }
+}

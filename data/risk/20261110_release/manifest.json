@@ -1,0 +1,41 @@
+{
+  "files": {
+    "data/risk/20261110_release/browser-verification.json": "95e3b41066a3b96a476b842c1be320f052479d376bd3830935b4ffc933838196",
+    "data/risk/20261110_release/decision_audit.csv": "1ca266e4a0617d66962812269c7c7b9c19238e42e432c9d60e3c849d0a3db723",
+    "data/risk/20261110_release/figures/preregistered_comparison.png": "91e9028cd5f96812d9cb51bc87e177a412fb8fdb98ed5e234d24e873a0ef8f94",
+    "data/risk/20261110_release/figures/preregistered_comparison.svg": "ca94bcf905de391296935303b9a281158f83557645ef93c97b80df918dea1129",
+    "data/risk/20261110_release/fresh_audit_metrics.json": "7cdbd6746f129b4f567904d7d9c1d236e3bdd15b00d54a33c1779528f6188b89",
+    "data/risk/20261110_release/integrity_audit.json": "ba74e6efcb2a3344b96ca982d1c6befb3bfbcad8554b544501e6cdc1ce51d397",
+    "data/risk/20261110_release/known_relation_sensitivity.json": "40d9d2abf943db6eff5cf758c4f0120586c7c662562ae6dcfd8cec4732329719",
+    "data/risk/20261110_release/news_risk_scores.csv": "9e6155561515b67a4dacd833a269dfcff471410d464ad09b66eee09136d03992",
+    "data/risk/20261110_release/news_risk_scores.parquet": "dcfc73861077acf092d148acc26618ca1c5db01b7431c3a7706c9749f49d60e4",
+    "data/risk/20261110_release/portable_model_manifest.json": "b9f976d94effcd4603597e315296213bc6d26cf499b74e0401a106978ca431b3",
+    "data/risk/20261110_release/release_policy.json": "21b5850c3947b566fe02ef2011b9819eb822d825e6926978306bdaef146cc1f5",
+    "data/risk/20261110_release/report.html": "51299bbe47c9a2ff0c0a1d6b49ef44e31da96a08397cd221e7c89da2586d77a7",
+    "data/risk/20261110_release/summary.json": "0ae829ab9b7908524942db25e1920a7f9a8ce20f4924fa227e8e832eea4ff901",
+    "data/risk/20261110_release/test-verification.json": "84321d2cb7ea2c7fb21dd4898f65ea50323cfb795b88fee038f14c091a799ef8",
+    "docs/risk-evidence-v6.md": "ddc7cc436ee3844985a16fcc2ccda4d884967d1f83742f0e89ac19a66cb9a158",
+    "docs/risk-evidence-v7.md": "3f693156cb642c0a4abf19c40a7ad976e63d3e348d0813783bbe512daa4a8d7c",
+    "scripts/audit_risk_evidence.py": "586de4326f17129c7877e61aee14e3a6aab632910970abadecd4aac4e88e95ac",
+    "src/news_flywire/risk_evidence_report.py": "083bf59999445f15b23d0d2739ab549d66a7ce4c6a7a29bdeb79fc533039671c",
+    "src/news_flywire/risk_input_quality.py": "e8b4abdaa7e1b1f865d303c78cbbd96b409432bd6e2f3aa55c4936263c4605e8",
+    "src/news_flywire/risk_release.py": "10f6ebe9a043ba6954109c8008147be434684f915af9109a217b995635d77f2b",
+    "src/news_flywire/risk_v6.py": "c610659114786a6d4700dd3419f24922fc92453b1ae7995ce87f9eae1f02fb7f",
+    "src/news_flywire/risk_v6_evaluation.py": "9650f5401821ce51d678c89f7ab152c072e6b510b759b07dcdc2a466ad7c9f9e",
+    "src/news_flywire/risk_v7.py": "89a14597af5b3feb5fdc8fe4ed538677d1d17e230e17e55aa6d89a08946015c8",
+    "src/news_flywire/risk_v7_evaluation.py": "42996c7d06d8f0ce9264bd197d425aab5f46b31a34e4975cce4263967a08976e",
+    "tests/test_risk_evidence.py": "a25ff35ade6383ece93e9d52b801eedb4ff7e3fa72e4f791f2873ad207e49727",
+    "tests/test_risk_v7.py": "9a15660ffdabe76ab0dbfebf176dc8dca583bb6d4de7818d030ede107bddd950"
+  },
+  "model_source_frozen": true,
+  "final_tests_passed": 92,
+  "judge_count": 1,
+  "independent_human_raters": 0,
+  "baseline_predictions_not_overridden_for_accuracy_evaluation": true,
+  "attempts": {
+    "v6": "failed",
+    "v7": "failed"
+  },
+  "published_model": "v5",
+  "verified_full_model_replays": 16256
+}

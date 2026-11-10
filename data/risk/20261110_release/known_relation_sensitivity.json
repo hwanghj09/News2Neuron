@@ -1,0 +1,221 @@
+{
+  "v6": {
+    "secondary_only": true,
+    "excluded_primary_cases": [
+      "v6_a_063",
+      "v6_a_105",
+      "v6_a_108"
+    ],
+    "primary_articles_retained": 125,
+    "comparisons": {
+      "v3": {
+        "articles": 125,
+        "baseline_MAE": 7.728891162304883,
+        "candidate_MAE": 6.916740218177116,
+        "MAE_reduction": 0.8121509441277674,
+        "MAE_reduction_95_percentile": [
+          -0.47522327142112447,
+          2.1303565567936364
+        ],
+        "relative_MAE_reduction": 0.10507987848098647,
+        "baseline_within10": 0.72,
+        "candidate_within10": 0.728,
+        "within10_change": 0.008,
+        "within10_change_95_percentile": [
+          -0.08,
+          0.096
+        ],
+        "within10_improved_cases": 16,
+        "within10_regressed_cases": 15,
+        "mcnemar_exact_one_sided_p": 0.5,
+        "paired_error_wins": 67,
+        "paired_error_losses": 38,
+        "sign_test_one_sided_p": 0.0030080407576246653,
+        "paired_sign_flip_one_sided_p": 0.1136443177841108,
+        "resamples": 20000,
+        "seed": 20261112,
+        "MAE_reduction_97_5_percentile": [
+          -0.6721205764836313,
+          2.3276820116374535
+        ],
+        "within10_change_97_5_percentile": [
+          -0.088,
+          0.112
+        ],
+        "primary_interval_level": 0.975
+      },
+      "v5": {
+        "articles": 125,
+        "baseline_MAE": 7.533376870587406,
+        "candidate_MAE": 6.916740218177116,
+        "MAE_reduction": 0.6166366524102902,
+        "MAE_reduction_95_percentile": [
+          -0.6205902611503085,
+          1.8672855041088534
+        ],
+        "relative_MAE_reduction": 0.08185394982930261,
+        "baseline_within10": 0.704,
+        "candidate_within10": 0.728,
+        "within10_change": 0.024,
+        "within10_change_95_percentile": [
+          -0.04019999999999982,
+          0.096
+        ],
+        "within10_improved_cases": 12,
+        "within10_regressed_cases": 9,
+        "mcnemar_exact_one_sided_p": 0.33181190490722656,
+        "paired_error_wins": 23,
+        "paired_error_losses": 19,
+        "sign_test_one_sided_p": 0.32198447818518616,
+        "paired_sign_flip_one_sided_p": 0.17234138293085347,
+        "resamples": 20000,
+        "seed": 20261112,
+        "MAE_reduction_97_5_percentile": [
+          -0.7794706989409098,
+          2.047513047354125
+        ],
+        "within10_change_97_5_percentile": [
+          -0.056,
+          0.104
+        ],
+        "primary_interval_level": 0.975
+      }
+    },
+    "all_primary_known_campaign_cluster_bootstrap": {
+      "clusters": 123,
+      "comparisons": {
+        "v3": {
+          "MAE_reduction": 0.8133512135881261,
+          "MAE_reduction_97_5_percentile": [
+            -0.6692260662379845,
+            2.3448889818667684
+          ]
+        },
+        "v5": {
+          "MAE_reduction": 0.6985331045411138,
+          "MAE_reduction_97_5_percentile": [
+            -0.7001236981978914,
+            2.1754676908281096
+          ]
+        }
+      },
+      "scheme": "resample known connected campaign components, ratio of article-weighted error sums; whole clusters can cross publishers so publisher proportions vary",
+      "resamples": 20000,
+      "seed": 20261113
+    },
+    "caveat": "Known-link exclusions only; no claim all surviving stories are independent. Main endpoint unchanged. 97.5% intervals used conservatively for both supplemental analyses."
+  },
+  "v7": {
+    "secondary_only": true,
+    "excluded_primary_cases": [
+      "v7_a_054",
+      "v7_a_060",
+      "v7_a_108",
+      "v7_a_114",
+      "v7_a_126",
+      "v7_a_128",
+      "v7_a_142",
+      "v7_a_153",
+      "v7_a_169",
+      "v7_a_248"
+    ],
+    "primary_articles_retained": 270,
+    "comparisons": {
+      "v5": {
+        "articles": 270,
+        "baseline_MAE": 8.866472385515317,
+        "candidate_MAE": 8.786081191050657,
+        "MAE_reduction": 0.08039119446465924,
+        "MAE_reduction_95_percentile": [
+          -0.7341159264388172,
+          0.9067035675783243
+        ],
+        "relative_MAE_reduction": 0.00906687473543481,
+        "baseline_within10": 0.7,
+        "candidate_within10": 0.7111111111111111,
+        "within10_change": 0.011111111111111112,
+        "within10_change_95_percentile": [
+          -0.02962962962962963,
+          0.05185185185185185
+        ],
+        "within10_improved_cases": 17,
+        "within10_regressed_cases": 14,
+        "mcnemar_exact_one_sided_p": 0.360050065908581,
+        "paired_error_wins": 81,
+        "paired_error_losses": 143,
+        "sign_test_one_sided_p": 0.9999886396113126,
+        "paired_sign_flip_one_sided_p": 0.42422878856057195,
+        "resamples": 20000,
+        "seed": 20261112,
+        "MAE_reduction_97_5_percentile": [
+          -0.8503198304275169,
+          1.0214209228795013
+        ],
+        "within10_change_97_5_percentile": [
+          -0.03333333333333333,
+          0.05555555555555555
+        ],
+        "primary_interval_level": 0.975
+      },
+      "v6": {
+        "articles": 270,
+        "baseline_MAE": 8.308705058981413,
+        "candidate_MAE": 8.786081191050657,
+        "MAE_reduction": -0.47737613206924323,
+        "MAE_reduction_95_percentile": [
+          -1.2106791203114582,
+          0.24253234735648407
+        ],
+        "relative_MAE_reduction": -0.057454937764726245,
+        "baseline_within10": 0.7074074074074074,
+        "candidate_within10": 0.7111111111111111,
+        "within10_change": 0.003703703703703704,
+        "within10_change_95_percentile": [
+          -0.03333333333333333,
+          0.040740740740740744
+        ],
+        "within10_improved_cases": 13,
+        "within10_regressed_cases": 12,
+        "mcnemar_exact_one_sided_p": 0.5,
+        "paired_error_wins": 67,
+        "paired_error_losses": 157,
+        "sign_test_one_sided_p": 0.9999999996516916,
+        "paired_sign_flip_one_sided_p": 0.8956052197390131,
+        "resamples": 20000,
+        "seed": 20261112,
+        "MAE_reduction_97_5_percentile": [
+          -1.3255036576056818,
+          0.35470207788000807
+        ],
+        "within10_change_97_5_percentile": [
+          -0.037037037037037035,
+          0.044444444444444446
+        ],
+        "primary_interval_level": 0.975
+      }
+    },
+    "all_primary_known_campaign_cluster_bootstrap": {
+      "clusters": 276,
+      "comparisons": {
+        "v5": {
+          "MAE_reduction": 0.2170482377401017,
+          "MAE_reduction_97_5_percentile": [
+            -0.7139189602780905,
+            1.1719555247541875
+          ]
+        },
+        "v6": {
+          "MAE_reduction": -0.42826136738444537,
+          "MAE_reduction_97_5_percentile": [
+            -1.255667383619627,
+            0.4008627498296421
+          ]
+        }
+      },
+      "scheme": "resample known connected campaign components, ratio of article-weighted error sums; whole clusters can cross publishers so publisher proportions vary",
+      "resamples": 20000,
+      "seed": 20261113
+    },
+    "caveat": "Known-link exclusions only; no claim all surviving stories are independent. Main endpoint unchanged. 97.5% intervals used conservatively for both supplemental analyses."
+  }
+}

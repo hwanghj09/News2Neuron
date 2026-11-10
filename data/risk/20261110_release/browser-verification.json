@@ -1,0 +1,32 @@
+{
+  "reports": [
+    {
+      "version": "20261109_v6",
+      "direct": 678,
+      "eligible": 8051,
+      "MAE": "7.77 → 7.07",
+      "all_links_http200": true,
+      "mobile_overflow": false,
+      "images_loaded": true
+    },
+    {
+      "version": "20261109_v7",
+      "direct": 1000,
+      "eligible": 8050,
+      "MAE": "8.55 → 8.98",
+      "all_links_http200": true,
+      "mobile_overflow": false,
+      "images_loaded": true
+    },
+    {
+      "version": "20261110_release",
+      "direct": 1000,
+      "eligible": 8050,
+      "MAE": "8.55 → 8.98",
+      "all_links_http200": true,
+      "mobile_overflow": false,
+      "images_loaded": true
+    }
+  ],
+  "javascript_errors": []
+}

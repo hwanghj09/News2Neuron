@@ -1,0 +1,39 @@
+{
+  "models": {
+    "v6": {
+      "replayed_articles": 8128,
+      "max_score_difference": 0.0,
+      "complete_packet_cases": 192,
+      "stored_body_hashes_verified": 8128,
+      "dev_audit_families_disjoint": true,
+      "frozen_hashes_unchanged": true,
+      "reference_hashes_unchanged": true
+    },
+    "v7": {
+      "replayed_articles": 8128,
+      "max_score_difference": 0.0,
+      "complete_packet_cases": 322,
+      "stored_body_hashes_verified": 8128,
+      "dev_audit_families_disjoint": true,
+      "frozen_hashes_unchanged": true,
+      "reference_hashes_unchanged": true
+    }
+  },
+  "articles": 8128,
+  "direct_references": 1000,
+  "final_csv_parquet_equal": true,
+  "all_direct_scores_recomputed": true,
+  "unreviewed_model": "v5",
+  "unreviewed_articles": 7128,
+  "full_body_packet_read_receipts_verified": true,
+  "publisher_summaries_max_words": 25,
+  "input_quality_exclusions": 1,
+  "runtime": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.8.0",
+    "joblib": "1.5.3",
+    "pyarrow": "23.0.1"
+  },
+  "limitation": "Checks replay stored judgments and fitted models, not reference truth or independent human accuracy."
+}

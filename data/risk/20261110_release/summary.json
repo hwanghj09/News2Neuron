@@ -1,0 +1,16 @@
+{
+  "articles": 8128,
+  "direct_AI_judgments": 1000,
+  "cumulative_new_full_body_AI_judgments": 642,
+  "development_articles": 673,
+  "fresh_audit_articles": 322,
+  "primary_articles": 280,
+  "challenge_articles": 42,
+  "primary_publishers": 7,
+  "human_raters": 0,
+  "input_quality_flagged": 1,
+  "preregistered_evidence_pass": false,
+  "selected_model": "v5",
+  "selected_model_development_articles": 321,
+  "experiment_development_articles": 673
+}

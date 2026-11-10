@@ -1,0 +1,8 @@
+{
+  "command": "python -m pytest -q",
+  "passed": 92,
+  "warnings": 18,
+  "failures": 0,
+  "output_sha256": "9e05ca927b5603388e8942200419a3e3ad65ee9834ce141c992d40faaa5cd946",
+  "notes": "Warnings are third-party pytest/pyparsing deprecations. Statistical tests include identical/worse baselines, source pairing, zero-majority high-risk misses, wider second-attempt intervals and rejected-candidate promotion guards."
+}

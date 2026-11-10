@@ -11,15 +11,17 @@ import pandas as pd
 from .risk_v6 import OUT
 
 
-def report(out=OUT):
+def report(out=OUT, *, version='v6'):
     out=Path(out)
     metrics=json.loads((out/'fresh_audit_metrics.json').read_text())
     summary=json.loads((out/'summary.json').read_text())
     data=pd.read_parquet(out/'news_risk_scores.parquet')
-    rows=metrics['results'];names=['v3','v5','v6','zero']
+    rows=metrics['results'];names=['v3','v5','v6','zero'] if version=='v6' else ['v5','v6','v7','zero']
     fig,axes=plt.subplots(1,2,figsize=(11,4),constrained_layout=True)
     colors=['#8f9ca1','#d09a64','#16796f','#d6dbdf']
-    for ax,cohort,title in zip(axes,['random','challenge'],['Primary: 128 random articles','Secondary: 64 challenge articles']):
+    for ax,cohort,title in zip(axes,['random','challenge'],[
+        f"Primary: {metrics['primary_articles']} random articles",
+        f"Secondary: {metrics['challenge_articles']} challenge articles"]):
         vals=[next(r['MAE'] for r in rows if r['model']==m and r['cohort']==cohort) for m in names]
         ax.bar(names,vals,color=colors);ax.set(title=title,ylabel='MAE against one AI rubric (0-100)')
         for i,value in enumerate(vals):ax.text(i,value+.3,f'{value:.2f}',ha='center',fontsize=9)
@@ -55,6 +57,16 @@ function detail(a){$('title').textContent=a.title;$('meta').textContent=a.source
 function render(){const q=$('search').value.toLowerCase(),source=$('source').value,kind=$('kind').value;filtered=D.articles.filter(a=>(!source||a.source===source)&&(!q||(a.title+' '+a.rationale).toLowerCase().includes(q))&&(!kind||(kind==='direct'&&a.session_reviewed)||(kind==='model'&&!a.session_reviewed)||(kind==='eligible'&&a.assessment_research_eligible))).sort((a,b)=>b.danger_score-a.danger_score);page=Math.min(page,Math.max(0,Math.ceil(filtered.length/40)-1));$('count').textContent=filtered.length.toLocaleString()+'건';$('articles').replaceChildren();for(const a of filtered.slice(page*40,(page+1)*40)){const tr=document.createElement('tr'),td=document.createElement('td'),button=document.createElement('button');button.textContent=a.title;button.onclick=()=>detail(a);const small=document.createElement('small');small.textContent=a.source+' · '+a.published_date.slice(0,10);td.append(button,document.createElement('br'),small);tr.append(td);for(const value of [a.danger_score.toFixed(1),[a.N,a.T,a.A].map(x=>(x*4).toFixed(1)).join(' / '),a.session_reviewed?'직접 AI':'모델']){const cell=document.createElement('td');cell.textContent=value;tr.append(cell)}$('articles').append(tr)}$('page').textContent=(page+1)+' / '+Math.max(1,Math.ceil(filtered.length/40));$('prev').disabled=page===0;$('next').disabled=(page+1)*40>=filtered.length}
 ['search','source','kind'].forEach(id=>$(id).addEventListener(id==='search'?'input':'change',()=>{page=0;render()}));$('prev').onclick=()=>{page--;render()};$('next').onclick=()=>{page++;render()};$('close').onclick=()=>$('detail').close();render();
 </script></html>'''
+    if version=='v7':
+        html=html.replace('v5 → v6','v6 → v7').replace("old=f('v5','random'),now=f('v6','random')","old=f('v6','random'),now=f('v7','random')")
+        html=html.replace('v6 정확도 검증','v7 후보 검증 · 기본 모델 유지').replace(' / v6',' / v7')
+        html=html.replace('새 무작위 128건','새 무작위 280건 · 7개 매체').replace('95%','97.5%')
+        html=html.replace('r.MAE_reduction_95_percentile','r.MAE_reduction_97_5_percentile').replace('r.within10_change_95_percentile','r.within10_change_97_5_percentile')
+        html=html.replace("name+' → v6'","name+' → v7'").replace('v3·v5 양쪽','v5·v6 양쪽').replace('기존 모델과 v6 및','기존 모델과 v7 후보 및')
+        html=html.replace('새 학습 128건과 새 평가 192건은 저장된 정제 본문 전체를 읽고 판정했습니다. 주 평가는 매체별 무작위 16건씩 128건, 어려운 기사 64건은 별도 보조 평가입니다.',
+            'v6의 실패 결과는 보존하고 당시 판정은 개발 자료로 전환했습니다. 개발 673건으로 모델을 고정한 뒤 새 322건의 정제 본문 전체를 읽었습니다. 주 평가는 7개 매체별 무작위 40건씩 280건, 어려운 기사 42건은 별도 보조 평가입니다. SBS는 새 사건군 부족으로 이번 확인 평가에서 제외했습니다. v7은 개선 기준을 통과하지 못해 기본 모델로 채택하지 않았습니다. 이 페이지 전체 기사 점수는 실험 후보의 결과이며 최종 적용 점수는 최신 배포 보고서를 보십시오.')
+        html=html.replace('risk-evidence-v6.md','risk-evidence-v7.md').replace('../20261109_v5/report.html','../20261109_v6/report.html')
+        html=html.replace('<h1>잔존 위험을 더 정확하게,','<p class="note">v7 후보는 검증 미달입니다. <a href="../20261110_release/report.html">최신 적용 점수와 두 실험 결과</a></p><h1>잔존 위험을 더 정확하게,')
     (out/'report.html').write_text(html.replace('PAYLOAD',payload),encoding='utf-8')
     return out/'report.html'
 
