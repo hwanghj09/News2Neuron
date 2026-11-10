@@ -1,0 +1,14 @@
+{
+  "sha256": "534f00aa59e6f0d64f1bc0584b61baf5931dbfc6b25eb27be477ebdcb61bd44f",
+  "cases": [
+    "v7_a_241",
+    "v7_a_242",
+    "v7_a_243",
+    "v7_a_244",
+    "v7_a_245",
+    "v7_a_246",
+    "v7_a_247",
+    "v7_a_248"
+  ],
+  "scope": "complete cleaned body and title; no model scores"
+}
