@@ -22,6 +22,9 @@ def config(path):
 def main(argv=None):
     parser=argparse.ArgumentParser(description="뉴스 위협성 → 가상 입력 → FlyWire LIF 연구 파이프라인")
     sub=parser.add_subparsers(dest="command",required=True)
+    for name in ['controls-prepare','controls-run','controls-report']:
+        p=sub.add_parser(name,help='Prepare/run/report matched-input follow-up controls')
+        p.add_argument('--out',default='results/control_matching_v1')
     p=sub.add_parser("bridge-prepare",help="Freeze current real article scores and article-specific neural experiment inputs")
     p.add_argument("--out",default="results/article_bridge_v1")
     p.add_argument("--config",default="configs/article_bridge_v1.yaml")
@@ -81,7 +84,16 @@ def main(argv=None):
     p.add_argument("--out",default="results/validation.csv")
     args=parser.parse_args(argv)
     try:
-        if args.command=="bridge-prepare":
+        if args.command=="controls-prepare":
+            from .article_controls import prepare
+            prepare(args.out)
+        elif args.command=="controls-run":
+            from .article_controls import run
+            run(args.out)
+        elif args.command=="controls-report":
+            from .article_controls_report import report
+            print(report(args.out))
+        elif args.command=="bridge-prepare":
             from .article_bridge import prepare
             prepare(args.out,args.config,args.circuit)
         elif args.command=="bridge-run":

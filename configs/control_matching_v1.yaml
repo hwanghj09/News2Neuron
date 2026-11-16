@@ -1,0 +1,6 @@
+version: control_matching_v1
+parent: results/article_bridge_v1
+cohort: ongoing_harm
+matching_seed_offset: 1000
+hop_mismatch_penalty: 10.0
+features: [in_degree, out_degree, in_abs_weight, out_abs_weight]

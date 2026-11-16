@@ -1,0 +1,61 @@
+{
+  "parent": "results/article_bridge_v1",
+  "circuit": "data/derived/flywire_v783",
+  "real_articles": 8,
+  "new_conditions": [
+    "ACh314_approx",
+    "common178_target",
+    "common178_control"
+  ],
+  "expected_new_runs": 120,
+  "reused_conditions": [
+    "R_intact",
+    "R_random_input"
+  ],
+  "primary": "Within common-support subset: target minus matched control output delta Hz, by GF and DNp06 separately.",
+  "secondary": "Full314 approximate transmitter/path/degree/weight control vs original intact and random; residual mismatch disclosed.",
+  "support": "Exact GF/DNp06 shortest-hop pair and predicted transmitter; degree and absolute synaptic strength approximately matched within strata.",
+  "subset": "Sample target neurons within deficient strata with fixed seed before new activity; no replacement or invented neurons.",
+  "input_pairing": "Subset original parent R events and remap slots once; reuse exact subset events for both common-support runs. Full314 uses original R array.",
+  "analysis_unit": "Article after averaging five computational seeds; selected-set descriptive variability, not biological replicates.",
+  "limitations": [
+    "Still intermediate rather than sensory-type-matched controls",
+    "Short paths include inhibitory intermediate routes",
+    "Predicted transmitter is not measured receptor physiology",
+    "Common support changes target population; no generalization to all314",
+    "Degree/strength matching remains approximate; no selection by new output activity"
+  ],
+  "files": {
+    "configs/control_matching_v1.yaml": "4469d1952553e953056dcbd2a5884b2a2b0a2edc63ba2bbc548e422ffc1cf60a",
+    "src/news_flywire/article_controls.py": "2c8c2bdc5c48c3c25db58967640a380ea187ad9a12ad22bfdf645abe89c92091",
+    "src/news_flywire/brain_simulation.py": "a4005073ba1ad21b21c2533e39909116b5256d4ea9a6dc63aa6e8f8190aca9d8",
+    "src/news_flywire/article_stimulus.py": "6dd688aeb91a245115b21fae82e6ac08572707e3b3ed54005b3fc5345df069af",
+    "results/article_bridge_v1/protocol.json": "c954c60a1f35a05a8fddfda41e526e7bab0c212bd481d93f3a4115a4bb28210f",
+    "results/article_bridge_v1/metrics.csv": "0541531b6b53e9d371bdd0642df7bcc1824ec17ee43c97c85cf3185591580055",
+    "results/article_bridge_v1/cell_selections.json": "59309004fa247a8de6c961a53e3eb77b65ba4a4c2147ff6a47f6c4fb366d8edf",
+    "results/article_bridge_v1/resolved_config.json": "cf7f6964fa1611b23e5fa3a6facc9cedd1b5451c2c60af15a4eaa543b5642ed9",
+    "data/derived/flywire_v783/neurons.csv": "80142b3d8c19831faa8128a9030ab921e2993cee096614e22cb0eaf7c9f7572a",
+    "data/derived/flywire_v783/edges.parquet": "1735c26c93fa82d2e952332aa47b14a12f6e26b4939b1b6e0afec3721547dca1",
+    "data/derived/flywire_v783/metadata.json": "1d09b8f5f144ae8e3e06892b470f352a3e2326ad24aac178300099da1989b657",
+    "results/control_matching_v1/selection.csv": "1fc3a0ee7a999f34a17649e94f4fdcb6e8cd2fd9bd342d08a1a793edda49fcd7",
+    "results/control_matching_v1/controls.json": "e6a236b1d4bd2a16b22454f0a04cfc994f295660c5129f22b4f17711a302d8b4",
+    "results/control_matching_v1/neuron_signatures.csv": "b8e8e0d5f830b47bc7f7458a311900c40efe2c09631ee7bd32b7008bb33a1c93",
+    "results/control_matching_v1/resolved_config.json": "76f331987a2f5f0da998da30cd23742291b394b6d6d05460331ee9def72f6373",
+    "results/article_bridge_v1/trials/corpus_bda71d6a756f0e76f3b4/events.parquet": "3df53a4059d31379e4da5ee07570ce9139bee72b764e91e6a9c824b6a3ffe7d5",
+    "results/article_bridge_v1/trials/corpus_bda71d6a756f0e76f3b4/cells.parquet": "a67ed0953dafa0b856810d7898cec217311193b099ad6f057f62d85ab3816193",
+    "results/article_bridge_v1/trials/corpus_d7b1fc17449fad4f3cc0/events.parquet": "fa1449e51195fd66a84257c20b1a110b618577c1c7487a60da2e350c0c7926d1",
+    "results/article_bridge_v1/trials/corpus_d7b1fc17449fad4f3cc0/cells.parquet": "384d116d810c485a2a8fc3f01368143875d6d88a2efdbb9e20b05920336a488b",
+    "results/article_bridge_v1/trials/corpus_886968cf93f90e806a02/events.parquet": "c8cafcdfd2f5f7c7bef470351795f2002f0ae6632b73f8f7154e5dd7f22bd2c1",
+    "results/article_bridge_v1/trials/corpus_886968cf93f90e806a02/cells.parquet": "923fc5087ac05448e1cbefdab1fa8058f659d1efe9b50d445d66007a22dbf669",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/events.parquet": "62f9ecaf386aec56ae08996bc67d378d8ee9ea9307c8e023fb4b6b79c6a05ceb",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/cells.parquet": "919358e996229bc6bab2a17e948cf04eaaa833ce47fc7984a154515741e224c5",
+    "results/article_bridge_v1/trials/corpus_65e6f6ecc16166defa9a/events.parquet": "503f850c33c935734d482d37368bf422cd47730737b4b63547d1c59d8e46a810",
+    "results/article_bridge_v1/trials/corpus_65e6f6ecc16166defa9a/cells.parquet": "2da838dd009a80f25bd59ee21cfd45ed2d2c96d1fec9c20dc0ee6f8545b4ce6e",
+    "results/article_bridge_v1/trials/corpus_61974e23267832b93507/events.parquet": "3341c87ca5c84d7bc6f3abdaede7b0d94e99d60ed7122bf70a201d9cdd7a1467",
+    "results/article_bridge_v1/trials/corpus_61974e23267832b93507/cells.parquet": "273c4d9c62570a68edf104da6081b16e62e22d71bcca378af90376281763d938",
+    "results/article_bridge_v1/trials/corpus_bae5e4707c0e427464cf/events.parquet": "d33bd644f97d24e99fe1c24522241f5de4bce305a1bcb2e1d9ce7145268aace9",
+    "results/article_bridge_v1/trials/corpus_bae5e4707c0e427464cf/cells.parquet": "a3520830cd8e2602f1c9869e7651c078d9f769543ae89986f05b8ddd0320b014",
+    "results/article_bridge_v1/trials/corpus_36268db3bd1faaaea03f/events.parquet": "88975779dc3a5f70100a96c8cfb49024e72b45e638f44e4d66b84acb688c04be",
+    "results/article_bridge_v1/trials/corpus_36268db3bd1faaaea03f/cells.parquet": "8ce804aaf496ef17ab6bf2a767ca11edfd4bde92878b7b2e26e4d965a416b3d0"
+  }
+}
