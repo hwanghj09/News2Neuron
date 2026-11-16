@@ -4,6 +4,8 @@
 
 첨부 연구계획서의 계산 파일럿을 실제로 실행하는 Python 프로젝트입니다. **뉴스 N/T/A 평가 → 위협성 기반 입력 → 실제 FAFB v783 부분 회로 → LIF → 대조실험·분석·보고서**를 연결했습니다.
 
+**다음 연구 단계인 기사별 FlyWire 회로 실험을 실행했습니다.** 최신 8,128건을 자극 파라미터로 바꾸고, 실제 기사 24건에서 7조건×5시드와 무입력 대조를 합쳐 845회를 새로 계산했습니다. 기사별 물리 자극·입력 이벤트·원래 스파이크·세포형별 반응을 제공합니다. [인터랙티브 보고서](results/article_bridge_v1/report.html) · [방법·결과·재현](docs/article-bridge-v1.md).
+
 현재 주 자료는 **최근 90일 한국어 뉴스의 대규모 v2 코퍼스**입니다. 여러 매체의 공식 사이트맵에서 후보를 찾고, 실제 기사 본문과 발행·수정 시각을 확인해 중복·보류·시간 분할을 기록합니다. 정확한 건수와 출처별 빈 날짜는 아래 정제 보고서에 제공합니다.
 
 이번 실행은 **10,000페이지 확인 → 본문·날짜 통과 8,156건 → 중복 28건 제거 → 고유 기사 8,128건**입니다. 8개 매체와 90개 UTC 날짜를 포함합니다. v2에서 기존 평가 중복·늦은 수정·협찬 의심을 분리한 연구용 부분집합은 8,056건이었으며, v3의 삽입 홍보문 추가 정제 후에는 8,051건입니다. 8,128건 모두 저장된 원래 응답에서 다시 추출해 해시와 주요 필드가 일치하는지 검증했습니다.
@@ -22,6 +24,8 @@ v3의 198건 판정과 세 차례 보정 결과도 그대로 보존합니다. �
 
 ## 먼저 볼 결과
 
+- [새 기사별 회로 반응 보고서](results/article_bridge_v1/report.html): 실제 기사 24건·845회 새 계산·GF/DNp06 비교
+- [뉴스 → 자극 → 회로의 다음 단계](docs/article-bridge-v1.md) · [8,128건 자극 파라미터](results/article_bridge_v1/article_inputs.csv)
 - [현재 판정 경로·직접 AI 판정 1,074건·v10 검증](docs/context-risk-v10.md) · [42건 추가 판정 적용 내역](data/risk/20261116_v10/applied_review_changes.csv)
 - [보존된 전체 점수·검증 보고서](data/risk/20261110_followup/report.html): 8,128건·1,032건 시점 스냅샷
 - [후속 v9: 무해 기사 과대평가 보정·새 실제 14건 평가](docs/risk-calibration-v9.md)
@@ -55,7 +59,7 @@ v3의 198건 판정과 세 차례 보정 결과도 그대로 보존합니다. �
 | 실제 연결 | FAFB v783에서 확인한 LPLC2 210개, LC4 104개, GF 2개, DNp06 2개 |
 | 회로 | 최대 3-hop 입력→출력 경로의 노드 1,367개, 유도 방향성 연결 29,377개 |
 | LIF | Shiu 상수를 사용하는 별도 부분 회로 엔진, 명시적 Poisson 입력·입출력 연결 제거 |
-| 실험 | E0~E9, E9a/b 포함 11조건 × 30시드 = 330회 |
+| 실험 | 기존 E0~E9 330회 + 새 실제 기사 24건·7조건·5시드·무입력 대조 총 845회 |
 | 원본 예제 | 변경하지 않은 Shiu/Brian2 전뇌 v630 먹이 감각 예제를 1초 × 30회 실행 |
 | 민감도 | 연결 임계 1/3/5, 입력률 .75/1/1.25배, dt .1/.5 ms를 각 3시드에서 비교 |
 | 실측 검증 | DANDI 메타데이터·자산 목록 확인, 정리된 세포형별 반응 방향 CSV 비교 기능 |
@@ -79,7 +83,12 @@ python scripts/audit_large_corpus.py --out data/corpus/my_90day_run --raw data/r
 # 초기 240건의 제목·RSS 발췌 규칙 baseline 재현
 news-flywire score
 
-# 실제 뉴스 문맥 AI 점수·근거 보고서; 기존 단계별 계산 재사용
+# 새 기사별 실제 v783 부분 회로 실험; 점수·선택·입력 명세를 먼저 봉인
+news-flywire bridge-prepare --out results/my_article_bridge
+news-flywire bridge-run --out results/my_article_bridge
+news-flywire bridge-report --out results/my_article_bridge
+
+# 초기 실제 뉴스 문맥 AI 보고서; 기존 단계별 계산 재사용
 news-flywire analyze-news --out results/my_real_news_report
 
 # 인터넷 없이 가상 연결과 가상 기사로 전체 코드 흐름 점검
@@ -154,7 +163,8 @@ docs/                     계획·기준서·방법·한계·원고
 src/news_flywire/          CLI·점수·입력·그래프·LIF·평가·보고서
 scripts/                  자료 복원·원본 실행·민감도·발표물 생성
 notebooks/                결과 탐색 노트북
-results/v783/             330회 계산 결과·그림·보고서
+results/article_bridge_v1/ 실제 기사별 새 845회 계산·원자료·보고서
+results/v783/             초기 330회 계산 결과·그림·보고서
 results/sensitivity/      설정별 민감도 실행
 results/upstream_reproduction_30/ 원본 전뇌 실행 결과
 tests/                    연구상 중요한 불변조건·수치 검증

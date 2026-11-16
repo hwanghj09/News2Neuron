@@ -1,0 +1,6 @@
+seed,condition,shared_baseline,baseline_rate_hz,stimulus_rate_hz,delta_rate_hz,latency_ms,auc_spikes_per_neuron,recovery_ms,recruited_neurons,recruitment_fraction,external_input_events,effective_delay_ms
+20261118,no_input,True,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+20261119,no_input,True,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+20261120,no_input,True,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+20261121,no_input,True,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0
+20261122,no_input,True,0.0,0.0,0.0,,0.0,,0,0.0,0,2.0

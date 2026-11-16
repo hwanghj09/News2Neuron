@@ -1,0 +1,16 @@
+{
+  "frozen_sources_and_inputs_verified": true,
+  "corpus_inputs": 8128,
+  "selected_real_articles": 24,
+  "eligible_articles": 8050,
+  "article_seed_control_sets_verified": 120,
+  "raw_event_schedules_recreated": 360,
+  "raw_spike_metric_sets_verified": 840,
+  "network_spike_replays": 4,
+  "event_multiplicity_retained": 67367,
+  "fresh_simulations": 845,
+  "article_level_lookup_reused": false,
+  "report_payload_valid": true,
+  "original_protocol_preserved": true,
+  "packaging_changes_only_path_aliases": true
+}

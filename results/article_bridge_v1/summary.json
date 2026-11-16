@@ -1,0 +1,602 @@
+{
+  "corpus_articles": 8128,
+  "eligible_articles": 8050,
+  "simulated_real_articles": 24,
+  "publishers": 8,
+  "computational_seeds": 5,
+  "article_trials": 840,
+  "new_baseline_trials": 5,
+  "fresh_simulations": 845,
+  "nonzero_external_input_trials": 400,
+  "shared_level_lookup_used": false,
+  "stimulus_ms": 400,
+  "total_ms": 600,
+  "conditions": 7,
+  "connectome_version": "FAFB_v783",
+  "neurons": 1367,
+  "directed_edges": 29377,
+  "simulation_only": true,
+  "biological_replicates": 0,
+  "human_physiology_measured": false,
+  "cohort_results": [
+    {
+      "cohort": "minimal",
+      "condition": "N_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 31.984375,
+      "sd_article_delta_hz": 34.194979104864835
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LC4_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 7.828125,
+      "sd_article_delta_hz": 14.497989007716109
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 0.015625,
+      "sd_article_delta_hz": 0.04419417382415922
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_degree_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 6.75,
+      "sd_article_delta_hz": 12.524262168173536
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 6.75,
+      "sd_article_delta_hz": 12.524262168173536
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_random_input",
+      "articles": 8,
+      "mean_article_delta_hz": 4.796875,
+      "sd_article_delta_hz": 8.892698022816246
+    },
+    {
+      "cohort": "minimal",
+      "condition": "T_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 15.953125,
+      "sd_article_delta_hz": 29.541733305553155
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "N_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 122.15625,
+      "sd_article_delta_hz": 7.019663071890072
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LC4_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_degree_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_random_input",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "T_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 0.0,
+      "sd_article_delta_hz": 0.0
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "N_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 106.6875,
+      "sd_article_delta_hz": 9.05365948111591
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LC4_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 80.578125,
+      "sd_article_delta_hz": 4.77107051292325
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 23.84375,
+      "sd_article_delta_hz": 9.289911482739912
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_degree_cut",
+      "articles": 8,
+      "mean_article_delta_hz": 85.984375,
+      "sd_article_delta_hz": 11.353774840333939
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 85.984375,
+      "sd_article_delta_hz": 11.353774840333939
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_random_input",
+      "articles": 8,
+      "mean_article_delta_hz": 52.296875,
+      "sd_article_delta_hz": 8.634424845391516
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "T_intact",
+      "articles": 8,
+      "mean_article_delta_hz": 103.59375,
+      "sd_article_delta_hz": 12.693810007243687
+    }
+  ],
+  "output_type_cohorts": [
+    {
+      "cohort": "minimal",
+      "condition": "N_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.5
+    },
+    {
+      "cohort": "minimal",
+      "condition": "N_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 63.46875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LC4_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 2.875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LC4_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 12.78125
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.03125
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_degree_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.46875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_degree_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 13.03125
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.46875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 13.03125
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_random_input",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 7.96875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "R_random_input",
+      "cell_type": "GF",
+      "delta_rate_hz": 1.625
+    },
+    {
+      "cohort": "minimal",
+      "condition": "T_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.1875
+    },
+    {
+      "cohort": "minimal",
+      "condition": "T_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 31.71875
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "N_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 24.5
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "N_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 219.8125
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LC4_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LC4_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_degree_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_degree_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_random_input",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "R_random_input",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "T_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "negative_closed",
+      "condition": "T_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "N_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 14.375
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "N_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 199.0
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LC4_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 12.6875
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LC4_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 148.46875
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 0.0
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_LPLC2_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 47.6875
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_degree_cut",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 5.625
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_degree_cut",
+      "cell_type": "GF",
+      "delta_rate_hz": 166.34375
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 5.625
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 166.34375
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_random_input",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 93.3125
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "R_random_input",
+      "cell_type": "GF",
+      "delta_rate_hz": 11.28125
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "T_intact",
+      "cell_type": "DNp06",
+      "delta_rate_hz": 12.875
+    },
+    {
+      "cohort": "ongoing_harm",
+      "condition": "T_intact",
+      "cell_type": "GF",
+      "delta_rate_hz": 194.3125
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "cohort": "all",
+      "comparison": "targeted_vs_random",
+      "a": "R_intact",
+      "b": "R_random_input",
+      "articles": 24,
+      "mean_paired_difference_hz": 11.880208333333334,
+      "descriptive_p025_hz": 5.718619791666667,
+      "descriptive_p975_hz": 18.43763020833333,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "all",
+      "comparison": "degree_vs_LPLC2_cut",
+      "a": "R_degree_cut",
+      "b": "R_LPLC2_cut",
+      "articles": 24,
+      "mean_paired_difference_hz": 22.958333333333332,
+      "descriptive_p025_hz": 11.61953125,
+      "descriptive_p975_hz": 34.78658854166667,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "all",
+      "comparison": "R_vs_T",
+      "a": "R_intact",
+      "b": "T_intact",
+      "articles": 24,
+      "mean_paired_difference_hz": -8.9375,
+      "descriptive_p025_hz": -13.916666666666666,
+      "descriptive_p975_hz": -4.395833333333333,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "all",
+      "comparison": "N_vs_R",
+      "a": "N_intact",
+      "b": "R_intact",
+      "articles": 24,
+      "mean_paired_difference_hz": 56.03125,
+      "descriptive_p025_hz": 36.333333333333336,
+      "descriptive_p975_hz": 76.16705729166667,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "minimal",
+      "comparison": "targeted_vs_random",
+      "a": "R_intact",
+      "b": "R_random_input",
+      "articles": 8,
+      "mean_paired_difference_hz": 1.953125,
+      "descriptive_p025_hz": 0.0,
+      "descriptive_p975_hz": 4.625,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "minimal",
+      "comparison": "degree_vs_LPLC2_cut",
+      "a": "R_degree_cut",
+      "b": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_paired_difference_hz": 6.734375,
+      "descriptive_p025_hz": 0.0,
+      "descriptive_p975_hz": 16.25,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "minimal",
+      "comparison": "R_vs_T",
+      "a": "R_intact",
+      "b": "T_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": -9.203125,
+      "descriptive_p025_hz": -22.703125,
+      "descriptive_p975_hz": 0.0,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "minimal",
+      "comparison": "N_vs_R",
+      "a": "N_intact",
+      "b": "R_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": 25.234375,
+      "descriptive_p025_hz": 8.0,
+      "descriptive_p975_hz": 44.65742187499998,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "negative_closed",
+      "comparison": "targeted_vs_random",
+      "a": "R_intact",
+      "b": "R_random_input",
+      "articles": 8,
+      "mean_paired_difference_hz": 0.0,
+      "descriptive_p025_hz": 0.0,
+      "descriptive_p975_hz": 0.0,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "negative_closed",
+      "comparison": "degree_vs_LPLC2_cut",
+      "a": "R_degree_cut",
+      "b": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_paired_difference_hz": 0.0,
+      "descriptive_p025_hz": 0.0,
+      "descriptive_p975_hz": 0.0,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "negative_closed",
+      "comparison": "R_vs_T",
+      "a": "R_intact",
+      "b": "T_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": 0.0,
+      "descriptive_p025_hz": 0.0,
+      "descriptive_p975_hz": 0.0,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "negative_closed",
+      "comparison": "N_vs_R",
+      "a": "N_intact",
+      "b": "R_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": 122.15625,
+      "descriptive_p025_hz": 117.01484375,
+      "descriptive_p975_hz": 126.125,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "ongoing_harm",
+      "comparison": "targeted_vs_random",
+      "a": "R_intact",
+      "b": "R_random_input",
+      "articles": 8,
+      "mean_paired_difference_hz": 33.6875,
+      "descriptive_p025_hz": 31.03125,
+      "descriptive_p975_hz": 36.28125,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "ongoing_harm",
+      "comparison": "degree_vs_LPLC2_cut",
+      "a": "R_degree_cut",
+      "b": "R_LPLC2_cut",
+      "articles": 8,
+      "mean_paired_difference_hz": 62.140625,
+      "descriptive_p025_hz": 60.515625,
+      "descriptive_p975_hz": 63.734375,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "ongoing_harm",
+      "comparison": "R_vs_T",
+      "a": "R_intact",
+      "b": "T_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": -17.609375,
+      "descriptive_p025_hz": -21.90625,
+      "descriptive_p975_hz": -14.4375,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    },
+    {
+      "cohort": "ongoing_harm",
+      "comparison": "N_vs_R",
+      "a": "N_intact",
+      "b": "R_intact",
+      "articles": 8,
+      "mean_paired_difference_hz": 20.703125,
+      "descriptive_p025_hz": 13.234375,
+      "descriptive_p975_hz": 28.71875,
+      "resampling_unit": "article after averaging computational seeds; descriptive selected-set variability, not biological CI"
+    }
+  ]
+}

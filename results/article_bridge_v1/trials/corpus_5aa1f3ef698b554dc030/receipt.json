@@ -1,0 +1,12 @@
+{
+  "news_id": "corpus_5aa1f3ef698b554dc030",
+  "trials": 35,
+  "files": {
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/cells.parquet": "4c493e9bd6cad448fcdfbfb700bcce0fb58af85b7747ea0b6d3b1e2f6102d704",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/curves.parquet": "26f92105e0c34a54e54c69b574a71d84d90448da04bf54a482bf2e73e04dbb74",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/events.parquet": "4fd34b06cf79595d12f6b1f8a6fc3372069f03a831ca9d2c7e30c7ecea391bb9",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/spikes.parquet": "1d2c8f1180672c5e17164e6bc446ad9f771e845dc752afee87fa320e0bab297a",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/stimulus_profiles.parquet": "66e168d6224f14f1f6e3d382f25fadb492811b57a69c4eacd9f8c655e96d6d29",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/metrics.csv": "05b8d197d6fc4abde5c489892f926a15b4e068840bcc4867e066054978c7c4f8"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "original_protocol_sha256": "ad420f3e69515834d9b9d96ab0b33439cd68dda28eef56b71ce88370c6d26782",
+  "packaged_protocol_sha256": "c954c60a1f35a05a8fddfda41e526e7bab0c212bd481d93f3a4115a4bb28210f",
+  "original_archive": "results/article_bridge_v1/protocol_original.json",
+  "reason": "Replace absolute repository paths with relative aliases; exact content hashes unchanged.",
+  "experiment_parameters_changed": false,
+  "selected_articles_changed": false,
+  "neural_algorithm_changed": false,
+  "outputs_changed": false
+}

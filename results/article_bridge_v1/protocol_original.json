@@ -1,0 +1,86 @@
+{
+  "stage": "fresh_article_specific_neural_simulation",
+  "corpus_articles": 8128,
+  "eligible_articles": 8050,
+  "real_articles": 24,
+  "computational_repeats": 5,
+  "conditions": {
+    "R_intact": [
+      "R",
+      "intact"
+    ],
+    "R_random_input": [
+      "R",
+      "random_input"
+    ],
+    "R_LPLC2_cut": [
+      "R",
+      "LPLC2"
+    ],
+    "R_LC4_cut": [
+      "R",
+      "LC4"
+    ],
+    "R_degree_cut": [
+      "R",
+      "degree"
+    ],
+    "T_intact": [
+      "T",
+      "intact"
+    ],
+    "N_intact": [
+      "N",
+      "intact"
+    ]
+  },
+  "expected_new_trials": 845,
+  "selection": "One directly AI-reviewed eligible article per source and stratum, distinct automatic families; fixed seed, before neural outcomes.",
+  "strata": {
+    "minimal": "N<=.25 and R<10",
+    "negative_closed": "N>=.75 and R=0 and resolved/retrospective",
+    "ongoing_harm": "R>=30 and T>=.5"
+  },
+  "primary_mapping": "R /100 -> continuous mean drive 0..150 Hz; T and N mappings are separate sensitivity comparators.",
+  "geometry": "Constant-speed approach 20..80 degrees, radius .01m, l/v linearly 80..20ms, end-aligned to400ms; zero drive renders a static disk.",
+  "drive": "80% uniform plus20% normalized angular expansion; fixed expected count per mean rate. Defined hypothesis, no measured visual-neuron calibration.",
+  "paired_controls": "Identical complete R event array for intact, random-input, LPLC2/LC4 cut, degree-matched cut. R/T/N share article-specific Poisson proposals.",
+  "baseline": "Five fresh no-input runs, shared baseline; deterministic resting network, no spontaneous background input.",
+  "statistical_unit": "Article for paired effects, average its five computational seeds first. Seeds are not biological replicates.",
+  "predefined_comparisons": [
+    "R intact minus random-input",
+    "degree-cut minus LPLC2-cut",
+    "R intact minus T intact",
+    "N intact minus R intact"
+  ],
+  "negative_closed_prediction": "R=0 implies no external events and no response in this resting model, by design; not a finding about understanding news.",
+  "limitations": [
+    "Reduced 1367-neuron subcircuit, not whole brain",
+    "No new physiological measurements",
+    "Random input neurons are not sensory-type matched",
+    "Connection removal is not measured biological inhibition",
+    "News AI references and virtual-drive mapping remain uncertain; R/T/N differences depend on this mapping"
+  ],
+  "files": {
+    "configs/article_bridge_v1.yaml": "478485cc6babce7479658f0b4a7c01236ad3f2f3450660e86eb4e09900d7cd02",
+    "data/derived/flywire_v783/neurons.csv": "80142b3d8c19831faa8128a9030ab921e2993cee096614e22cb0eaf7c9f7572a",
+    "data/derived/flywire_v783/edges.parquet": "1735c26c93fa82d2e952332aa47b14a12f6e26b4939b1b6e0afec3721547dca1",
+    "data/derived/flywire_v783/metadata.json": "1d09b8f5f144ae8e3e06892b470f352a3e2326ad24aac178300099da1989b657",
+    "data/risk/review_catalogs.json": "6de996ab71bc5326a82feacf848a4361386af0ce20bf6badea0a2099242c8d5e",
+    "data/risk/20261110_followup/news_risk_scores.parquet": "12a20a21712f994c70f2d264c7d01a6ffa9147ae105a0b2a0a138c9006412047",
+    "data/risk/20261109_v7/corpus_families.csv": "5b3c03128bfa1a43e149f532faa0b9d38a98be917386b2b6083ab44f0ef82a33",
+    "data/risk/20261110_followup/review_catalog.jsonl": "f7f44ce5542e45083da2b7593482565462ecc9633fabf7a9f0e45349e0bbe959",
+    "data/risk/20261116_v9/review_patch.jsonl": "a4b3c8dd48aa4735c6e53cbf2feede2899ef6d46f4c9b59fd6ca80c27da18051",
+    "data/risk/20261116_v10/review_patch.jsonl": "70006086f107884bbad0a7098616b41f1613ad2eb4f54c4f21eeebd96986b17a",
+    "/workspace/news-flywire-research/src/news_flywire/article_bridge.py": "7f509c244b78fdf7237a88d742cb46c6868ee7fc5f087b7b67aaf1e60ba3dfca",
+    "/workspace/news-flywire-research/src/news_flywire/article_stimulus.py": "6dd688aeb91a245115b21fae82e6ac08572707e3b3ed54005b3fc5345df069af",
+    "/workspace/news-flywire-research/src/news_flywire/brain_simulation.py": "a4005073ba1ad21b21c2533e39909116b5256d4ea9a6dc63aa6e8f8190aca9d8",
+    "/workspace/news-flywire-research/src/news_flywire/flywire_graph.py": "dbb165b0ab95f9720ba640565a683097dfe0be8c29eea82f1a477ea14a9c4597",
+    "/workspace/news-flywire-research/src/news_flywire/risk_review_updates.py": "46f0d79fb1960ee6b23cd1b5ff8af989dc6572480f75f5ff7c22cd29f313012a",
+    "results/article_bridge_v1/article_inputs.csv": "940662a83bdb28f1686354424e8b9f105da6e9e280b789a7b2ad58950f8cb59f",
+    "results/article_bridge_v1/article_inputs.parquet": "8659511736e65ec7e997df8c11b1c5baf81170edbcd7b7f63d5fddbf670c7272",
+    "results/article_bridge_v1/selection.csv": "c9c92ae55ae90ff0bd107df71b862844cce8c2992538e99de68837370f0644e5",
+    "results/article_bridge_v1/resolved_config.json": "cf7f6964fa1611b23e5fa3a6facc9cedd1b5451c2c60af15a4eaa543b5642ed9"
+  },
+  "circuit_path": "data/derived/flywire_v783"
+}

@@ -1,0 +1,12 @@
+{
+  "news_id": "corpus_43597128b51f112ed0eb",
+  "trials": 35,
+  "files": {
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/cells.parquet": "919358e996229bc6bab2a17e948cf04eaaa833ce47fc7984a154515741e224c5",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/curves.parquet": "cb0986d8244886c0546aad42698417677e19c2284e657720605be592d4c240e4",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/events.parquet": "62f9ecaf386aec56ae08996bc67d378d8ee9ea9307c8e023fb4b6b79c6a05ceb",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/spikes.parquet": "c8d12079607b3748df1b5f0e131b2d290ec84cc1b7b49a5ae14d8c6d53b8f053",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/stimulus_profiles.parquet": "c49c485810f17302c8ea736cad15dff4ae51705b1b048ccfe517e91273ccabb0",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/metrics.csv": "40e6561cbcfe508e2874777dd3a61b1b73359d6d11bfaa49747ab62e3460430f"
+  }
+}

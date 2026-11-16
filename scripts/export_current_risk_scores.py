@@ -2,10 +2,7 @@
 import argparse
 from pathlib import Path
 
-import pandas as pd
-
 from news_flywire.provenance import sha256, write_json
-from news_flywire.risk_assessment import AXES, risk_band
 from news_flywire.risk_review_updates import current_corpus_scores
 
 

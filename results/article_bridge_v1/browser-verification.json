@@ -1,0 +1,16 @@
+{
+  "articles": 24,
+  "fresh_trials": 845,
+  "parameter_rows": 8128,
+  "filters_verified": true,
+  "article_detail_verified": true,
+  "output_cell_types_verified": true,
+  "svg_response_lines": 7,
+  "geometry_lines": 3,
+  "raw_links": 4,
+  "local_links_checked": 15,
+  "all_links_http200": true,
+  "images_loaded": true,
+  "mobile_overflow": false,
+  "javascript_errors": []
+}

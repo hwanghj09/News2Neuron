@@ -1,0 +1,51 @@
+{
+  "created_utc": "2026-11-16T11:01:53.727491+00:00",
+  "python": "3.12.14",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "networkx": "3.7",
+    "matplotlib": "3.10.8",
+    "pyarrow": "23.0.1",
+    "brian2": "2.10.1"
+  },
+  "files": {
+    "results/article_bridge_v1/protocol.json": "c954c60a1f35a05a8fddfda41e526e7bab0c212bd481d93f3a4115a4bb28210f",
+    "results/article_bridge_v1/metrics.csv": "0541531b6b53e9d371bdd0642df7bcc1824ec17ee43c97c85cf3185591580055",
+    "results/article_bridge_v1/baseline_metrics.csv": "98d99a4e548afa6786102619ed7b42e07fdd5ae9b67160020decb2e435b94c1a"
+  },
+  "news_articles": 24,
+  "fresh_trials": 845,
+  "shared_level_lookup_used": false,
+  "connectivity_version": "FAFB_v783",
+  "engine": "reduced_lif_analytic_v1",
+  "simulation_only": true,
+  "physiological_validation": false,
+  "trial_receipts": {
+    "results/article_bridge_v1/trials/corpus_1a383a89d3df12c3a904/receipt.json": "ebc40af04d51997c65ea244acd4d7f3076d5e690803cef63e1a8d008b7bf851e",
+    "results/article_bridge_v1/trials/corpus_36268db3bd1faaaea03f/receipt.json": "c591e1490a719ba687777ee57c4dd766aee2227c3525990a50243a06bfed09b9",
+    "results/article_bridge_v1/trials/corpus_43597128b51f112ed0eb/receipt.json": "3f284e4186aa4070d69675eba9c99502e0961b4522c10e0728390efb136dca12",
+    "results/article_bridge_v1/trials/corpus_4c1f3dd3ff21fe9d6651/receipt.json": "ba12150a859250ded248799e20d3357f38225fb2f8cdaf7cc6ff385465b3616e",
+    "results/article_bridge_v1/trials/corpus_4c50c13bc2aa91df3d11/receipt.json": "6ce4dd99cc29cf009b27ab674747384282a002b8f7e58e33553b960035fae5a9",
+    "results/article_bridge_v1/trials/corpus_50aadb8b21c11c1fa7c7/receipt.json": "c548a3342d42794b6ef7d07be3b3d0fff98929840c9fb6a2c746f5889cc55892",
+    "results/article_bridge_v1/trials/corpus_5aa1f3ef698b554dc030/receipt.json": "68be0f5d69bf4e8296ded4b7834742a078dab826d6b12b1d931851fc3f78ed87",
+    "results/article_bridge_v1/trials/corpus_61974e23267832b93507/receipt.json": "de6acdb534e3cbc71ea57f0e1f3405ebdc124c8d6d49788874b352f2970cac48",
+    "results/article_bridge_v1/trials/corpus_65e6f6ecc16166defa9a/receipt.json": "04399428207a455aeedf5b639c18abf7bc2154bfc8f57ae91ecf9d7cbab7cb9b",
+    "results/article_bridge_v1/trials/corpus_67046f35bba4537e2b56/receipt.json": "6ba83ca105685c17fbce7e53e087022b2b5a3f3d752d371bd4c27d3fbe3c418a",
+    "results/article_bridge_v1/trials/corpus_69739f0a4ea0e33ef553/receipt.json": "3a60adfeb78e630dce985feab179781b35e3dc8ed4fb6418a5da38bf8970bfa1",
+    "results/article_bridge_v1/trials/corpus_886968cf93f90e806a02/receipt.json": "6c9f3f4936d25c997f29da4e34b75b4193579c26d7b8020ad2f74a81dfbc917f",
+    "results/article_bridge_v1/trials/corpus_8c1719b54cfaa41dd24b/receipt.json": "73e798cd1e9ebb877fb50a2c30f61ec51e495ecd0bbca57d04419fdd80256f33",
+    "results/article_bridge_v1/trials/corpus_8e9c87aa42bb00820dfc/receipt.json": "3605eb9a4ddc82899a825f312c3c4d0a42cb8139ade7a27fcb6d9c337fe76e88",
+    "results/article_bridge_v1/trials/corpus_937c496b603b7471367a/receipt.json": "a88cdbc6e78cc5804605004ac789acfa545279b18495e6f1f45f1fc2f5cd65c3",
+    "results/article_bridge_v1/trials/corpus_9fbae35fe96b750f25ad/receipt.json": "e19241c23d552e3d200a94468d95b45ad43cfe52887b354c20fb58de1fb2e3ba",
+    "results/article_bridge_v1/trials/corpus_ab4da9f75d128acaded3/receipt.json": "58711fdb013c075662204c574580bfe0b8c7bc2e13c3164c0ed1f38389c191fc",
+    "results/article_bridge_v1/trials/corpus_bae5e4707c0e427464cf/receipt.json": "e8d04b47b869f7eaf894f7396987d95d40a9a4c5b21d540e4cde18570e4828a5",
+    "results/article_bridge_v1/trials/corpus_bda71d6a756f0e76f3b4/receipt.json": "ddfc9fa08ed2d8d4e78c86a9d23f0ec81b6cafcfb676560676a1d21632ebfc9a",
+    "results/article_bridge_v1/trials/corpus_d7b1fc17449fad4f3cc0/receipt.json": "c3dcf40803bca2acba07f5794ba4d519cd9d019e039a6fbb12f25d08e9809c23",
+    "results/article_bridge_v1/trials/corpus_db4d5bc36a95a7cf7687/receipt.json": "151f6a7c52054cb07df3768f8eb82263d6d1684504e759517141f295acdbd187",
+    "results/article_bridge_v1/trials/corpus_df571ed631f15bbb7f6f/receipt.json": "a46b4eccbafc67ae60b22f2afa022cce08816dcf27084c7268c418bfc8a6538c",
+    "results/article_bridge_v1/trials/corpus_e1d73eb3a23b867ca383/receipt.json": "01d2a3315b40a71e184876e6c1cd28e6f7e80b488ccf3e1f74f93eb8f84e58c4",
+    "results/article_bridge_v1/trials/corpus_eeed3616ebf549b6d926/receipt.json": "289f56ac62374d9d9f81b347a78739ca967d2859a876d04fe34427fa7a753487"
+  }
+}
