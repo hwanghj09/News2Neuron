@@ -1,0 +1,7 @@
+{
+  "judgments_sha256": "645442b52d8ff50b622d76e505958a1525b671e95634136f46f4446450825089",
+  "model_sha256": "af3054caba14f9de4aa3f619ae4c3ff294466d5cd05b4884bf92262c6047cf1e",
+  "all_14_full_cleaned_bodies_read": true,
+  "before_predictions": true,
+  "independent_human_truth": false
+}
