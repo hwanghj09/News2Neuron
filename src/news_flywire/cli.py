@@ -22,6 +22,13 @@ def config(path):
 def main(argv=None):
     parser=argparse.ArgumentParser(description="뉴스 위협성 → 가상 입력 → FlyWire LIF 연구 파이프라인")
     sub=parser.add_subparsers(dest="command",required=True)
+    p=sub.add_parser("bridge-prepare",help="Freeze current real article scores and article-specific neural experiment inputs")
+    p.add_argument("--out",default="results/article_bridge_v1")
+    p.add_argument("--config",default="configs/article_bridge_v1.yaml")
+    p.add_argument("--circuit",default="data/derived/flywire_v783")
+    for name in ["bridge-run", "bridge-report"]:
+        p=sub.add_parser(name,help="Run fresh article-specific v783 trials" if name=="bridge-run" else "Build article-specific circuit response report")
+        p.add_argument("--out",default="results/article_bridge_v1")
     p=sub.add_parser("build-corpus",help="Discover and verify a large 90-day article corpus with cached resumable acquisition")
     p.add_argument("--config",default="configs/corpus_v2.yaml")
     p.add_argument("--out",default="data/corpus/20261109_v2")
@@ -74,7 +81,16 @@ def main(argv=None):
     p.add_argument("--out",default="results/validation.csv")
     args=parser.parse_args(argv)
     try:
-        if args.command=="build-corpus":
+        if args.command=="bridge-prepare":
+            from .article_bridge import prepare
+            prepare(args.out,args.config,args.circuit)
+        elif args.command=="bridge-run":
+            from .article_bridge import run
+            run(args.out)
+        elif args.command=="bridge-report":
+            from .article_bridge_report import report
+            print(report(args.out))
+        elif args.command=="build-corpus":
             from .corpus.build import build
             build(config(args.config),args.out,args.raw)
         elif args.command=="prepare-corpus":

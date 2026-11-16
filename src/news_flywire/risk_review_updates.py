@@ -101,6 +101,29 @@ def score_with_reviews(articles, catalog_path=None,
     return results
 
 
+def current_corpus_scores(snapshot=OUT/'news_risk_scores.parquet'):
+    """Reconstruct the current corpus without changing the historical snapshot."""
+    data = pd.read_parquet(snapshot)
+    catalog, applied = load_review_catalogs(), set()
+    for i, row in data.iterrows():
+        key = input_key(row.title, row.assessment_body_sha256)
+        if key not in catalog:
+            continue
+        r = catalog[key]; applied.add(key)
+        for axis in AXES:
+            data.loc[i, axis] = r[axis]/4
+        for field in ['danger_score', 'component_index']:
+            data.loc[i, field] = r['danger_score']
+        data.loc[i, 'session_reviewed'] = True
+        data.loc[i, 'score_source'] = 'direct_Codex_session_judgment'
+        data.loc[i, 'decision_state'] = r['state']
+        data.loc[i, 'rationale'] = r['rationale']
+    if applied != catalog.keys():
+        raise ValueError('Review version missing from corpus snapshot')
+    data['danger_band'] = risk_band(data.danger_score.to_numpy())
+    return data
+
+
 def build():
     if (OUT/'release_policy.json').exists():
         raise ValueError('Follow-up release already exists; do not overwrite')

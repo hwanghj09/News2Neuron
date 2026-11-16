@@ -1,0 +1,41 @@
+{
+  "version": "article_bridge_v1",
+  "selection_seed": 20261118,
+  "computational_seeds": [
+    20261118,
+    20261119,
+    20261120,
+    20261121,
+    20261122
+  ],
+  "primary_axis": "R",
+  "maximum_mean_rate_hz": 150,
+  "proposal_rate_hz": 650,
+  "angular_modulation_weight": 0.2,
+  "physical": {
+    "radius_m": 0.01,
+    "initial_angle_deg": 20,
+    "final_angle_deg": 80,
+    "slow_l_over_v_ms": 80,
+    "fast_l_over_v_ms": 20
+  },
+  "simulation": {
+    "dt_ms": 0.5,
+    "baseline_ms": 100,
+    "stimulus_ms": 400,
+    "recovery_ms": 100,
+    "tau_m_ms": 20,
+    "tau_syn_ms": 5,
+    "v_rest_mv": -52,
+    "v_reset_mv": -52,
+    "v_threshold_mv": -45,
+    "refractory_ms": 2.2,
+    "delay_ms": 1.8,
+    "weight_mv": 0.275,
+    "input_jump_mv": 68.75,
+    "recruitment_delta_hz": 5,
+    "latency_bin_ms": 10,
+    "latency_threshold_hz": 5,
+    "recovery_threshold_hz": 5
+  }
+}
