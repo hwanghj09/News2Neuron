@@ -76,3 +76,5 @@ python -c 'from news_flywire.risk_v9 import evaluate; evaluate()'
 ```
 
 본문·특징 캐시는 기존처럼 Git에서 제외하고 해시·판정·모델·예측·검증 결과를 공개한다.
+
+후속 적용 상태: 이 실험에서 작성한 실제 14건 판정은 이후 [v10 단계](context-risk-v10.md)에서 추가 원장으로 현재 평가 경로에 반영했다. v9 모델 채택이나 독립 정확도 검증과는 별개다.

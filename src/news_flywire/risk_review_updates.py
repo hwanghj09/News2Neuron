@@ -18,6 +18,7 @@ from .risk_inference import score_articles, validate_article
 ROOT = Path('data/risk')
 OUT = ROOT/'20261110_followup'
 DIAGNOSTIC = ROOT/'20261110_v8'
+CATALOG_MANIFEST = ROOT/'review_catalogs.json'
 
 
 def input_key(title, body_sha256):
@@ -45,11 +46,36 @@ def load_catalog(path):
     return catalog
 
 
-def score_with_reviews(articles, catalog_path=OUT/'review_catalog.jsonl',
+def load_review_catalogs(paths=None):
+    """Merge append-only reviews; reject duplicate versions or changed files."""
+    if paths is None:
+        if CATALOG_MANIFEST.exists():
+            manifest = json.loads(CATALOG_MANIFEST.read_text())
+            if manifest.get('version') != 1 or not manifest.get('catalogs'):
+                raise ValueError('Invalid review catalog manifest')
+            entries = manifest['catalogs']
+        else:
+            entries = [dict(path=str(OUT/'review_catalog.jsonl'))]
+    else:
+        paths = [paths] if isinstance(paths, (str, Path)) else paths
+        entries = [dict(path=str(p)) for p in paths]
+    catalog = {}
+    for entry in entries:
+        path = Path(entry['path'])
+        digest = sha256(path)
+        if entry.get('sha256', digest) != digest:
+            raise ValueError('Review catalog differs from frozen manifest')
+        part = load_catalog(path)
+        if catalog.keys() & part.keys():
+            raise ValueError('Duplicate article version across review catalogs')
+        catalog.update({key: dict(r, _catalog_sha256=digest) for key, r in part.items()})
+    return catalog
+
+
+def score_with_reviews(articles, catalog_path=None,
                        model_path=ROOT/'20261109_v5/model.joblib',
                        model_dir='external/multilingual-e5-small'):
-    catalog = load_catalog(catalog_path)
-    catalog_digest = sha256(catalog_path)
+    catalog = load_review_catalogs(catalog_path)
     results, pending, positions = [None]*len(articles), [], []
     for i, a in enumerate(articles):
         validate_article(a['title'], a['body'])
@@ -65,7 +91,7 @@ def score_with_reviews(articles, catalog_path=OUT/'review_catalog.jsonl',
             danger_score=r['danger_score'], risk_band=risk_band(r['danger_score']),
             state=r['state'], rationale=r['rationale'],
             axes={k: r[k] for k in AXES}, review_input_sha256=r['input_sha256'],
-            reference_catalog_sha256=catalog_digest,
+            reference_catalog_sha256=r['_catalog_sha256'],
             score_scope='AI rubric judgment of this exact article version; not independent accuracy evidence')
     if pending:
         for i, r in zip(positions, score_articles(pending, model_path, model_dir)):
@@ -157,7 +183,7 @@ def build():
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input', type=Path, help='JSONL with title and complete cleaned body')
-    parser.add_argument('--catalog', type=Path, default=OUT/'review_catalog.jsonl')
+    parser.add_argument('--catalog', type=Path, action='append', help='Explicit catalog; repeat to merge. Default: verified current catalog manifest.')
     parser.add_argument('--model', type=Path, default=ROOT/'20261109_v5/model.joblib')
     parser.add_argument('--encoder', default='external/multilingual-e5-small')
     parser.add_argument('--output', type=Path, required=True)

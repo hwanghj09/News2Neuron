@@ -1,0 +1,43 @@
+case_id,news_id,source,title,url,previous_display_score,direct_AI_score,origin
+v9_a_01,corpus_9fb8407056a9e4542fd7,Edaily,코스피 4%대↓...반도체·이차전지 투심 악화에 코스닥도 800선 하회,https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03886806645614888,25.331791697078078,47.5,v9
+v9_a_02,corpus_0ddf07181d95aacc76a7,Edaily,美 군함 해외 건조 허용에...한·미 조선 협력 급물살 기대,https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04329606645548960,0.0,0.0,v9
+v9_a_03,corpus_989c153d17ce3356ef50,Fnnews,"서민위 ""李 대통령 재판 중단 근거 없어""...조희대 등 고발",https://www.fnnews.com/news/202610221145261871,0.0,0.0,v9
+v9_a_04,corpus_2416846a5ba6da0413be,Fnnews,"전병헌 ""탄핵, '반이재명'도 자제했는데...김민석 총기 떨어진 듯""[팩트앤뷰]",https://www.fnnews.com/news/202609171308596871,0.0,0.0,v9
+v9_a_05,corpus_986b1414faeee78c43ae,Hankyung,[속보] '사드기밀 유출' 정의용 前 국가안보실장 징역 10개월 구형,https://www.hankyung.com/article/2026110954237,0.0,0.0,v9
+v9_a_06,corpus_5631828dc5a17519afd2,Hankyung,"한걸음 더, 아니면 여기까지 [하태헌의 법정 밖 이야기]",https://www.hankyung.com/article/202611083057i,0.0,0.0,v9
+v9_a_07,corpus_68854cd0586bb3bd6877,Khan,"우주 다녀온 ‘2단 로켓’도 ‘젓가락 팔’ 회수 성공할까···스페이스X, 14일 스타십 15차 시험발사",https://www.khan.co.kr/article/202611091437001,0.0,0.0,v9
+v9_a_08,corpus_1226b399ba4a24e4247d,Khan,"내년 중국 당대회, 배달 노동자·인플루언서도 ‘한 표’",https://www.khan.co.kr/article/202611092059025,0.0,0.0,v9
+v9_a_09,corpus_c8cab492389b083f8a4d,News1,"""기후테크 기업 이자·보증료 낮춘다""...기보·부산시·BNK 맞손",https://www.news1.kr/industry/sb-founded/6345782,0.0,0.0,v9
+v9_a_10,corpus_18242047aef7c2bc0b6f,News1,로켓 배송의 편리함 뒤 노동자의 부담...14가지 불편,https://www.news1.kr/life-culture/book/6327592,0.0,14.843750000000002,v9
+v9_a_11,corpus_4298ec8b84bf1c20ad0f,Newsis,용인도시공사 영상 공모전 대상에 '용인바라팀',https://www.newsis.com/view/NISX20261109_0003860470,0.0,0.0,v9
+v9_a_12,corpus_416f42901cce266ff352,Newsis,"""자갈치아지매시장 부실 설계·시공에 혈세 낭비""",https://www.newsis.com/view/NISX20261109_0003860994,14.531534618814376,33.75,v9
+v9_a_13,corpus_92f0ccd9945edcd38b03,Seoul,같은 날 같은 건물서 전여친 아이 백일잔치·결혼식 동시에 치른 男 ‘발칵’ [월드픽],https://www.seoul.co.kr/news/international/china/2026/10/14/20261014500010,0.0,7.968750000000001,v9
+v9_a_14,corpus_91ea890f245a02b6cd06,Seoul,부산서도 이어진 고향 사랑... 곶자왈 지키려 제주도에 900만원 기부,https://www.seoul.co.kr/news/society/2026/10/18/20261018500083,0.0,7.03125,v9
+v10_a_01,corpus_7d406cc94c00b62c25a5,Edaily,"[골프IN화보] 서연정, 은퇴경기 속 악천후 딛고 3라운드 이븐파 선전... 9계단 '껑충'",https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02627286645549944,0.0,0.0,v10
+v10_a_02,corpus_8f5f44f927d31167be17,Edaily,"HD현대1%나눔재단, 적십자인도주의 활동유공 대통령표창",https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03142246645616856,0.0,0.0,v10
+v10_a_03,corpus_c0be55c7c45ae704d284,Fnnews,"靑, 김승원 '성추행 등 추가 의혹 탄원서' 보도에 ""확인 어렵다""",https://www.fnnews.com/news/202609191518113137,0.0,0.0,v10
+v10_a_04,corpus_333e67393b4d15c5db9d,Fnnews,"코웨이, 日굿디자인어워드 수상...""본상 5개 받아""",https://www.fnnews.com/news/202610191549310223,0.0,0.0,v10
+v10_a_05,corpus_6145833993d807e9d768,Hankyung,400억 쏟았는데 가동도 못 한다...경남 '풍력 시험장' 어쩌나,https://www.hankyung.com/article/2026110722857,16.239207801115192,33.75,v10
+v10_a_06,corpus_74d16c6eb4fbc28a5fe1,Hankyung,"영원무역홀딩스, 보라매병원의 르완다 의료협력사업 후원",https://www.hankyung.com/article/202611058326i,0.0,0.0,v10
+v10_a_07,corpus_7e1cd4cbcec86d0d52cf,Khan,"[기고]외교부, 통역실 신설 넘어 국가 통번역 체계 고민할 때",https://www.khan.co.kr/article/202611092010015,0.0,7.03125,v10
+v10_a_08,corpus_b4c2d6113451692c37e1,Khan,"‘무상 여론조사’ 윤석열·명태균, 상고심 배당···주심 김성수 대법관",https://www.khan.co.kr/article/202611091755001,0.0,0.0,v10
+v10_a_09,corpus_c5f211bc71f533963f6e,News1,용적률 올려 3.8만가구 더...3기 신도시 '추가분' 어디서 나오나,https://www.news1.kr/realestate/general/6329084,18.868168767789147,0.0,v10
+v10_a_10,corpus_8c8e28234c425cf71eb4,News1,"정부, 日다카이치 야스쿠니 공물 봉납에 ""깊은 실망과 유감""",https://www.news1.kr/diplomacy/defense-diplomacy/6323242,0.0,0.0,v10
+v10_a_11,corpus_a5665322673f3b1b7527,Newsis,'올해 부산 청약 최다' 연제갤러리자이 9~11일 정당계약,https://www.newsis.com/view/NISX20261109_0003859996,0.0,0.0,v10
+v10_a_12,corpus_fc0fab471db2d2eafb49,Newsis,조선왕실의 품격...전주서 15일 태조어진 봉안의례 재현,https://www.newsis.com/view/NISX20261109_0003860207,0.0,19.6875,v10
+v10_a_13,corpus_3409e5c9967cdb95e7f7,Seoul,UEFA 챔피언스리그서 세 시즌 연속 이강인-김민재 코리안더비 열린다,https://www.seoul.co.kr/news/sport/2026/08/28/20260828500130,0.0,0.0,v10
+v10_a_14,corpus_4eaa5562cb1a719515fb,Seoul,빵·카드 찾아 오픈런... 성지 등극한 ‘팬의점’,https://www.seoul.co.kr/news/economy/distribution/2026/09/28/20260928032005,0.0,0.0,v10
+v10_a_15,corpus_3858b517c6132d63e647,Edaily,"""배달앱 개인정보 빼내 보복대행""...檢, 총책에 징역 5년 구형",https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04490326645580776,0.0,0.0,v10
+v10_a_16,corpus_60461ec494f337dde736,Edaily,페인트·접착제 속 화학물질...수면무호흡 위험 높인다,https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04067206645575856,37.79863071313048,14.843750000000002,v10
+v10_a_17,corpus_a26b596ecbf16f9026f4,Fnnews,행안부 '호우 피해' 경남에 재난특교세 181억...복구 지원,https://www.fnnews.com/news/202609221502078987,32.954247682120695,33.75,v10
+v10_a_18,corpus_ab4da9f75d128acaded3,Fnnews,"""연인, 직장동료와 바람"" 500명 단톡방에 폭로→사망...유족 1억 손배, 법원 판단은 [이런 法]",https://www.fnnews.com/news/202609091058238007,0.0,0.0,v10
+v10_a_19,corpus_e7e08d2c4a398c75c344,Hankyung,"재건축했더니 ""7억 내세요""...5조3000억 청구서 날아든다",https://www.hankyung.com/article/2026110833101,24.02186578417943,31.171875000000004,v10
+v10_a_20,corpus_d4738cdf349dbac0ba1f,Hankyung,"호반건설, 광주 첨단3지구 현장서 동절기 합동안전점검...협력사 4곳 참여",https://www.hankyung.com/article/202611057511i,0.0,0.0,v10
+v10_a_21,corpus_e6f4aab71bdda45e226b,Khan,대통령이 키운 ‘다문화 특혜’ 프레임...“역차별” 언급량 7배 뛰었다,https://www.khan.co.kr/article/202611090600141,4.825651670441919,41.5625,v10
+v10_a_22,corpus_e5eef3623a6a2ca4ed72,Khan,롯데손보 “차 세워놓으면 보험료 할인”,https://www.khan.co.kr/article/202611092039005,0.0,0.0,v10
+v10_a_23,corpus_7bd6ced3987d67cc1430,News1,"임광현 ""청와대 세무조사 요청 일체 없어...올해 비정기 조사 줄어들 것""",https://www.news1.kr/economy/trend/6318190,0.0,33.75,v10
+v10_a_24,corpus_82d6ca84f59f8dc575d7,News1,정비사업 빗장 푸는 여당...재초환 폐지론 다시 불붙나,https://www.news1.kr/realestate/general/6335334,11.861812510261469,26.718750000000004,v10
+v10_a_25,corpus_58aa876ed7707143976d,Newsis,"""임상1상 세계 4위인데""...뒷심 부족한 K-바이오",https://www.newsis.com/view/NISX20261109_0003860419,21.76084708976853,22.265625,v10
+v10_a_26,corpus_bd3597dd164615b38d7b,Newsis,"양산부산대병원, 소변줄 환자 병원 왕복 부담 줄인다",https://www.newsis.com/view/NISX20261109_0003860104,22.701237533530623,31.875000000000004,v10
+v10_a_27,corpus_b023359bffd142f69516,Seoul,발 안쪽 튀어나오고 걷기 힘들다면...단순 피로 아닌 ‘무지외반증’ 의심을,https://www.seoul.co.kr/news/society/health-welfare/2026/09/13/20260913500023,23.630292861307076,16.875,v10
+v10_a_28,corpus_15f0aa35dd550d4a9c80,Seoul,외국인 투자 ‘역대 최대’로 들어왔는데...새 공장·지방 투자는 왜 줄었나 [강 기자의 세종실록],https://www.seoul.co.kr/news/plan/Kangjournalist-Sejong/2026/10/08/20261008500002,12.37435473152094,17.8125,v10

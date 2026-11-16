@@ -8,7 +8,8 @@ import pytest
 from news_flywire.risk_assessment import AXES, danger_index
 from news_flywire.risk_inference import ArticleFeatures, validate_article
 from news_flywire.risk_v8 import context_features
-from news_flywire.risk_review_updates import input_key, load_catalog, score_with_reviews
+from news_flywire.risk_review_updates import input_key, load_catalog, load_review_catalogs, score_with_reviews
+from news_flywire.provenance import sha256
 
 
 @pytest.mark.parametrize('title,body', [('', '본문'), ('제목', ''), ('제목', '   '),
@@ -78,6 +79,25 @@ def test_corrupted_review_cannot_bypass_rubric_formula(reviewed_article):
     path.write_text(json.dumps(reference)+'\n')
     with pytest.raises(ValueError, match='differs'):
         load_catalog(path)
+
+
+def test_catalog_merge_rejects_duplicate_article_versions(reviewed_article):
+    _, _, path = reviewed_article
+    with pytest.raises(ValueError, match='Duplicate article version'):
+        load_review_catalogs([path, path])
+
+
+def test_current_manifest_verifies_hash_and_reuses_correct_patch(reviewed_article, monkeypatch, tmp_path):
+    article, _, path = reviewed_article
+    manifest = tmp_path/'manifest.json'
+    manifest.write_text(json.dumps(dict(version=1, catalogs=[dict(path=str(path), sha256=sha256(path))])))
+    monkeypatch.setattr('news_flywire.risk_review_updates.CATALOG_MANIFEST', manifest)
+    result = score_with_reviews([article], model_path='/unneeded')[0]
+    assert result['reference_catalog_sha256'] == sha256(path)
+    assert result['prediction_kind'] == 'direct_Codex_session_judgment'
+    path.write_text(path.read_text()+'\n')
+    with pytest.raises(ValueError, match='differs from frozen manifest'):
+        score_with_reviews([article], model_path='/unneeded')
 
 
 @pytest.mark.skipif(not Path('external/multilingual-e5-small/tokenizer.json').exists(),

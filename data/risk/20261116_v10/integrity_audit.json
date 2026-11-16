@@ -1,0 +1,17 @@
+{
+  "frozen_candidate_and_references_verified": true,
+  "development_refit": 1105,
+  "fresh_test_replay": 28,
+  "max_replay_difference": 0.0,
+  "exact_version_catalogs": 1074,
+  "exact_review_routes_verified": 1073,
+  "incomplete_drafts_blocked": 1,
+  "new_review_patches": 42,
+  "corpus_risk_indices_changed": 19,
+  "untouched_model": "v5",
+  "corpus_export": 8128,
+  "default_CLI_real_direct": 42,
+  "default_CLI_synthetic_model": 2,
+  "pure_candidate_CLI": 3,
+  "direct_review_application_is_not_accuracy_evidence": true
+}
