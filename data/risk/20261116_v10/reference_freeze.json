@@ -1,0 +1,7 @@
+{
+  "judgments_sha256": "3178e2c49e2cc067edde72b0e7463cc6fb28e0224b64e20c209b91c96568e9ce",
+  "model_sha256": "659757f3c9d7925818855446c16c03facbbc1d412180c6f9cb42aaeb5e69f513",
+  "all_28_cleaned_bodies_read": true,
+  "before_predictions": true,
+  "reference": "Single executing AI rubric; no independent human truth."
+}
