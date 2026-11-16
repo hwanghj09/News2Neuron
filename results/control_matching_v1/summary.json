@@ -1,0 +1,151 @@
+{
+  "new_simulations": 120,
+  "reused_parent_simulations": 80,
+  "real_articles": 8,
+  "computational_seeds": 5,
+  "original_input_population": 314,
+  "common_support_population": 178,
+  "full_exact_matching_feasible": false,
+  "subset_target_types": [
+    {
+      "LPLC2": 145,
+      "LC4": 33
+    },
+    {
+      "LPLC2": 149,
+      "LC4": 29
+    },
+    {
+      "LPLC2": 147,
+      "LC4": 31
+    },
+    {
+      "LPLC2": 147,
+      "LC4": 31
+    },
+    {
+      "LPLC2": 144,
+      "LC4": 34
+    }
+  ],
+  "output_results": [
+    {
+      "condition": "ACh314_approx",
+      "cell_type": "DNp06",
+      "mean_delta_hz": 104.6875,
+      "articles": 8
+    },
+    {
+      "condition": "ACh314_approx",
+      "cell_type": "GF",
+      "mean_delta_hz": 139.3125,
+      "articles": 8
+    },
+    {
+      "condition": "R_intact",
+      "cell_type": "DNp06",
+      "mean_delta_hz": 5.625,
+      "articles": 8
+    },
+    {
+      "condition": "R_intact",
+      "cell_type": "GF",
+      "mean_delta_hz": 166.34375,
+      "articles": 8
+    },
+    {
+      "condition": "R_random_input",
+      "cell_type": "DNp06",
+      "mean_delta_hz": 93.3125,
+      "articles": 8
+    },
+    {
+      "condition": "R_random_input",
+      "cell_type": "GF",
+      "mean_delta_hz": 11.28125,
+      "articles": 8
+    },
+    {
+      "condition": "common178_control",
+      "cell_type": "DNp06",
+      "mean_delta_hz": 122.46875,
+      "articles": 8
+    },
+    {
+      "condition": "common178_control",
+      "cell_type": "GF",
+      "mean_delta_hz": 73.34375,
+      "articles": 8
+    },
+    {
+      "condition": "common178_target",
+      "cell_type": "DNp06",
+      "mean_delta_hz": 21.28125,
+      "articles": 8
+    },
+    {
+      "condition": "common178_target",
+      "cell_type": "GF",
+      "mean_delta_hz": 104.53125,
+      "articles": 8
+    }
+  ],
+  "paired_comparisons": [
+    {
+      "comparison": "common_support",
+      "cell_type": "DNp06",
+      "articles": 8,
+      "control_minus_target_hz": 101.1875,
+      "descriptive_p025_hz": 90.84375,
+      "descriptive_p975_hz": 112.8125,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    },
+    {
+      "comparison": "full_approx",
+      "cell_type": "DNp06",
+      "articles": 8,
+      "control_minus_target_hz": 99.0625,
+      "descriptive_p025_hz": 90.53125,
+      "descriptive_p975_hz": 108.03125,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    },
+    {
+      "comparison": "original_random",
+      "cell_type": "DNp06",
+      "articles": 8,
+      "control_minus_target_hz": 87.6875,
+      "descriptive_p025_hz": 79.28046875,
+      "descriptive_p975_hz": 97.28125,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    },
+    {
+      "comparison": "common_support",
+      "cell_type": "GF",
+      "articles": 8,
+      "control_minus_target_hz": -31.1875,
+      "descriptive_p025_hz": -35.3125,
+      "descriptive_p975_hz": -27.1875,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    },
+    {
+      "comparison": "full_approx",
+      "cell_type": "GF",
+      "articles": 8,
+      "control_minus_target_hz": -27.03125,
+      "descriptive_p025_hz": -30.78125,
+      "descriptive_p975_hz": -23.28125,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    },
+    {
+      "comparison": "original_random",
+      "cell_type": "GF",
+      "articles": 8,
+      "control_minus_target_hz": -155.0625,
+      "descriptive_p025_hz": -168.21953125,
+      "descriptive_p975_hz": -143.40625,
+      "scope": "Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+    }
+  ],
+  "no_biological_specificity_claim": true,
+  "algorithm_changes_after_outcomes": false
+}

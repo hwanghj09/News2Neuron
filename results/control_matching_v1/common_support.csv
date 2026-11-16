@@ -1,0 +1,5 @@
+GF_hops,DNp06_hops,top_nt,target_n,candidate_n,common_n,deficit
+1,1,acetylcholine,38,59,38,0
+1,2,acetylcholine,150,14,14,136
+2,1,acetylcholine,59,376,59,0
+2,2,acetylcholine,67,162,67,0

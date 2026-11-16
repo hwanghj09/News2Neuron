@@ -1,0 +1,12 @@
+{
+  "frozen_hashes_verified": true,
+  "new_trials": 120,
+  "reused_parent_trials": 80,
+  "matching_reproduced_seeds": 5,
+  "exact_support_cells": 178,
+  "full_control_cells": 314,
+  "paired_article_seed_arrays_verified": 40,
+  "raw_spike_metric_sets_verified": 120,
+  "exact_spike_replays": 3,
+  "no_sensory_type_matching_claim": true
+}

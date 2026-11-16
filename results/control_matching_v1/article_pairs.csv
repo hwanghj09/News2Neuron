@@ -1,0 +1,17 @@
+news_id,cell_type,common178_control,common178_target,source,title,url,control_minus_target_hz
+corpus_36268db3bd1faaaea03f,DNp06,141.5,24.0,Seoul,전세사기로 떼인 보증금 3분의 1 지켜준다... 정부 최소 보장제 시행,https://www.seoul.co.kr/news/economy/2026/10/07/20261007029001,117.5
+corpus_36268db3bd1faaaea03f,GF,89.75,114.5,Seoul,전세사기로 떼인 보증금 3분의 1 지켜준다... 정부 최소 보장제 시행,https://www.seoul.co.kr/news/economy/2026/10/07/20261007029001,-24.75
+corpus_43597128b51f112ed0eb,DNp06,138.75,24.25,Khan,돌봄 노동자 5명 중 1명 중등도 이상 우울...일터 괴롭힘 경험 땐 6배,https://www.khan.co.kr/article/202611091311001,114.5
+corpus_43597128b51f112ed0eb,GF,89.5,114.75,Khan,돌봄 노동자 5명 중 1명 중등도 이상 우울...일터 괴롭힘 경험 땐 6배,https://www.khan.co.kr/article/202611091311001,-25.25
+corpus_61974e23267832b93507,DNp06,101.0,17.75,Newsis,"""현금 내면 감면""...진료비 횡령 병원 행정원장 실형",https://www.newsis.com/view/NISX20261109_0003860107,83.25
+corpus_61974e23267832b93507,GF,52.25,91.75,Newsis,"""현금 내면 감면""...진료비 횡령 병원 행정원장 실형",https://www.newsis.com/view/NISX20261109_0003860107,-39.5
+corpus_65e6f6ecc16166defa9a,DNp06,111.5,18.75,News1,'65세 넘으면 공사계약 제한'...국토부 발주 건설사 80% 나이제한 규제,https://www.news1.kr/realestate/general/6323176,92.75
+corpus_65e6f6ecc16166defa9a,GF,62.25,97.5,News1,'65세 넘으면 공사계약 제한'...국토부 발주 건설사 80% 나이제한 규제,https://www.news1.kr/realestate/general/6323176,-35.25
+corpus_886968cf93f90e806a02,DNp06,154.5,24.25,Hankyung,광복절 연휴 경남에 물폭탄...거제 782mm·통영 628mm,https://www.hankyung.com/article/2026081745447,130.25
+corpus_886968cf93f90e806a02,GF,101.25,126.0,Hankyung,광복절 연휴 경남에 물폭탄...거제 782mm·통영 628mm,https://www.hankyung.com/article/2026081745447,-24.75
+corpus_bae5e4707c0e427464cf,DNp06,112.0,22.0,SBS,"뮌헨 최고령 출전 기록 세운 '40세' 노이어, 부상에 두 달 결장 전망",https://news.sbs.co.kr/news/endPage.do?news_id=N1008836547,90.0
+corpus_bae5e4707c0e427464cf,GF,63.25,98.25,SBS,"뮌헨 최고령 출전 기록 세운 '40세' 노이어, 부상에 두 달 결장 전망",https://news.sbs.co.kr/news/endPage.do?news_id=N1008836547,-35.0
+corpus_bda71d6a756f0e76f3b4,DNp06,109.5,18.25,Edaily,"北 책임 묻는 軍, 대화 문 열어둔 李...‘로키’에 담긴 계산",https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05812166645608656,91.25
+corpus_bda71d6a756f0e76f3b4,GF,64.5,92.0,Edaily,"北 책임 묻는 軍, 대화 문 열어둔 李...‘로키’에 담긴 계산",https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=05812166645608656,-27.5
+corpus_d7b1fc17449fad4f3cc0,DNp06,111.0,21.0,Fnnews,"""나토 공격? 현실과 무관"" 부인한 러...2022년 침공 전에도 부인했다",https://www.fnnews.com/news/202609211422140769,90.0
+corpus_d7b1fc17449fad4f3cc0,GF,64.0,101.5,Fnnews,"""나토 공격? 현실과 무관"" 부인한 러...2022년 침공 전에도 부인했다",https://www.fnnews.com/news/202609211422140769,-37.5

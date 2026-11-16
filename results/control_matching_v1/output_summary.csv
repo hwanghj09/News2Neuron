@@ -1,0 +1,11 @@
+condition,cell_type,mean_delta_hz,articles
+ACh314_approx,DNp06,104.6875,8
+ACh314_approx,GF,139.3125,8
+R_intact,DNp06,5.625,8
+R_intact,GF,166.34375,8
+R_random_input,DNp06,93.3125,8
+R_random_input,GF,11.28125,8
+common178_control,DNp06,122.46875,8
+common178_control,GF,73.34375,8
+common178_target,DNp06,21.28125,8
+common178_target,GF,104.53125,8

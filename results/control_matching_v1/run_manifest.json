@@ -1,0 +1,19 @@
+{
+  "fresh_runs": 120,
+  "reused_parent_runs": 80,
+  "files": {
+    "results/control_matching_v1/protocol.json": "b5427fbe3146b8d274fa5f5000961615e9657bb38c18332cca5ff314c7c630da",
+    "results/control_matching_v1/metrics.csv": "7e7198dceaf9f8be8725b96f0c2191bcb1b4a408e41afce984cc4aa016fd70fd",
+    "results/control_matching_v1/output_types.csv": "4a217ae7d357773386b56192fed2e1eda4585cc170676e22d3184aea80941b09"
+  },
+  "receipts": {
+    "results/control_matching_v1/trials/corpus_36268db3bd1faaaea03f/receipt.json": "77ecd0d5d6300ed97e826421cb701ca536ce279a33522f4644ed0cd3eea2e754",
+    "results/control_matching_v1/trials/corpus_43597128b51f112ed0eb/receipt.json": "6497ee5700d3cc8eccade1b864f9247474b52fa911545a26efe59c13608590b7",
+    "results/control_matching_v1/trials/corpus_61974e23267832b93507/receipt.json": "93815b36de035fddb35d2548bbe095e3406d3c5b8aa3ebd1731167b7a7e3e10f",
+    "results/control_matching_v1/trials/corpus_65e6f6ecc16166defa9a/receipt.json": "3d340a88994c63b25f03c0addc4d0dbba393c377e2011502f80d6acfb75c4848",
+    "results/control_matching_v1/trials/corpus_886968cf93f90e806a02/receipt.json": "2de6c73f0986f4be5f57a7b04f27c54a923fc235b54107200bce2e69f77369ae",
+    "results/control_matching_v1/trials/corpus_bae5e4707c0e427464cf/receipt.json": "3c6d616e0104baba10d599dc32c65d6b859a7ea76121913b8dac88d65e3d0532",
+    "results/control_matching_v1/trials/corpus_bda71d6a756f0e76f3b4/receipt.json": "0d619cfcfff7e849cd88b89cc0725f406ddd49a618fef22c14e4d7e00f3f3242",
+    "results/control_matching_v1/trials/corpus_d7b1fc17449fad4f3cc0/receipt.json": "8670392c021ffdcfcf6bc31058878139f712b58990d163237d3ed8e2b3bee66f"
+  }
+}

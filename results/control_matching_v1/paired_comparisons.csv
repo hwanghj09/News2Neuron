@@ -1,0 +1,7 @@
+comparison,cell_type,articles,control_minus_target_hz,descriptive_p025_hz,descriptive_p975_hz,scope
+common_support,DNp06,8,101.1875,90.84375,112.8125,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+full_approx,DNp06,8,99.0625,90.53125,108.03125,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+original_random,DNp06,8,87.6875,79.28046875,97.28125,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+common_support,GF,8,-31.1875,-35.3125,-27.1875,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+full_approx,GF,8,-27.03125,-30.78125,-23.28125,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
+original_random,GF,8,-155.0625,-168.21953125,-143.40625,"Article means over5 computational seeds; selected-set descriptive resampling, no biological CI"
