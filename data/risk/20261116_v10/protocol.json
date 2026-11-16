@@ -1,0 +1,19 @@
+{
+  "task": "Context-aware calibration to preserve continuing harm while suppressing benign articles.",
+  "fresh_real": 28,
+  "primary_random": 14,
+  "secondary_challenge": 14,
+  "publishers": 7,
+  "SBS": "Insufficient unjudged families.",
+  "source": "Stored unjudged real corpus articles, not new downloads.",
+  "selection_sha256": "17881ab33fa0782ca23b27e3a92337111e14451b35698d48867b831894ec48b9",
+  "challenge": "Top30/source by capped counts of active harm and closure/support terms, then random2; no new references or v10 predictions used.",
+  "development": 1105,
+  "development_composition": "1043 v8 development OOF + 48 v8 final test retired +14 v9 final test retired.",
+  "method": "Learn presence from context plus raw v8 score; positive-only median calibration. Four fixed C/mode combinations selected by family grouped CV.",
+  "CV": "4 folds; family-weighted MAE +4*(1-within10)+8*high-risk miss rate. Raw base OOF folds are historical, not fully nested with these calibration folds.",
+  "freeze": "Freeze candidate and selection before fresh judgments; one final audit, no post-test tuning.",
+  "guards": "Primary MAE, within10 and reference>=30 recall must not worsen against v5 or v9; challenge MAE and high-risk recall must not worsen either. If a cohort has no high-risk reference its recall guard is not evaluable.",
+  "reference": "Single executing AI full cleaned body rubric; not independent human truth.",
+  "promotion": "No whole-corpus default promotion from this small targeted experiment; any claimed improvement is cohort-specific."
+}

@@ -1,0 +1,29 @@
+case_id,cohort,news_id,row_index,source,family,title,assessment_body_sha256
+v10_a_01,random,corpus_7d406cc94c00b62c25a5,4929,Edaily,3718,"[골프IN화보] 서연정, 은퇴경기 속 악천후 딛고 3라운드 이븐파 선전... 9계단 '껑충'",08513aa3fa3d1479cea2c6860e4ad0143a4980661a1fbaffc888c1aa4d7e79ba
+v10_a_02,random,corpus_8f5f44f927d31167be17,3884,Edaily,2980,"HD현대1%나눔재단, 적십자인도주의 활동유공 대통령표창",b986e174658f48bc355a9abc2a0b79997e3903cebe311904906fdde0b233cd39
+v10_a_03,random,corpus_c0be55c7c45ae704d284,3701,Fnnews,2842,"靑, 김승원 '성추행 등 추가 의혹 탄원서' 보도에 ""확인 어렵다""",a816522a98065c90509ea61e9c9e718cb6a6a424e8ca5a935ee68194f878feca
+v10_a_04,random,corpus_333e67393b4d15c5db9d,7030,Fnnews,5194,"코웨이, 日굿디자인어워드 수상...""본상 5개 받아""",932cd52310caf9f987a6b21e6ce7a0bc19ec5654ba45e265a8488067a1faf4e9
+v10_a_05,random,corpus_6145833993d807e9d768,3514,Hankyung,2705,400억 쏟았는데 가동도 못 한다...경남 '풍력 시험장' 어쩌나,928a9665028aef255cd579e5780c199d239b0b670cfe9b873495b9f6f9faee27
+v10_a_06,random,corpus_74d16c6eb4fbc28a5fe1,6683,Hankyung,4954,"영원무역홀딩스, 보라매병원의 르완다 의료협력사업 후원",da911d639f0f7141607a4b325c42f61996a39ad7d9a75f8541d742af15e9cc18
+v10_a_07,random,corpus_7e1cd4cbcec86d0d52cf,519,Khan,438,"[기고]외교부, 통역실 신설 넘어 국가 통번역 체계 고민할 때",b2a941fee10487217c7785f5ea3031bb6f3de9b7ecb33d11b4a3754740fed591
+v10_a_08,random,corpus_b4c2d6113451692c37e1,14,Khan,14,"‘무상 여론조사’ 윤석열·명태균, 상고심 배당···주심 김성수 대법관",5113f8ff107efa06259cb29fd9a0566c3a1363b0a52d062566460f955fd9a947
+v10_a_09,random,corpus_c5f211bc71f533963f6e,4713,News1,3569,용적률 올려 3.8만가구 더...3기 신도시 '추가분' 어디서 나오나,d955dbb8f34ba80576c9c426228fbc2100a9ed1bd60c724e104599ad0ee77fa7
+v10_a_10,random,corpus_8c8e28234c425cf71eb4,7693,News1,372,"정부, 日다카이치 야스쿠니 공물 봉납에 ""깊은 실망과 유감""",b214398b229caccdfd46064f9d48b1168f55cdc292cd3d303374566b49cd3b19
+v10_a_11,random,corpus_a5665322673f3b1b7527,2694,Newsis,1963,'올해 부산 청약 최다' 연제갤러리자이 9~11일 정당계약,e56f0b3cb1bfeb8164c096ae7d32a3c4251179d32a07127433faddd279b4aa02
+v10_a_12,random,corpus_fc0fab471db2d2eafb49,4438,Newsis,3368,조선왕실의 품격...전주서 15일 태조어진 봉안의례 재현,b27416f82ac12da239f76962cab8692752de6bf15fa40adeb6fdf92013e77f5d
+v10_a_13,random,corpus_3409e5c9967cdb95e7f7,1291,Seoul,1014,UEFA 챔피언스리그서 세 시즌 연속 이강인-김민재 코리안더비 열린다,7a7b691a6047540f7cc5416672e5a657fef374dcd8060e96fa6345a0ac4d34ca
+v10_a_14,random,corpus_4eaa5562cb1a719515fb,5578,Seoul,4193,빵·카드 찾아 오픈런... 성지 등극한 ‘팬의점’,11df2f71e44844b3133fdbfeb562cddbe677294c9ee3cee98ed7f32fd732a1d4
+v10_a_15,challenge,corpus_3858b517c6132d63e647,1355,Edaily,1068,"""배달앱 개인정보 빼내 보복대행""...檢, 총책에 징역 5년 구형",fa9648a093a78f867a0034afb048ff99b3646da5824184c24908952dfd96b139
+v10_a_16,challenge,corpus_60461ec494f337dde736,974,Edaily,773,페인트·접착제 속 화학물질...수면무호흡 위험 높인다,cf898f7a86c12328248d262732988dee441ba0e93562c5191c1587b823dbed4a
+v10_a_17,challenge,corpus_a26b596ecbf16f9026f4,1878,Fnnews,1475,행안부 '호우 피해' 경남에 재난특교세 181억...복구 지원,e90de5cdf21799fe616864744fb8a0d1aadc9dde40a5f9ef0545835d9152a4b5
+v10_a_18,challenge,corpus_ab4da9f75d128acaded3,7271,Fnnews,5352,"""연인, 직장동료와 바람"" 500명 단톡방에 폭로→사망...유족 1억 손배, 법원 판단은 [이런 法]",e19b1774d3715fd9d56e0712550d1a42eacb42706bc26da58e4f487f9d50c3cd
+v10_a_19,challenge,corpus_e7e08d2c4a398c75c344,7650,Hankyung,5613,"재건축했더니 ""7억 내세요""...5조3000억 청구서 날아든다",b86a021f34948078b43a7674ac6edcd42e1ef66b964290361ffc60658c092155
+v10_a_20,challenge,corpus_d4738cdf349dbac0ba1f,6039,Hankyung,4509,"호반건설, 광주 첨단3지구 현장서 동절기 합동안전점검...협력사 4곳 참여",bfcf17e3bc661d046dd27ff5a3f4d215d6d9e29b0bbe8ab592266d1ad9cfc925
+v10_a_21,challenge,corpus_e6f4aab71bdda45e226b,8,Khan,8,대통령이 키운 ‘다문화 특혜’ 프레임...“역차별” 언급량 7배 뛰었다,9d799b4f123f91614c271079a60bf0ad55fc6513fcfb52bc1c7d9d0bdd5649b5
+v10_a_22,challenge,corpus_e5eef3623a6a2ca4ed72,463,Khan,386,롯데손보 “차 세워놓으면 보험료 할인”,00baca144951457a05329bbff39a92bfcd164a1b716e1f0046c8ea927dc83257
+v10_a_23,challenge,corpus_7bd6ced3987d67cc1430,3385,News1,2612,"임광현 ""청와대 세무조사 요청 일체 없어...올해 비정기 조사 줄어들 것""",aae27010288e179c74b18b77c28a7855cfc3752528b2c35aea6bcaa22ad5f99a
+v10_a_24,challenge,corpus_82d6ca84f59f8dc575d7,7347,News1,5411,정비사업 빗장 푸는 여당...재초환 폐지론 다시 불붙나,122d3fe33b15c15c72a1f475bc2bf026c91ceb3bcb49cb5e07978e056fd489a0
+v10_a_25,challenge,corpus_58aa876ed7707143976d,5804,Newsis,4346,"""임상1상 세계 4위인데""...뒷심 부족한 K-바이오",9a217b43098b7d9b2498b4cd2cf9c69e78841a4b18201894ada0c59fa204bc8f
+v10_a_26,challenge,corpus_bd3597dd164615b38d7b,2277,Newsis,1764,"양산부산대병원, 소변줄 환자 병원 왕복 부담 줄인다",0050dd5b9bd0700300c5e5d5a8bf78c20b32c48c7147d2eb91dcffc286533acd
+v10_a_27,challenge,corpus_b023359bffd142f69516,4117,Seoul,3142,발 안쪽 튀어나오고 걷기 힘들다면...단순 피로 아닌 ‘무지외반증’ 의심을,6d4bb1a2f6295f96bec7e836f33685d87b344d2371948a2ba5c2b2873c61fcdd
+v10_a_28,challenge,corpus_15f0aa35dd550d4a9c80,376,Seoul,312,외국인 투자 ‘역대 최대’로 들어왔는데...새 공장·지방 투자는 왜 줄었나 [강 기자의 세종실록],f8ecacac1c569d642f5775928d6c43cc1c0ba298b987963fc51ddcbe78a7fcf4

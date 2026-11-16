@@ -1,0 +1,55 @@
+{
+  "development": 1105,
+  "configurations": [
+    {
+      "C": 0.1,
+      "mode": "soft",
+      "loss": 14.92918548156494,
+      "n": 1105,
+      "MAE": 10.960190008023384,
+      "within10": 0.5918552036199095,
+      "high_risk_n": 325,
+      "high_risk_recall": 0.6553846153846153,
+      "max_error": 83.12257046362323
+    },
+    {
+      "C": 0.1,
+      "mode": "hard",
+      "loss": 13.648928042478207,
+      "n": 1105,
+      "MAE": 10.596980986312465,
+      "within10": 0.5927601809954751,
+      "high_risk_n": 325,
+      "high_risk_recall": 0.7538461538461538,
+      "max_error": 85.00000000000001
+    },
+    {
+      "C": 1.0,
+      "mode": "soft",
+      "loss": 14.622025560595716,
+      "n": 1105,
+      "MAE": 10.896928080008925,
+      "within10": 0.5855203619909503,
+      "high_risk_n": 325,
+      "high_risk_recall": 0.6861538461538461,
+      "max_error": 83.1249874916993
+    },
+    {
+      "C": 1.0,
+      "mode": "hard",
+      "loss": 13.759838965061572,
+      "n": 1105,
+      "MAE": 10.698391840821502,
+      "within10": 0.5855203619909503,
+      "high_risk_n": 325,
+      "high_risk_recall": 0.7446153846153846,
+      "max_error": 85.00000000000001
+    }
+  ],
+  "selected": {
+    "C": 0.1,
+    "mode": "hard"
+  },
+  "fresh_test_used": 0,
+  "note": "Calibration CV on historical base OOF plus retired tests; not fully nested base-model CV."
+}
