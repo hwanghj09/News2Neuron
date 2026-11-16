@@ -1,0 +1,15 @@
+case_id,news_id,row_index,source,family,title,assessment_body_sha256
+v9_a_01,corpus_9fb8407056a9e4542fd7,6082,Edaily,4543,코스피 4%대↓...반도체·이차전지 투심 악화에 코스닥도 800선 하회,8cb9296a349f9dec11a8fcc29869bb2291d00b13a0c4ef7b839f9086e17545c7
+v9_a_02,corpus_0ddf07181d95aacc76a7,487,Edaily,409,美 군함 해외 건조 허용에...한·미 조선 협력 급물살 기대,53c2c08b7fc474717ed887699e3febc5b6494bfb7639f6ffcf9309e4880ba4fa
+v9_a_03,corpus_989c153d17ce3356ef50,2923,Fnnews,465,"서민위 ""李 대통령 재판 중단 근거 없어""...조희대 등 고발",3416bbb84190c4bca8806eb83caf2ce243df40ea43e4fbfbb78492a31e2581ec
+v9_a_04,corpus_2416846a5ba6da0413be,841,Fnnews,677,"전병헌 ""탄핵, '반이재명'도 자제했는데...김민석 총기 떨어진 듯""[팩트앤뷰]",1a7633da713334d94fab50bcbf921a9f55416f6d693ca539879857ae31697a0e
+v9_a_05,corpus_986b1414faeee78c43ae,3143,Hankyung,1907,[속보] '사드기밀 유출' 정의용 前 국가안보실장 징역 10개월 구형,b2c5a5a5e34151cb933204e83c66c0fdc91ff4e5c554b9cfa7d7ce70d36d4d66
+v9_a_06,corpus_5631828dc5a17519afd2,3520,Hankyung,2710,"한걸음 더, 아니면 여기까지 [하태헌의 법정 밖 이야기]",78d28f1cdfc4dafbb30c1294d4f94f9e83a5ea92b2ce9ff1e0ddda942e1a0691
+v9_a_07,corpus_68854cd0586bb3bd6877,595,Khan,498,"우주 다녀온 ‘2단 로켓’도 ‘젓가락 팔’ 회수 성공할까···스페이스X, 14일 스타십 15차 시험발사",a283d27ac10af71d91306103fc6e14bc8e6860a728f771944fb9d7f368822ac5
+v9_a_08,corpus_1226b399ba4a24e4247d,413,Khan,343,"내년 중국 당대회, 배달 노동자·인플루언서도 ‘한 표’",d0c57b11bdd1669e309badfebc4d9f8f8b828eeea28b1ba5857f92a5eab4e219
+v9_a_09,corpus_c8cab492389b083f8a4d,2400,News1,1864,"""기후테크 기업 이자·보증료 낮춘다""...기보·부산시·BNK 맞손",e30ebbab80e6d5517b1b1f3688e58bd35adde8a0023d7fec8605abeb35aa1dbf
+v9_a_10,corpus_18242047aef7c2bc0b6f,1947,News1,1525,로켓 배송의 편리함 뒤 노동자의 부담...14가지 불편,511c7e9fd2fececb8413eb21ab931e6b18984fa03e7438ebbaa643868c1f4cd8
+v9_a_11,corpus_4298ec8b84bf1c20ad0f,5577,Newsis,4192,용인도시공사 영상 공모전 대상에 '용인바라팀',7c527443452c5cbbb5f4a1fa766e3719c35cc13cde5b478398d972b40d3ef7a6
+v9_a_12,corpus_416f42901cce266ff352,6964,Newsis,5154,"""자갈치아지매시장 부실 설계·시공에 혈세 낭비""",024d15b76139e175be183f4541cd5a1018c4a9919b31acfa9682540705823eb4
+v9_a_13,corpus_92f0ccd9945edcd38b03,4275,Seoul,3250,같은 날 같은 건물서 전여친 아이 백일잔치·결혼식 동시에 치른 男 ‘발칵’ [월드픽],932db754dc6c962658813c1a3b8b0fd433da9e759919f602b6530d876179115f
+v9_a_14,corpus_91ea890f245a02b6cd06,6579,Seoul,4888,부산서도 이어진 고향 사랑... 곶자왈 지키려 제주도에 900만원 기부,ada47bd7945de49f3a1e04d0175a77d684d941ad5dd78ad43331b9160bdd3f28

@@ -1,0 +1,16 @@
+{
+  "task": "Reduce benign overestimation using one fixed monotone median calibration of v8.",
+  "new_test_real_articles": 14,
+  "publishers": 7,
+  "source": "Previously unjudged stored real articles, not newly downloaded.",
+  "seed": 20261116,
+  "selection_sha256": "f98e57a4d8fedcbf5cfc5512d27529c8c944c58d94bc612e54c7d8782b3cf587",
+  "development": "1043 previously stored v8 development OOF predictions and their AI references. No v8 final-test labels used to fit calibration.",
+  "method": "Family-balanced weighted median isotonic regression, fixed quantile .5; no parameter search.",
+  "primary": "Fresh real-article MAE against same-session AI full-body judgments; descriptive small-sample result.",
+  "guards": "MAE and within10 must not worsen against both v5 and v8; recall at reference >=30 must not worsen when present.",
+  "freeze_before_fresh_labels": true,
+  "stop": "One model, one 14-article audit; no tuning after opening predictions.",
+  "deployment": "No whole-corpus promotion from 14 AI judgments. v9 may be offered as experimental calibrated v8 only.",
+  "reference": "One AI evaluator; no independent human truth or risk probability."
+}
