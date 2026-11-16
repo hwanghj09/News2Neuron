@@ -2,6 +2,9 @@
 
 뉴스 위협성 × FlyWire 계산 연구
 
+**최종 계산 파일럿을 마무리했습니다.** [최종 결론·다운로드](results/final_release/index.html) · [상세 최종 보고서](docs/final-report.md) · [최종 PDF](results/final_release/final_report.pdf) · [결과 묶음 ZIP](results/final_release/News2Neuron_final_results.zip). 실제 뉴스 8,128건·직접 AI 판정 1,074건·새 회로 계산 965회·테스트 140개와 최종 감사 8종을 정리했습니다. 계산 파이프라인의 재현은 확인했으며 생물학적 특이성과 사람의 스트레스 반응은 입증하지 못했습니다.
+
+
 첨부 연구계획서의 계산 파일럿을 실제로 실행하는 Python 프로젝트입니다. **뉴스 N/T/A 평가 → 위협성 기반 입력 → 실제 FAFB v783 부분 회로 → LIF → 대조실험·분석·보고서**를 연결했습니다.
 
 **다음 연구 단계인 기사별 FlyWire 회로 실험을 실행했습니다.** 최신 8,128건을 자극 파라미터로 바꾸고, 실제 기사 24건에서 7조건×5시드와 무입력 대조를 합쳐 845회를 새로 계산했습니다. 기사별 물리 자극·입력 이벤트·원래 스파이크·세포형별 반응을 제공합니다. [인터랙티브 보고서](results/article_bridge_v1/report.html) · [방법·결과·재현](docs/article-bridge-v1.md).
@@ -26,6 +29,7 @@ v3의 198건 판정과 세 차례 보정 결과도 그대로 보존합니다. �
 
 ## 먼저 볼 결과
 
+- [최종 결과와 결론](results/final_release/index.html) · [전체 최신 점수 CSV](results/final_release/scores/news_risk_scores.csv) · [배포 파일 해시](results/final_release/release_manifest.json)
 - [후속 입력 대조 보강 보고서](results/control_matching_v1/report.html): 새120회·178개 정확 층 매칭·314개 근사 비교
 - [새 기사별 회로 반응 보고서](results/article_bridge_v1/report.html): 실제 기사 24건·845회 새 계산·GF/DNp06 비교
 - [뉴스 → 자극 → 회로의 다음 단계](docs/article-bridge-v1.md) · [8,128건 자극 파라미터](results/article_bridge_v1/article_inputs.csv)

@@ -1,0 +1,120 @@
+{
+  "passed": true,
+  "full_private_audits": true,
+  "checks": [
+    {
+      "name": "article_845",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_article_bridge.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 39.024,
+      "log": "results/final_release/validation/article_845.log",
+      "log_sha256": "d361310a232e7ece303cd9f3890feb461ee5a2b259cb34bd70455dd9b0b165b7",
+      "execution_log_path": "data/raw/finalization/final_validation/article_845.log"
+    },
+    {
+      "name": "corpus_8128",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_large_corpus.py",
+        "--out",
+        "data/raw/finalization/corpus_audit",
+        "--raw",
+        "data/raw/corpus/20261109_v2"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 68.482,
+      "log": "results/final_release/validation/corpus_8128.log",
+      "log_sha256": "ffb11f6bb8987e252fbf1b94b461509fc243a16aa44c5cb5bb9e629bc60a5218",
+      "execution_log_path": "data/raw/finalization/final_validation/corpus_8128.log"
+    },
+    {
+      "name": "legacy_330",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/verify_outputs.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 4.317,
+      "log": "results/final_release/validation/legacy_330.log",
+      "log_sha256": "6063783c329fe3ca051b5692f4c1f8c7fa61bf4bec81ac6c1bfdfbb39c195916",
+      "execution_log_path": "data/raw/finalization/final_validation/legacy_330.log"
+    },
+    {
+      "name": "matched_120",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_matched_controls.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 8.811,
+      "log": "results/final_release/validation/matched_120.log",
+      "log_sha256": "cc0efb71204094c1e01be5bb0ec5f2dadc71d8718e0e2c76d76391d7243d5db0",
+      "execution_log_path": "data/raw/finalization/final_validation/matched_120.log"
+    },
+    {
+      "name": "tests",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 14.736,
+      "log": "results/final_release/validation/tests.log",
+      "log_sha256": "aa03f11cb5cc32302205743829fda268370ada8c8c6ce917c23002189f6c0959",
+      "execution_log_path": "data/raw/finalization/final_validation/tests.log"
+    },
+    {
+      "name": "v10",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_context_risk.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 6.284,
+      "log": "results/final_release/validation/v10.log",
+      "log_sha256": "ac2bc108b1320cf90706e8662ca37c6781d3e3b98288d9b240030c344d381afa",
+      "execution_log_path": "data/raw/finalization/final_validation/v10.log"
+    },
+    {
+      "name": "v8",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_new_article_diagnostics.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 8.695,
+      "log": "results/final_release/validation/v8.log",
+      "log_sha256": "06eeb3eb5c7fb6d9fc1779437b68d2b895a745d273e6404ed35642f62b388998",
+      "execution_log_path": "data/raw/finalization/final_validation/v8.log"
+    },
+    {
+      "name": "v9",
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "scripts/audit_risk_calibration.py"
+      ],
+      "exit_code": 0,
+      "passed": true,
+      "seconds": 3.388,
+      "log": "results/final_release/validation/v9.log",
+      "log_sha256": "bcb76186d95d458bfa8da2c6be53319ba3d42a7c99b5cd6efdb2e5a5ad25a561",
+      "execution_log_path": "data/raw/finalization/final_validation/v9.log"
+    }
+  ],
+  "validator_sha256": "724c7d8e44f2d3dbe4984910ffc180fdb2c372695851f5f69875738ace8c41f2",
+  "scope": "Code, source provenance and numerical reproducibility; not label truth or biological validity",
+  "publication_note": "Logs copied into final release; bytes and exit statuses unchanged. Original execution receipt preserved.",
+  "execution_receipt_sha256": "56da9f7653b954cff1c81b5e39ec70951399ea5c2f65466fd64062f89b653eac"
+}

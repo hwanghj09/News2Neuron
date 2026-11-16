@@ -1,0 +1,29 @@
+{
+  "checks": [
+    {
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "No broken requirements found."
+    },
+    {
+      "command": [
+        "/workspace/news-flywire-research/.venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "src",
+        "scripts"
+      ],
+      "exit_code": 0,
+      "output": ""
+    }
+  ],
+  "pdf_korean_text_verified": true,
+  "pdf_extracted_text_chars": 2542,
+  "additional_final_scripts_compiled": true
+}

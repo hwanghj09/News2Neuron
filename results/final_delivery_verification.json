@@ -1,0 +1,13 @@
+{
+  "final_html_http200": true,
+  "all_download_links_http200": true,
+  "links_checked": 10,
+  "images_loaded": 2,
+  "mobile_overflow": false,
+  "javascript_errors": [],
+  "pdf_pages": 4,
+  "pdf_korean_text_verified": true,
+  "archive_files_verified": 289,
+  "archive_sha256": "78f444944183826fc4b122e562adf35c37a9be8b5ca34a3537ed1833989765e7",
+  "release_manifest_sha256": "519c74fa066beb9002030b1a78cff817452abd963a604c441654846e7a1bb14a"
+}

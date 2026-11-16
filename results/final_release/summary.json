@@ -1,0 +1,24 @@
+{
+  "status": "completed_computational_pilot",
+  "data_window_UTC": [
+    "2026-08-12",
+    "2026-11-09"
+  ],
+  "real_articles": 8128,
+  "publishers": 8,
+  "research_eligible": 8050,
+  "direct_AI_reviews": 1074,
+  "model_only_articles": 7054,
+  "deployed_model": "v5",
+  "independent_human_raters": 0,
+  "physiological_validation": false,
+  "bridge_new_simulations": 845,
+  "control_new_simulations": 120,
+  "total_new_linked_simulations": 965,
+  "control_reused_trials": 80,
+  "tests_passed": 140,
+  "validation_checks": 8,
+  "all_validation_passed": true,
+  "conclusion": "Reproducible computational pipeline complete. No proof of perfect news accuracy, biological circuit specificity, fly news comprehension or human stress responses.",
+  "prior_research_commit": "3dabcfdab1de7e89f73cbb81ef5d82dcbbba1718"
+}
