@@ -1,0 +1,59 @@
+{
+  "post_hoc": true,
+  "independent_new_test": false,
+  "reason": "v8 outcomes motivated calibration; these outcomes are not new confirmatory evidence",
+  "cohorts": {
+    "new_real": {
+      "v5": {
+        "n": 16,
+        "MAE": 3.7847790799578194,
+        "within10": 0.8125,
+        "high_risk_n": 1,
+        "high_risk_recall": 1.0,
+        "max_error": 19.6875
+      },
+      "v8": {
+        "n": 16,
+        "MAE": 7.252535560783468,
+        "within10": 0.5625,
+        "high_risk_n": 1,
+        "high_risk_recall": 1.0,
+        "max_error": 15.45353776545322
+      },
+      "v9": {
+        "n": 16,
+        "MAE": 2.2265624999999996,
+        "within10": 0.9375,
+        "high_risk_n": 1,
+        "high_risk_recall": 1.0,
+        "max_error": 19.6875
+      }
+    },
+    "synthetic": {
+      "v5": {
+        "n": 32,
+        "MAE": 23.667207641519838,
+        "within10": 0.46875,
+        "high_risk_n": 16,
+        "high_risk_recall": 0.1875,
+        "max_error": 85.00000000000001
+      },
+      "v8": {
+        "n": 32,
+        "MAE": 18.364227384070613,
+        "within10": 0.21875,
+        "high_risk_n": 16,
+        "high_risk_recall": 0.8125,
+        "max_error": 51.38505033227338
+      },
+      "v9": {
+        "n": 32,
+        "MAE": 14.353027343750004,
+        "within10": 0.5,
+        "high_risk_n": 16,
+        "high_risk_recall": 0.8125,
+        "max_error": 49.375000000000014
+      }
+    }
+  }
+}

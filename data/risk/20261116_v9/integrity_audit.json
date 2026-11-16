@@ -1,0 +1,10 @@
+{
+  "frozen_hashes_verified": true,
+  "original_v8_unchanged": true,
+  "calibration_reproduced_from_1043_OOF_predictions": true,
+  "fresh_families_disjoint": true,
+  "final_test": 14,
+  "max_score_replay_difference": 0.0,
+  "metric_replay": true,
+  "corpus_default": "v5 unchanged"
+}

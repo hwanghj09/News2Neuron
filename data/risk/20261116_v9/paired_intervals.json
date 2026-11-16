@@ -1,0 +1,22 @@
+{
+  "comparisons": {
+    "v5": {
+      "MAE_reduction": 0.17878016071661992,
+      "conditional_95_percentile": [
+        -1.1749421436144953,
+        1.532502465047735
+      ]
+    },
+    "v8": {
+      "MAE_reduction": 0.8386914969934633,
+      "conditional_95_percentile": [
+        -2.04771445154888,
+        3.7411499174606133
+      ]
+    }
+  },
+  "resamples": 10000,
+  "seed": 20261116,
+  "scheme": "resample within each of seven sources; 2 articles/source",
+  "limitation": "Small descriptive sample and one AI rubric; not uncertainty in AI judgments or population accuracy proof."
+}
